@@ -1,0 +1,114 @@
+---
+title: "Three datasets" 
+author: "Jae Yeon Kim"
+date: "`r Sys.Date()`"
+---
+
+
+# Load libs 
+
+```{r}
+if (!require(pacman)) install.packages("pacman")
+
+pacman::p_load(here, # reproducibility
+               # wrangling 
+               tidyverse, 
+               tools, 
+               jtools, 
+               # data visualization 
+               hrbrthemes,
+               viridis, 
+               ggstance, 
+               patchwork,
+               gridExtra)
+
+source(here("functions", "utils.R"))
+```
+
+# Import data 
+
+```{r}
+# Get the file names 
+file_names <- list.files(here("data"))[str_detect(list.files(here("data")), "2021_")]
+
+# Import the csv files; Remove the first two rows                                         
+## Immigrants
+immigrants_df <- read_csv_custom(1)
+
+## Omnibus 
+omnibus_df <- read_csv_custom(2)
+
+## Name perceptions 
+perceptions_df <- read_csv_custom(3)
+
+## Name dataset
+names_df <- read.csv(here("data", "names.csv"))
+```
+
+# Preprocess three datasets and merge them with the names dataset 
+
+```{r}
+immigrants_all <- df2comb(immigrants_df)
+omnibus_all <- df2comb(omnibus_df)
+perceptions_all <- df2comb(perceptions_df)
+```
+
+# Visualize 
+
+## Separate 
+
+```{r}
+df2plot(immigrants_all) +
+  plot_annotation(
+    title = "Data: Immigrants",
+    tag_levels = "A"
+  )
+
+ggsave(file = here("plots", "immigrants_name.png"), width = 12, height = 11, units = "in")
+
+df2plot(omnibus_all) +
+  plot_annotation(
+    title = "Data: Omnibus",
+    tag_levels = "A"
+  )
+
+ggsave(file = here("plots", "omnibus_name.png"), width = 12, height = 11, units = "in")
+
+df2plot(perceptions_all) +
+  plot_annotation(
+    title = "Data: Perceptions",
+    tag_levels = "A"
+  )
+
+ggsave(file = here("plots", "perceptions_name.png"), width = 12, height = 11, units = "in")
+```
+## Together
+
+```{r}
+df <- bind_rows(mutate(df2summ(immigrants_all), Data = "Immigrants"),
+mutate(df2summ(omnibus_all), Data = "Omnibus"),
+mutate(df2summ(perceptions_all), Data = "Perception"))
+```
+
+```{r}
+df %>%
+  filter(term != "(Intercept)") %>%
+  mutate(term = recode(term, 
+                       "identityAsian or Pacific Islander" = "Asian",
+                       "w.asian" = "Asian (White first name)",
+                       "identityHispanic" =  "Hispanic",
+                        "identityBlack or African American" = "Black"
+                       )) %>%
+  mutate(model = fct_relevel(model, "Correct (0/1)")) %>%
+  ggplot(aes(x = term, y = estimate, ymax = estimate + conf.high, ymin = estimate - conf.high, col = Data)) +
+  geom_pointrange() +
+  facet_wrap(~model) +
+  theme_ipsum_ps() +
+  labs(x = "", y = "", 
+       col = "Datasets") +
+  coord_flip() +
+  scale_colour_brewer(palette = "Set1") +
+  geom_hline(yintercept = 0, linetype = "dashed")
+
+ggsave(here("outputs", "all_name.png"))
+```

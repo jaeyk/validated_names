@@ -8,17 +8,11 @@ cat("\014")
 rm(list = ls())
 
 ### Load library
-library(tools)
-library(tidyr)
-library(forcats)
-library(hrbrthemes)
-library(ggplot2)
+if (!require(pacman)) install.packages("pacman")
 
-### Set WD
-setwd("~/Dropbox/asian-discrimination/perspective-taking/data/")
-
+pacman::p_load(here, tools, tidyr, forcats, hrbrthemes, ggplot2, jtools, viridis, gridExtra)
 ### Import data - Prolific survey of 500 respondents
-df <- read.csv("name-perceptions_February 4, 2021_16.20.csv")
+df <- read.csv(here("data", "name-perceptions_February 4, 2021_16.20.csv"))
 df <- df[-c(1:2), ]
 head(df)
 df$id <- 1:nrow(df)
@@ -29,7 +23,7 @@ id <- c(
 )
 
 name <- c(
-  df$name, 
+  df$name,
   df$name2,
   df$name3,
   df$name4,
@@ -155,7 +149,7 @@ class(df.comb$name)
 table(df.comb$name)
 
 ### Import data - name commonality
-df.names <- read.csv("names.csv")
+df.names <- read.csv(here("data", "names.csv"))
 head(df.names)
 table(df.names$name)
 table(df.names$identity)
@@ -205,9 +199,7 @@ mod.citizen <- lm(citizen ~ identity + w.asian, data = df.all)
 
 model.names <- c("Correct", "Citizen", "Education", "Income")
 
-library(jtools)
-library(viridis)
-plot.match <- 
+plot.match <-
 plot_summs(mod.match,
            model.names = model.names[1],
            coefs = c("Asian" = "identityAsian or Pacific Islander",
@@ -221,8 +213,8 @@ plot_summs(mod.match,
   ggtitle("Correct (0/1)") +
   ylab("")
 
-plot.citizen <- 
-plot_summs(mod.citizen, 
+plot.citizen <-
+plot_summs(mod.citizen,
            model.names = model.names[2],
            coefs = c("Asian" = "identityAsian or Pacific Islander",
                      "Asian (White first name)" = "w.asian",
@@ -235,7 +227,7 @@ plot_summs(mod.citizen,
   ggtitle("Citizen (0/1)") +
   ylab("")
 
-plot.ed <- 
+plot.ed <-
 plot_summs(mod.ed,
            model.names = model.names[3],
            coefs = c("Asian" = "identityAsian or Pacific Islander",
@@ -249,7 +241,7 @@ plot_summs(mod.ed,
   ggtitle("Education (1-4)") +
   ylab("")
 
-plot.income <- 
+plot.income <-
 plot_summs(mod.income,
            model.names = model.names[4],
            coefs = c("Asian" = "identityAsian or Pacific Islander",
@@ -263,9 +255,8 @@ plot_summs(mod.income,
   ggtitle("Income (1-3)") +
   ylab("")
 
-library(gridExtra)
 g <- arrangeGrob(plot.match, plot.citizen, plot.ed, plot.income, ncol = 2)
 ggsave(file = "../plots/perceptions.pdf", g, width = 12, height = 11, units = "in")
 
 getwd()
-write.csv(df.all, file = "name-perceptions-coded.csv")
+write.csv(df.all, file = here("data", "name-perceptions-coded.csv"))
