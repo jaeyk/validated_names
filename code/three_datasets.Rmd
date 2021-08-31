@@ -20,7 +20,8 @@ pacman::p_load(here, # reproducibility
                viridis, 
                ggstance, 
                patchwork,
-               gridExtra)
+               gridExtra,
+               ggrepel)
 
 source(here("functions", "utils.R"))
 ```
@@ -30,7 +31,9 @@ source(here("functions", "utils.R"))
 ```{r}
 # Get the file names 
 file_names <- list.files(here("data"))[str_detect(list.files(here("data")), "2021_")]
+```
 
+```{r}
 # Import the csv files; Remove the first two rows                                         
 ## Immigrants
 immigrants_df <- read_csv_custom(1)
@@ -47,10 +50,25 @@ names_df <- read.csv(here("data", "names.csv"))
 
 # Preprocess three datasets and merge them with the names dataset 
 
+## Step 1 
+
+Using common variables: age, gender, income, education, race, citizenship
+
+Not using partisanship as it's not measured in `immigrants_df` (instead, vote choice for the 2020 US presidential election was measured.) The same applies to citizenship variable. immigrants_df$Q111 (second generation or not)
+
 ```{r}
-immigrants_all <- df2comb(immigrants_df)
-omnibus_all <- df2comb(omnibus_df)
-perceptions_all <- df2comb(perceptions_df)
+omnibus_df <- 
+clean_omnibus_df(omnibus_df)
+
+immigrants_df <- clean_immigrant_df(immigrants_df)
+```
+
+## Step 2 
+
+```{r}
+immigrants_all <- df2comb(immigrants_df, dataset = "immigrants")
+omnibus_all <- df2comb(omnibus_df, dataset = "omnibus")
+perceptions_all <- df2comb(perceptions_df, dataset = "perceptions")
 ```
 
 # Visualize 
@@ -82,6 +100,7 @@ df2plot(perceptions_all) +
 
 ggsave(file = here("plots", "perceptions_name.png"), width = 12, height = 11, units = "in")
 ```
+
 ## Together
 
 ```{r}
@@ -90,25 +109,26 @@ mutate(df2summ(omnibus_all), Data = "Omnibus"),
 mutate(df2summ(perceptions_all), Data = "Perception"))
 ```
 
-```{r}
-df %>%
-  filter(term != "(Intercept)") %>%
-  mutate(term = recode(term, 
-                       "identityAsian or Pacific Islander" = "Asian",
-                       "w.asian" = "Asian (White first name)",
-                       "identityHispanic" =  "Hispanic",
-                        "identityBlack or African American" = "Black"
-                       )) %>%
-  mutate(model = fct_relevel(model, "Correct (0/1)")) %>%
-  ggplot(aes(x = term, y = estimate, ymax = estimate + conf.high, ymin = estimate - conf.high, col = Data)) +
-  geom_pointrange() +
-  facet_wrap(~model) +
-  theme_ipsum_ps() +
-  labs(x = "", y = "", 
-       col = "Datasets") +
-  coord_flip() +
-  scale_colour_brewer(palette = "Set1") +
-  geom_hline(yintercept = 0, linetype = "dashed")
+## Mini plots 
 
-ggsave(here("outputs", "all_name.png"))
+```{r}
+df2plot_covariate(immigrants_all) +  plot_annotation(
+    title = "Data: Immigrants",
+    tag_levels = "A"
+  )
+
+ggsave(file = here("plots", "immigrants_name_covariate.png"), width = 12, height = 11, units = "in")
+
+df2plot_covariate(omnibus_all) +  plot_annotation(
+    title = "Data: Omnibus",
+    tag_levels = "A"
+  )
+
+ggsave(file = here("plots", "omnibus_name_covariate.png"), width = 12, height = 11, units = "in")
+```
+
+```{r}
+df2plot_all(df)
+
+ggsave(here("plots", "all_name.png"))
 ```
