@@ -1,5 +1,8 @@
 clean_omnibus_df <- function(df) {
 
+    #ID
+    df$rid <- df$ResponseId
+
     # Age
     df$age <- parse_number(df$age)
 
@@ -59,10 +62,15 @@ clean_omnibus_df <- function(df) {
     df$Q112[df$Q112 == unique(df$Q112)[4]] <- "Other"
     names(df)[names(df) == 'Q112'] <- "race"
 
+    df <- df[df$Finished == "True" & df$Status == "IP Address", ]
+
     return(df)
 }
 
 clean_immigrant_df <- function(df) {
+
+    #ID
+    df$rid <- df$ResponseId
 
     # Age
     df$Q92[df$Q92 == "eightey six"] <- "86"
@@ -111,6 +119,18 @@ clean_immigrant_df <- function(df) {
     df$Q97[df$Q97 == unique(df$Q97)[7]] <- "AAPI"
     names(df)[names(df) == 'Q97'] <- "race"
 
+    df <- df[df$Finished == "True" & df$Status == "IP Address", ]
+
+    return(df)
+}
+
+clean_perceptions_df <- function(df) {
+
+    #ID
+    df$rid <- df$ResponseId
+
+    df <- df[df$Finished == "True" & df$Status == "IP Address", ]
+
     return(df)
 }
 
@@ -121,6 +141,7 @@ read_csv_custom <- function(i) {
 }
 
 df2comb <- function(df, dataset = "perceptions") {
+
     name <- c(
         df$name,
         df$name2,
@@ -231,7 +252,8 @@ df2comb <- function(df, dataset = "perceptions") {
 
     if (dataset == "perceptions") {
 
-    df.comb <- tibble(name = name,
+    df.comb <- tibble(rid = rep(df$rid, 15),
+                      name = name,
                       race = race,
                       specific.race = specific.race,
                       citizen = citizen,
@@ -240,7 +262,8 @@ df2comb <- function(df, dataset = "perceptions") {
 
     if (dataset %in% c("immigrants", "omnibus")) {
 
-    df.comb <- tibble(name = name,
+    df.comb <- tibble(rid = rep(df$rid, 10),
+                      name = name,
                       race = race,
                       specific.race = specific.race,
                       citizen = citizen,
@@ -287,6 +310,8 @@ df2comb <- function(df, dataset = "perceptions") {
     return(df.all)
 }
 
+model.names <- c("Correct", "Citizen", "Education", "Income")
+
 df2summ <- function(df) {
 
     mod.match <- lm(match ~ identity + w.asian, data = df)
@@ -297,8 +322,6 @@ df2summ <- function(df) {
 
     mod.citizen <- lm(citizen ~ identity + w.asian, data = df)
 
-    model.names <- c("Correct", "Citizen", "Education", "Income")
-
     summ.match <-
         summ(mod.match,
              model.names = model.names[1],
@@ -306,8 +329,9 @@ df2summ <- function(df) {
                     "Asian (White first name)" = "w.asian",
                      "Hispanic" = "identityHispanic",
                     "Black" = "identityBlack or African American"),
-             cluster = "id",
+             cluster = "rid",
              robust = "HC3",
+             colors = "#000000",
              scale = TRUE) %>%
         tidy(conf.int = T) %>%
         mutate(model = "Correct (0/1)")
@@ -319,8 +343,9 @@ df2summ <- function(df) {
                      "Asian (White first name)" = "w.asian",
                      "Hispanic" = "identityHispanic",
                      "Black" = "identityBlack or African American"),
-             cluster = "id",
+             cluster = "rid",
              robust = "HC3",
+             colors = "#000000",
              scale = TRUE) %>%
         tidy(conf.int = T) %>%
         mutate(model = "Citizen (0/1)")
@@ -332,8 +357,9 @@ df2summ <- function(df) {
                        "Asian (White first name)" = "w.asian",
                        "Hispanic" = "identityHispanic",
                        "Black" = "identityBlack or African American"),
-             cluster = "id",
+             cluster = "rid",
              robust = "HC3",
+             colors = "#000000",
              scale = TRUE) %>%
         tidy(conf.int = T) %>%
         mutate(model = "Education (1-4)")
@@ -345,8 +371,9 @@ df2summ <- function(df) {
                      "Asian (White first name)" = "w.asian",
                      "Hispanic" = "identityHispanic",
                      "Black" = "identityBlack or African American"),
-             cluster = "id",
+             cluster = "rid",
              robust = "HC3",
+             colors = "#000000",
              scale = TRUE) %>%
         tidy(conf.int = T) %>%
         mutate(model = "Income (1-3)")
@@ -367,8 +394,9 @@ df2plot_all <- function(df) {
                              "identityBlack or African American" = "Black"
         )) %>%
         mutate(model = fct_relevel(model, "Correct (0/1)")) %>%
-        ggplot(aes(x = term, y = estimate, ymax = estimate + conf.high, ymin = estimate - conf.high, col = Data)) +
-        geom_pointrange() +
+        ggplot(aes(x = term, y = estimate, ymax = estimate + conf.high, ymin = estimate - conf.high, col = Data, group = Data)) +
+        geom_pointrange(aes(group = Data, color = Data),
+                        position = position_dodge(width = 1), size = 1.5) +
         facet_wrap(~model) +
         theme_ipsum_ps() +
         labs(x = "", y = "",
@@ -398,8 +426,9 @@ df2plot <- function(df) {
                              "Asian (White first name)" = "w.asian",
                              "Hispanic" = "identityHispanic",
                              "Black" = "identityBlack or African American"),
-                   cluster = "id",
+                   cluster = "rid",
                    robust = "HC3",
+                   colors = "#000000",
                    scale = TRUE) +
         theme_ipsum_ps() +
         ggtitle("Correct (0/1)") +
@@ -412,8 +441,9 @@ df2plot <- function(df) {
                              "Asian (White first name)" = "w.asian",
                              "Hispanic" = "identityHispanic",
                              "Black" = "identityBlack or African American"),
-                   cluster = "id",
+                   cluster = "rid",
                    robust = "HC3",
+                   colors = "#000000",
                    scale = TRUE) +
         theme_ipsum_ps() +
         ggtitle("Citizen (0/1)") +
@@ -426,8 +456,9 @@ df2plot <- function(df) {
                              "Asian (White first name)" = "w.asian",
                              "Hispanic" = "identityHispanic",
                              "Black" = "identityBlack or African American"),
-                   cluster = "id",
+                   cluster = "rid",
                    robust = "HC3",
+                   colors = "#000000",
                    scale = TRUE) +
         theme_ipsum_ps() +
         ggtitle("Education (1-4)") +
@@ -440,8 +471,9 @@ df2plot <- function(df) {
                              "Asian (White first name)" = "w.asian",
                              "Hispanic" = "identityHispanic",
                              "Black" = "identityBlack or African American"),
-                   cluster = "id",
+                   cluster = "rid",
                    robust = "HC3",
+                   colors = "#000000",
                    scale = TRUE) +
         theme_ipsum_ps() +
         ggtitle("Income (1-3)") +
@@ -484,8 +516,9 @@ df2plot_covariate <- function(df) {
                                  "`factor(res.race)`Latino",
                              "Respondent = White" =
                                  "`factor(res.race)`White"),
-                   cluster = "id",
+                   cluster = "rid",
                    robust = "HC3",
+                   colors = "#000000",
                    scale = TRUE) +
         theme_ipsum_ps() +
         ggtitle("Correct (0/1)") +
@@ -511,8 +544,9 @@ df2plot_covariate <- function(df) {
                                  "`factor(res.race)`Latino",
                              "Respondent = White" =
                                  "`factor(res.race)`White"),
-                   cluster = "id",
+                   cluster = "rid",
                    robust = "HC3",
+                   colors = "#000000",
                    scale = TRUE) +
         theme_ipsum_ps() +
         ggtitle("Citizen (0/1)") +
@@ -538,8 +572,9 @@ df2plot_covariate <- function(df) {
                                  "`factor(res.race)`Latino",
                              "Respondent = White" =
                                  "`factor(res.race)`White"),
-                   cluster = "id",
+                   cluster = "rid",
                    robust = "HC3",
+                   colors = "#000000",
                    scale = TRUE) +
         theme_ipsum_ps() +
         ggtitle("Education (1-4)") +
@@ -565,8 +600,9 @@ df2plot_covariate <- function(df) {
                                  "`factor(res.race)`Latino",
                              "Respondent = White" =
                                  "`factor(res.race)`White"),
-                   cluster = "id",
+                   cluster = "rid",
                    robust = "HC3",
+                   colors = "#000000",
                    scale = TRUE) +
         theme_ipsum_ps() +
         ggtitle("Income (1-3)") +
