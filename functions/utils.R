@@ -258,7 +258,15 @@ df2comb <- function(df, dataset = "perceptions") {
                       specific.race = specific.race,
                       citizen = citizen,
                       education = education,
-                      income = income) }
+                      income = income,
+                      res.age = rep(df$age, 15),
+                      res.male = rep(df$male, 15),
+                      res.income = rep(df$income, 15),
+                      res.edu = rep(df$edu, 15),
+                      res.citizenship = rep(df$us_citizen, 15),
+                      res.race = rep(df$race, 15))
+
+                      }
 
     if (dataset %in% c("immigrants", "omnibus")) {
 
@@ -276,7 +284,7 @@ df2comb <- function(df, dataset = "perceptions") {
                       res.citizenship = rep(df$us_citizen, 10),
                       res.race = rep(df$race, 10))
 
-}
+    }
 
     df.comb <- df.comb[df.comb$race != "", ]
     df.comb <- df.comb[df.comb$name != "", ]
