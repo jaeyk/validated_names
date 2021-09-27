@@ -70,83 +70,32 @@ perceptions_df <- clean_perceptions_df(perceptions_df)
 immigrants_all <- df2comb(immigrants_df, dataset = "immigrants")
 omnibus_all <- df2comb(omnibus_df, dataset = "omnibus")
 perceptions_all <- df2comb(perceptions_df, dataset = "perceptions")
+```
 
-length(unique(immigrants_all$name))
-length(unique(omnibus_all$name))
-length(unique(perceptions_all$name))
+# Export 
 
-immigrants_all %>%
-  count(name) %>%
-  summarise(mean = mean(n))
-
-omnibus_all %>%
-  count(name) %>%
-  summarise(mean = mean(n))
-
+```{r}
+# Study1 
 perceptions_all %>%
-  count(name) %>%
-  summarise(mean = mean(n))
+  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race) 
 
-```
+# Study2
+omnibus_all %>%
+  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race)
 
-# Visualize 
+# Study3
+immigrants_all %>%
+  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race)
 
-## Separate 
+# All 
+df <- bind_rows(mutate(df2select(immigrants_all), Data = "Study 3"),
+mutate(df2select(omnibus_all), Data = "Study 2"),
+mutate(df2select(perceptions_all), Data = "Study 1"))
 
-```{r}
-df2plot(immigrants_all) +
-  plot_annotation(
-    title = "Study 3",
-    tag_levels = "A"
-  )
+names <- df %>%
+  group_by(name) %>%
+  summarise(mean.correct = mean(match),
+            sd.correct = sd(match))
 
-ggsave(file = here("plots", "immigrants_name.png"), width = 12, height = 11, units = "in")
-
-df2plot(omnibus_all) +
-  plot_annotation(
-    title = "Study 2",
-    tag_levels = "A"
-  )
-
-ggsave(file = here("plots", "omnibus_name.png"), width = 12, height = 11, units = "in")
-
-df2plot(perceptions_all) +
-  plot_annotation(
-    title = "Study 1",
-    tag_levels = "A"
-  )
-
-ggsave(file = here("plots", "perceptions_name.png"), width = 12, height = 11, units = "in")
-```
-
-## Together
-
-```{r}
-df <- bind_rows(mutate(df2summ(immigrants_all), Data = "Study 3"),
-mutate(df2summ(omnibus_all), Data = "Study 2"),
-mutate(df2summ(perceptions_all), Data = "Study 1"))
-```
-
-## Mini plots 
-
-```{r}
-df2plot_covariate(immigrants_all) +  plot_annotation(
-    title = "Study 3",
-    tag_levels = "A"
-  )
-
-ggsave(file = here("plots", "immigrants_name_covariate.png"), width = 12, height = 11, units = "in")
-
-df2plot_covariate(omnibus_all) +  plot_annotation(
-    title = "Study 2",
-    tag_levels = "A"
-  )
-
-ggsave(file = here("plots", "omnibus_name_covariate.png"), width = 12, height = 11, units = "in")
-```
-
-```{r}
-df2plot_all(df)
-
-ggsave(here("plots", "all_name.png"), width = 12, height = 11, units = "in")
+write.csv(names, here("data_outputs", "names.csv"))
 ```
