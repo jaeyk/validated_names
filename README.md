@@ -8,8 +8,8 @@
 
 ## Datasets
 
-* prep_datasets.Rmd produces the four datasets (the three experiment results plus the names datasets)
+* [prep_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/prep_datasets.Rmd) produces the four datasets (the three experiment results plus the names datasets)
 
 ## Validation results
 
-* three_datasets.Rmd produces Figure 2 (results from four OLS models designed to assess data validity)
+* [three_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/three_datasets.Rmd) produces Figure 2 (results from four OLS models designed to assess data validity)
