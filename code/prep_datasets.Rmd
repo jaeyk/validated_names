@@ -110,7 +110,7 @@ mutate(df2select(omnibus_all), Data = "Study 2"),
 mutate(df2select(perceptions_all), Data = "Study 1"))
 
 names <- df %>%
-  group_by(name) %>%
+  group_by(name, first, last, w.asian, identity) %>%
   summarise(mean.correct = mean(match),
             sd.correct = sd(match))
 
