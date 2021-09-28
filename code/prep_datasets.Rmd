@@ -74,19 +74,36 @@ perceptions_all <- df2comb(perceptions_df, dataset = "perceptions")
 
 # Export 
 
+## Study 1,2,3 
+
 ```{r}
 # Study1 
-perceptions_all %>%
-  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race) 
+study1 <- perceptions_all %>%
+  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match) 
 
 # Study2
-omnibus_all %>%
+study2 <- omnibus_all %>%
   select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race)
 
 # Study3
-immigrants_all %>%
+study3 <- immigrants_all %>%
   select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race)
 
+# Rename rid -> id, match -> correct 
+study1 <- df_rename(study1)
+study2 <- df_rename(study2)
+study3 <- df_rename(study3)
+
+write.csv(study1, here("data_outputs", "study-1-names.csv"))
+write.csv(study2, here("data_outputs", "study-2-names.csv"))
+write.csv(study3, here("data_outputs", "study-3-names.csv"))
+
+save(study1, study2, study3, file = here("data_outputs", "study123.rda"))
+```
+
+## Names 
+
+```{r}
 # All 
 df <- bind_rows(mutate(df2select(immigrants_all), Data = "Study 3"),
 mutate(df2select(omnibus_all), Data = "Study 2"),
