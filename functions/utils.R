@@ -620,3 +620,19 @@ df2plot_covariate <- function(df) {
 
     return(out)
 }
+
+df2select <- function(df) {
+
+    df %>%
+        select(name, first, last, w.asian, identity, match)
+
+}
+
+df_rename <- function(df) {
+
+    names(df)[names(df) == 'rid'] <- 'id'
+    names(df)[names(df) == 'match'] <- 'correct'
+
+    return(df)
+
+}
