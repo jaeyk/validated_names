@@ -13,7 +13,7 @@
   * [study-2-names.csv](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-2-names.csv) (19043 * 20)
   * [study-3-names.csv](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-3-names.csv) (10192 * 20)
   * [study123.rda](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study123.rda) (a combined file) 
-  * names.csv (600 * 7)
+  * [names.csv](https://github.com/jaeyk/validated_names/blob/main/data_outputs/names.csv) (600 * 7)
 
 ## Validation results
 
