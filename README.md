@@ -8,7 +8,11 @@
 
 ## Datasets
 
-* [prep_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/prep_datasets.Rmd) produces the four datasets (the three experiment results plus the names datasets)
+* [prep_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/prep_datasets.Rmd) produces the following four datasets (the three experiment results plus the names datasets)
+  * study-1-names.csv (14935 * 14) 
+  * study-2-names.csv (19043 * 20)
+  * study-3-names.csv (10192 * 20)
+  * names.csv (600 * 7)
 
 ## Validation results
 
