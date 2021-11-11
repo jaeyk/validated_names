@@ -258,14 +258,7 @@ df2comb <- function(df, dataset = "perceptions") {
                       specific.race = specific.race,
                       citizen = citizen,
                       education = education,
-                      income = income,
-                      res.age = rep(df$age, 15),
-                      res.male = rep(df$male, 15),
-                      res.income = rep(df$income, 15),
-                      res.edu = rep(df$edu, 15),
-                      res.citizenship = rep(df$us_citizen, 15),
-                      res.race = rep(df$race, 15))
-
+                      income = income)
                       }
 
     if (dataset %in% c("immigrants", "omnibus")) {
@@ -339,8 +332,7 @@ df2summ <- function(df) {
                     "Black" = "identityBlack or African American"),
              cluster = "rid",
              robust = "HC3",
-             colors = "#000000",
-             scale = TRUE) %>%
+             colors = "#000000") %>%
         tidy(conf.int = T) %>%
         mutate(model = "Correct (0/1)")
 
@@ -353,8 +345,7 @@ df2summ <- function(df) {
                      "Black" = "identityBlack or African American"),
              cluster = "rid",
              robust = "HC3",
-             colors = "#000000",
-             scale = TRUE) %>%
+             colors = "#000000") %>%
         tidy(conf.int = T) %>%
         mutate(model = "Citizen (0/1)")
 
@@ -367,8 +358,7 @@ df2summ <- function(df) {
                        "Black" = "identityBlack or African American"),
              cluster = "rid",
              robust = "HC3",
-             colors = "#000000",
-             scale = TRUE) %>%
+             colors = "#000000") %>%
         tidy(conf.int = T) %>%
         mutate(model = "Education (1-4)")
 
@@ -381,8 +371,7 @@ df2summ <- function(df) {
                      "Black" = "identityBlack or African American"),
              cluster = "rid",
              robust = "HC3",
-             colors = "#000000",
-             scale = TRUE) %>%
+             colors = "#000000") %>%
         tidy(conf.int = T) %>%
         mutate(model = "Income (1-3)")
 
@@ -402,7 +391,7 @@ df2plot_all <- function(df) {
                              "identityBlack or African American" = "Black"
         )) %>%
         mutate(model = fct_relevel(model, "Correct (0/1)")) %>%
-        ggplot(aes(x = term, y = estimate, ymax = estimate + conf.high, ymin = estimate - conf.high, col = Data, group = Data)) +
+        ggplot(aes(x = term, y = estimate, ymax = estimate+(1.96*std.error), ymin = estimate-(1.96*std.error), col = Data, group = Data)) +
         geom_pointrange(aes(group = Data, color = Data),
                         position = position_dodge(width = 1), size = 1.5) +
         facet_wrap(~model) +
