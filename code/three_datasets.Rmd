@@ -91,7 +91,6 @@ omnibus_all %>%
 perceptions_all %>%
   count(name) %>%
   summarise(mean = mean(n))
-
 ```
 
 # Visualize 

@@ -8,13 +8,149 @@ output: html_document
 # Read packages 
 
 ```{r}
-if(!require(pacman)) install.packages("pacman")
+if (!require(pacman)) install.packages("pacman")
 
-pacman::p_load(tidyverse, here, purrr)
+pacman::p_load(tidyverse, here, glue, purrr, ggthemes, patchwork, ggrepel)
+
+ggplot2::theme_set(ggthemes::theme_igray())
+
+source(here("functions", "validate.r"))
 ```
 
 # Read files 
 
 ```{r}
+load(file = here("data_outputs", "study123.rda"))
+```
 
+# Data wrangling
+
+```{r}
+study23 <- full_join(study2, study3)
+
+study23 <- study23 %>%
+    mutate(identity = recode(identity, 
+                             "Black or African American" = "Black",
+                             "Asian or Pacific Islander" = "AAPI",
+                             "Hispanic" = "Latino"
+                             ))
+```
+
+# Correspondecne validation 
+
+## Visualization
+
+```{r}
+group_group_plot <- map2_dfr(c("Black", "White", "AAPI", "Latino"), c("Black", "White", "AAPI", "Latino"), sum_last_first_names) %>%
+    ggplot(aes(x = res.race, y = mean_correct, 
+               ymax = mean_correct + 1.96*se_correct,
+               ymin = mean_correct - 1.96*se_correct,
+               label = round(mean_correct, 2))) +
+    geom_pointrange() +
+    facet_wrap(~`Name type`) +
+    labs(title = glue("Within group assessment: 
+         A group member assesses their own group's names"),
+         x = "", y = "% correct") +
+    geom_hline(yintercept = 0.5, linetype = "dashed") +
+    ylim(c(0.3 , 1)) +
+    geom_text_repel()
+```
+
+```{r}
+white_other_plot <- map2_dfr(c("White", "White", "White"), c("Black", "AAPI", "Latino"), sum_last_first_names) %>%
+    ggplot(aes(x = identity, y = mean_correct, 
+               ymax = mean_correct + 1.96*se_correct,
+               ymin = mean_correct - 1.96*se_correct, 
+               label = round(mean_correct, 2))) +
+    geom_pointrange() +
+    facet_wrap(~`Name type`) +
+    labs(title = glue("Between group assessment: 
+         A white assesses other racial group members' names"),
+         x = "", y = "% correct") +
+    geom_hline(yintercept = 0.5, linetype = "dashed") +
+    ylim(c(0.3 , 1)) +
+    geom_text_repel()
+```
+
+```{r}
+other_white_plot <- map2_dfr(c("Black", "AAPI", "Latino"), c("White", "White", "White"), sum_last_first_names) %>%
+    ggplot(aes(x = res.race, y = mean_correct, 
+               ymax = mean_correct + 1.96*se_correct,
+               ymin = mean_correct - 1.96*se_correct,
+               label = round(mean_correct, 2))) +
+    geom_pointrange() +
+    facet_wrap(~`Name type`) +
+    labs(title = glue("Between group assessment: 
+         A non-white assesses whites' names"),
+         x = "", y = "% correct") +
+    geom_hline(yintercept = 0.5, linetype = "dashed") +
+    ylim(c(0.3 , 1)) +
+    geom_text_repel()
+```
+
+```{r}
+group_group_plot /
+white_other_plot /
+other_white_plot
+
+ggsave(here("plots", "res_race_identity_correspondence.png"), 
+       width = 10,
+       height = 15)
+```
+
+## Test outputs
+
+Group -> Group 
+
+Criterion: mean correct score 
+
+Black: 8%
+White: 2%
+Asian: 18%
+Latino: 11%
+
+```{r}
+high_quality_group_group_names <- map2_dfr(c("Black", "White", "AAPI", "Latino"), c("Black", "White", "AAPI", "Latino"), better_than_mean_names)
+
+high_quality_group_group_names %>%
+    select(res.race, identity, pct_quality_names) %>%
+    distinct()
+
+write_rds(high_quality_group_group_names, here("data_outputs", "hq_group_group_names.rds"))
+```
+
+White -> Minority 
+
+Criterion: identical 
+
+White -> Black: 2%
+White -> Asian: 2%
+White -> Latino: 1%
+
+```{r}
+high_quality_white_other_names <- map2_dfr(rep("White", 3),  c("Black", "AAPI", "Latino"), better_than_mean_names)
+
+high_quality_white_other_names %>%
+    select(res.race, identity, pct_quality_names) %>%
+    distinct()
+
+write_rds(high_quality_white_other_names, here("data_outputs", "hq_white_other_names.rds"))
+```
+
+Minority -> White 
+
+Criterion: identical 
+
+Black -> White: 8%
+Asian -> White: 18%
+Latino -> White: 11%
+
+```{r}
+high_quality_other_white_names <- map2_dfr(c("Black", "AAPI", "Latino"), rep("White", 3), better_than_mean_names)
+
+high_quality_other_white_names %>%
+    select(res.race, identity, pct_quality_names) %>%
+    distinct()
+
+write_rds(high_quality_other_white_names, here("data_outputs", "hq_other_white_names.rds"))
 ```
