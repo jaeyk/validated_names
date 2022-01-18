@@ -391,16 +391,16 @@ df2plot_all <- function(df) {
                              "identityBlack or African American" = "Black"
         )) %>%
         mutate(model = fct_relevel(model, "Correct (0/1)")) %>%
-        ggplot(aes(x = term, y = estimate, ymax = estimate+(1.96*std.error), ymin = estimate-(1.96*std.error), col = Data, group = Data)) +
-        geom_pointrange(aes(group = Data, color = Data),
-                        position = position_dodge(width = 1), size = 1.5) +
+        distinct() %>%
+        ggplot(aes(x = term, y = estimate, ymax = estimate+(1.96*std.error), ymin = estimate-(1.96*std.error), col = Data, group = Data, label = round(estimate, 2))) +
+        geom_pointrange(aes(group = Data, color = Data)) +
         facet_wrap(~model) +
-        theme_ipsum_ps() +
+        ggthemes::scale_color_colorblind() +
         labs(x = "", y = "",
              col = "Datasets") +
         coord_flip() +
-        scale_colour_brewer(palette = "Set1") +
-        geom_hline(yintercept = 0, linetype = "dashed")
+        geom_hline(yintercept = 0, linetype = "dashed") +
+        ggrepel::geom_text_repel()
 
 }
 
