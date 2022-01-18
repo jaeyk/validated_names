@@ -94,8 +94,8 @@ white_other_plot /
 other_white_plot
 
 ggsave(here("plots", "res_race_identity_correspondence.png"), 
-       width = 10,
-       height = 15)
+       width = 8,
+       height = 10)
 ```
 
 ## Test outputs
@@ -154,3 +154,7 @@ high_quality_other_white_names %>%
 
 write_rds(high_quality_other_white_names, here("data_outputs", "hq_other_white_names.rds"))
 ```
+
+# Exclusion restrtiction 
+
+# Information equivalence 
