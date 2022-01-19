@@ -220,10 +220,18 @@ ggsave(here("plots", "estimate_by_race.png"))
 ## Test outputs 
 
 ```{r}
-diff_res <- bind_rows(diff_summ("citizen", "Citizen"),
-                      diff_summ("education.ord", "Education"),
-                      diff_summ("income.ord", "Income"))
+diff_res <- reduce(list(diff_summ("citizen", "citizen"),
+                   diff_summ("education.ord", "education"),
+                   diff_summ("income.ord", "income")),
+                   full_join)
 
-diff_res %>%
-    filter(abs(diff) < 0.01)
+pct_correct_df <- study123 %>%
+    ungroup() %>%
+    select(identity, w.asian, name, correct) %>%
+    group_by(identity, w.asian, name) %>%
+    summarize(pct_correct = mean(correct))
+
+diff_pct_correct <- left_join(diff_res, pct_correct_df)
+
+write_rds(diff_pct_correct, here("data_outputs", "pct_correct_covariate.rds")) 
 ```
