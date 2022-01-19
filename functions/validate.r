@@ -123,4 +123,21 @@ sum_last_first_names <- function(respondent_race, name_race) {
     return(out)
 }
 
+diff_summ <- function(category, category_name) {
+
+    study123 %>%
+        group_by(identity, w.asian, name, correct) %>%
+        summarize(category_name = mean(get(category))) %>%
+        pivot_wider(names_from = correct,
+                    values_from = category_name) %>%
+        mutate(diff = `1` - `0`,
+               covariate = category_name) %>%
+        select(-c(`1`, `0`))
+
+}
+
+# Standard error
 se <- function(x) sqrt(var(x) / length(x))
+
+# Min-max scaling
+normalize <- function(x){(x- min(x, na.rm = T))/(max(x, na.rm = T)-min(x, na.rm = T))}

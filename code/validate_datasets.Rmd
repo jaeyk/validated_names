@@ -10,7 +10,7 @@ output: html_document
 ```{r}
 if (!require(pacman)) install.packages("pacman")
 
-pacman::p_load(tidyverse, here, glue, purrr, ggthemes, patchwork, ggrepel)
+pacman::p_load(tidyverse, here, glue, purrr, ggthemes, patchwork, ggrepel, ggpubr, estimatr)
 
 ggplot2::theme_set(ggpubr::theme_pubr())
 
@@ -157,20 +157,73 @@ high_quality_other_white_names %>%
 write_rds(high_quality_other_white_names, here("data_outputs", "hq_other_white_names.rds"))
 ```
 
-# Exclusion restrtiction 
+# Information equivalence
+
+## Visualization 
 
 ```{r}
-# identity values = "Black or African American," "White," "Asian or Pacific Islander,"
-
-study123 %>%
-    filter(str_detect(identity, "Black")) %>%
-    group_by(name) %>%
-    summarize(pct_correct = mean(correct),
-              pct_citizen = mean(citizen),
-              pct_education = mean(education, na.rm = T),
-              pct_income = mean(income, na.rm = T))
-
-study123$education
+study123$income.ord <- normalize(study123$income.ord)
+study123$education.ord <- normalize(study123$education.ord)
 ```
 
-# Information equivalence 
+```{r}
+# identity values = "Black or African American," "White," "Asian or Pacific Islander," "Hispanic"
+
+summ123 <- study123 %>%
+    group_by(identity, w.asian, name) %>%
+    summarize(Correct = mean(correct),
+              Citizen = mean(citizen),
+              Education = mean(education.ord, na.rm = T),
+              Income = mean(income.ord, na.rm = T))
+
+mod_black <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Black or African American")) %>% tidy()
+
+mod_black <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Black or African American")) %>% 
+    tidy() %>%
+    mutate(identity = "Black")
+
+mod_white <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "White")) %>% 
+    tidy() %>%
+    mutate(identity = "White")
+
+mod_asian <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Asian or Pacific Islander")) %>% 
+    tidy() %>%
+    mutate(identity = "Asian")
+
+mod_wasian <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 1 & identity == "Asian or Pacific Islander")) %>%
+    tidy() %>%
+    mutate(identity = "Asian (White first name)")
+
+mod_latino <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Hispanic")) %>% 
+    tidy() %>%
+    mutate(identity = "Latino")
+
+all_mod <- bind_rows(mod_asian, mod_black, mod_latino, mod_wasian, mod_white)
+
+all_mod %>%
+    filter(!str_detect(term, "Inter")) %>%
+    ggplot(aes(x = term, 
+               y = estimate, 
+               ymax = conf.high,
+               ymin = conf.low,
+               label = round(estimate, 2))) +
+    geom_pointrange() +
+    coord_flip() +
+    geom_hline(yintercept = 0, linetype = "dashed") +
+    labs(x = "", y = "Estimate") +
+    facet_wrap(~identity) +
+    geom_text_repel()
+
+ggsave(here("plots", "estimate_by_race.png"))
+```
+
+## Test outputs 
+
+```{r}
+diff_res <- bind_rows(diff_summ("citizen", "Citizen"),
+                      diff_summ("education.ord", "Education"),
+                      diff_summ("income.ord", "Income"))
+
+diff_res %>%
+    filter(abs(diff) < 0.01)
+```
