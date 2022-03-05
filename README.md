@@ -17,6 +17,9 @@
 
 * [validated_datasets.Rmd] produces the following datasets (row # * column $)
   * [pct_correct_covariate.rds] (1800 * 6)
+  * [names_race_perception.rds] (600 * 7)
+  * [hq_group_group_names.rds]
+  * [hq_other_white_names.rds]
 
 ## Validation results
 
