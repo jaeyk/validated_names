@@ -1,0 +1,237 @@
+---
+title: "Validate the datasets"
+author: "Jae Yeon Kim"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Read packages 
+
+```{r}
+if (!require(pacman)) install.packages("pacman")
+
+pacman::p_load(tidyverse, here, glue, purrr, ggthemes, patchwork, ggrepel, ggpubr, estimatr)
+
+ggplot2::theme_set(ggpubr::theme_pubr())
+
+source(here("functions", "validate.r"))
+```
+
+# Read files 
+
+```{r}
+load(file = here("data_outputs", "study123.rda"))
+```
+
+# Data wrangling
+
+```{r}
+study23 <- full_join(study2, study3)
+
+study23 <- study23 %>%
+    mutate(identity = recode(identity, 
+                             "Black or African American" = "Black",
+                             "Asian or Pacific Islander" = "AAPI",
+                             "Hispanic" = "Latino"
+                             ))
+
+study123 <- full_join(study1, study2) %>% full_join(study3)
+```
+
+# Correspondecne validation 
+
+## Visualization
+
+```{r}
+group_group_plot <- map2_dfr(c("Black", "White", "AAPI", "Latino"), c("Black", "White", "AAPI", "Latino"), sum_last_first_names) %>%
+    ggplot(aes(x = res.race, y = mean_correct, 
+               ymax = mean_correct + 1.96*se_correct,
+               ymin = mean_correct - 1.96*se_correct,
+               label = round(mean_correct, 2))) +
+    geom_pointrange() +
+    facet_wrap(~`Name type`) +
+    labs(title = glue("Within group assessment: 
+         A group member assesses their own group's names"),
+         x = "Respondent/Name", y = "% correct") +
+    geom_hline(yintercept = 0.5, linetype = "dashed") +
+    ylim(c(0.3 , 1)) +
+    geom_text_repel()
+```
+
+```{r}
+white_other_plot <- map2_dfr(c("White", "White", "White"), c("Black", "AAPI", "Latino"), sum_last_first_names) %>%
+    ggplot(aes(x = identity, y = mean_correct, 
+               ymax = mean_correct + 1.96*se_correct,
+               ymin = mean_correct - 1.96*se_correct, 
+               label = round(mean_correct, 2))) +
+    geom_pointrange() +
+    facet_wrap(~`Name type`) +
+    labs(title = glue("Between group assessment: 
+         A white assesses other racial group members' names"),
+         x = "Name", y = "% correct") +
+    geom_hline(yintercept = 0.5, linetype = "dashed") +
+    ylim(c(0.3 , 1)) +
+    geom_text_repel()
+```
+
+```{r}
+other_white_plot <- map2_dfr(c("Black", "AAPI", "Latino"), c("White", "White", "White"), sum_last_first_names) %>%
+    ggplot(aes(x = res.race, y = mean_correct, 
+               ymax = mean_correct + 1.96*se_correct,
+               ymin = mean_correct - 1.96*se_correct,
+               label = round(mean_correct, 2))) +
+    geom_pointrange() +
+    facet_wrap(~`Name type`) +
+    labs(title = glue("Between group assessment: 
+         A non-white assesses whites' names"),
+         x = "Respondent", y = "% correct") +
+    geom_hline(yintercept = 0.5, linetype = "dashed") +
+    ylim(c(0.3 , 1)) +
+    geom_text_repel()
+```
+
+```{r}
+group_group_plot /
+white_other_plot /
+other_white_plot
+
+ggsave(here("plots", "res_race_identity_correspondence.png"), 
+       width = 8,
+       height = 10)
+```
+
+## Test outputs
+
+Group -> Group 
+
+Criterion: mean correct score 
+
+Black: 8%
+White: 2%
+Asian: 18%
+Latino: 11%
+
+```{r}
+high_quality_group_group_names <- map2_dfr(c("Black", "White", "AAPI", "Latino"), c("Black", "White", "AAPI", "Latino"), better_than_mean_names)
+
+high_quality_group_group_names %>%
+    select(res.race, identity, pct_quality_names) %>%
+    distinct()
+
+write_rds(high_quality_group_group_names, here("data_outputs", "hq_group_group_names.rds"))
+```
+
+White -> Minority 
+
+Criterion: identical 
+
+White -> Black: 2%
+White -> Asian: 2%
+White -> Latino: 1%
+
+```{r}
+high_quality_white_other_names <- map2_dfr(rep("White", 3),  c("Black", "AAPI", "Latino"), better_than_mean_names)
+
+high_quality_white_other_names %>%
+    select(res.race, identity, pct_quality_names) %>%
+    distinct()
+
+write_rds(high_quality_white_other_names, here("data_outputs", "hq_white_other_names.rds"))
+```
+
+Minority -> White 
+
+Criterion: identical 
+
+Black -> White: 8%
+Asian -> White: 18%
+Latino -> White: 11%
+
+```{r}
+high_quality_other_white_names <- map2_dfr(c("Black", "AAPI", "Latino"), rep("White", 3), better_than_mean_names)
+
+high_quality_other_white_names %>%
+    select(res.race, identity, pct_quality_names) %>%
+    distinct()
+
+write_rds(high_quality_other_white_names, here("data_outputs", "hq_other_white_names.rds"))
+```
+
+# Information equivalence
+
+## Visualization 
+
+```{r}
+study123$income.ord <- normalize(study123$income.ord)
+study123$education.ord <- normalize(study123$education.ord)
+```
+
+```{r}
+# identity values = "Black or African American," "White," "Asian or Pacific Islander," "Hispanic"
+
+summ123 <- study123 %>%
+    group_by(identity, w.asian, name) %>%
+    summarize(Correct = mean(correct),
+              Citizen = mean(citizen),
+              Education = mean(education.ord, na.rm = T),
+              Income = mean(income.ord, na.rm = T))
+
+mod_black <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Black or African American")) %>% tidy()
+
+mod_black <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Black or African American")) %>% 
+    tidy() %>%
+    mutate(identity = "Black")
+
+mod_white <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "White")) %>% 
+    tidy() %>%
+    mutate(identity = "White")
+
+mod_asian <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Asian or Pacific Islander")) %>% 
+    tidy() %>%
+    mutate(identity = "Asian")
+
+mod_wasian <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 1 & identity == "Asian or Pacific Islander")) %>%
+    tidy() %>%
+    mutate(identity = "Asian (White first name)")
+
+mod_latino <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Hispanic")) %>% 
+    tidy() %>%
+    mutate(identity = "Latino")
+
+all_mod <- bind_rows(mod_asian, mod_black, mod_latino, mod_wasian, mod_white)
+
+all_mod %>%
+    filter(!str_detect(term, "Inter")) %>%
+    ggplot(aes(x = term, 
+               y = estimate, 
+               ymax = conf.high,
+               ymin = conf.low,
+               label = round(estimate, 2))) +
+    geom_pointrange() +
+    coord_flip() +
+    geom_hline(yintercept = 0, linetype = "dashed") +
+    labs(x = "", y = "Estimate") +
+    facet_wrap(~identity) +
+    geom_text_repel()
+
+ggsave(here("plots", "estimate_by_race.png"))
+```
+
+## Test outputs 
+
+```{r}
+diff_res <- reduce(list(diff_summ("citizen", "citizen"),
+                   diff_summ("education.ord", "education"),
+                   diff_summ("income.ord", "income")),
+                   full_join)
+
+pct_correct_df <- study123 %>%
+    ungroup() %>%
+    select(identity, w.asian, name, correct) %>%
+    group_by(identity, w.asian, name) %>%
+    summarize(pct_correct = mean(correct))
+
+diff_pct_correct <- left_join(diff_res, pct_correct_df)
+
+write_rds(diff_pct_correct, here("data_outputs", "pct_correct_covariate.rds")) 
+```

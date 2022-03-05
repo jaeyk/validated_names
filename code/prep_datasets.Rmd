@@ -1,5 +1,5 @@
 ---
-title: "Three datasets" 
+title: "Preparing datasets" 
 author: "Jae Yeon Kim"
 date: "`r Sys.Date()`"
 ---
@@ -94,11 +94,30 @@ study1 <- df_rename(study1)
 study2 <- df_rename(study2)
 study3 <- df_rename(study3)
 
+# Save csv files 
+
 write.csv(study1, here("data_outputs", "study-1-names.csv"))
 write.csv(study2, here("data_outputs", "study-2-names.csv"))
 write.csv(study3, here("data_outputs", "study-3-names.csv"))
 
+# Save rds files 
+
+write_rds(study1, here("data_outputs", "study-1-names.rds"))
+write_rds(study2, here("data_outputs", "study-2-names.rds"))
+write_rds(study3, here("data_outputs", "study-3-names.rds"))
+
+# Save the three datasets as an object     
 save(study1, study2, study3, file = here("data_outputs", "study123.rda"))
+
+# Save the three datasets as a joined dataframe (using full join)
+
+study1 <- study1 %>% mutate(study = "Study1")
+study2 <- study2 %>% mutate(study = "Study2")
+study3 <- study3 %>% mutate(study = "Study3")
+
+study_combined <- reduce(list(study1, study2, study3), full_join)
+
+write_rds(study_combined, here("data_outputs", "study123.rds"))
 ```
 
 ## Names 
