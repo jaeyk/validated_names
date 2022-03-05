@@ -96,9 +96,9 @@ study3 <- df_rename(study3)
 
 # Save csv files 
 
-write.csv(study1, here("data_outputs", "study-1-names.csv"))
-write.csv(study2, here("data_outputs", "study-2-names.csv"))
-write.csv(study3, here("data_outputs", "study-3-names.csv"))
+# write.csv(study1, here("data_outputs", "study-1-names.csv"))
+# write.csv(study2, here("data_outputs", "study-2-names.csv"))
+# write.csv(study3, here("data_outputs", "study-3-names.csv"))
 
 # Save rds files 
 
@@ -133,5 +133,6 @@ names <- df %>%
   summarise(mean.correct = mean(match),
             sd.correct = sd(match))
 
-write.csv(names, here("data_outputs", "names.csv"))
+#write.csv(names, here("data_outputs", "names.csv"))
+write_rds(names, here("data_outputs", "names.rds"))
 ```

@@ -8,8 +8,8 @@ cat("\014")
 rm(list = ls())
 
 ### Load library
-library(tools)
-library(tidyr)
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(tools, tidyr, rio)
 
 ### Set WD
 setwd("~/Dropbox/asian-discrimination/perspective-taking/data/")
@@ -71,10 +71,10 @@ white.asian <- tidyr::crossing(c(white.asian.first.f, white.asian.first.m), asia
 colnames(asian) <- colnames(black) <- colnames(hispanic) <- colnames(white) <- colnames(white.asian) <- c("first", "last")
 
 df.names <- tibble(rbind(asian, black, hispanic, white, white.asian))
-df.names$identity <- c(rep("Asian or Pacific Islander", 100), 
-                       rep("Black or African American", 100), 
-                       rep("Hispanic", 100), 
-                       rep("White", 100), 
+df.names$identity <- c(rep("Asian or Pacific Islander", 100),
+                       rep("Black or African American", 100),
+                       rep("Hispanic", 100),
+                       rep("White", 100),
                        rep("White Asian", 200))
 
 df.names

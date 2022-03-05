@@ -610,6 +610,7 @@ df2plot_covariate <- function(df) {
     return(out)
 }
 
+# select columns
 df2select <- function(df) {
 
     df %>%
@@ -617,6 +618,7 @@ df2select <- function(df) {
 
 }
 
+# rename columns
 df_rename <- function(df) {
 
     names(df)[names(df) == 'rid'] <- 'id'
@@ -625,3 +627,9 @@ df_rename <- function(df) {
     return(df)
 
 }
+
+# Standard error
+se <- function(x) sqrt(var(x) / length(x))
+
+# Min-max scaling
+normalize <- function(x){(x- min(x, na.rm = T))/(max(x, na.rm = T)-min(x, na.rm = T))}

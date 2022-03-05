@@ -18,7 +18,8 @@ better_than_mean_names <- function(respondent_race, name_race) {
         mutate(mean_correct_score = mean(pct_correct)) %>%
         filter(pct_correct > mean_correct_score) %>%
         mutate(res.race = respondent_race,
-               identity = if_else(length(unique(res.race)) == 1, name_race, respondent_race),
+               identity = if_else(length(unique(res.race)) == 1,
+                                  name_race, respondent_race),
                mean_correct_score = round(mean_correct_score, 2)) %>%
         arrange(desc(pct_correct)) %>%
         select(name, res.race, identity, pct_correct, mean_correct_score)
@@ -136,8 +137,16 @@ diff_summ <- function(category, category_name) {
 
 }
 
-# Standard error
-se <- function(x) sqrt(var(x) / length(x))
 
-# Min-max scaling
-normalize <- function(x){(x- min(x, na.rm = T))/(max(x, na.rm = T)-min(x, na.rm = T))}
+dum_mean_se <- function(group) {
+
+    dum_sum_ext %>%
+        pivot_longer(contains(group),
+                     "type",
+                     "estimate") %>%
+        mutate(type = str_replace_all(type, glue("{group}_"), "")) %>%
+        select(c(1, 10, 11)) %>%
+        pivot_wider(names_from = type,
+                    values_from = value)
+
+}
