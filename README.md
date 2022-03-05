@@ -2,9 +2,9 @@
 
 ## Session information 
 
-* R version 4.0.4 (2021-02-15)
-* Platform: x86_64-pc-linux-gnu (64-bit)
-* Running under: Ubuntu 21.04
+* R version 4.1.2 (2021-11-01)
+* Platform: x86_64-apple-darwin17.0 (64-bit)
+* Running under: macOS Monterey 12.2.1
 
 ## Datasets
 
