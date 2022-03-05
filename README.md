@@ -6,7 +6,7 @@
 * Platform: x86_64-apple-darwin17.0 (64-bit)
 * Running under: macOS Monterey 12.2.1
 
-## Datasets
+## Original Datasets
 
 * [prep_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/prep_datasets.Rmd) produces the following four datasets (the three experiment results plus the names datasets) (row # * column #)
   * [study-1-names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-1-names.csv) (14935 * 14) 
@@ -15,12 +15,12 @@
   * [study123.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study123.rda) (a combined file) 
   * [names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/names.csv) (600 * 7)
 
-* [validated_datasets.Rmd] produces the following datasets (row # * column $)
-  * [pct_correct_covariate.rds] (1800 * 6)
-  * [names_race_perception.rds] (600 * 7)
-  * [hq_group_group_names.rds]
-  * [hq_other_white_names.rds]
-
-## Validation results
+## Validation tests and dataset
 
 * [three_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/three_datasets.Rmd) produces Figure 2 (results from four OLS models designed to assess data validity)
+* [validate_datasets.Rmd] produces estiamte_by_race.png and the following datasets
+  * [pct_correct_covariate.rds] (1800 * 6)
+  * [names_race_perception.rds] (600 * 7)
+  * [hq_group_group_names.rds] (361 * 6)
+  * [hq_white_other_names.rds] (282 * 6)
+  * [hq_other_white_names.rds] (165 * 6)
