@@ -15,6 +15,9 @@
   * [study123.rda](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study123.rda) (a combined file) 
   * [names.csv](https://github.com/jaeyk/validated_names/blob/main/data_outputs/names.csv) (600 * 7)
 
+* [validated_datasets.Rmd] produces the following datasets (row # * column $)
+  * [pct_correct_covariate.rds] (1800 * 6)
+
 ## Validation results
 
 * [three_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/three_datasets.Rmd) produces Figure 2 (results from four OLS models designed to assess data validity)
