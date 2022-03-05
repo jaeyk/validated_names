@@ -5,19 +5,22 @@ date: "`r Sys.Date()`"
 output: html_document
 ---
 
-# Read packages 
+# Load packages 
 
 ```{r}
+# R CRAN packages
 if (!require(pacman)) install.packages("pacman")
 
-pacman::p_load(tidyverse, here, glue, purrr, ggthemes, patchwork, ggrepel, ggpubr, estimatr)
+pacman::p_load(tidyverse, here, glue, purrr, ggthemes, patchwork, ggrepel, ggpubr, estimatr, fastDummies)
 
 ggplot2::theme_set(ggpubr::theme_pubr())
 
+# Custom functions 
 source(here("functions", "validate.r"))
+source(here("functions", "utils.r"))
 ```
 
-# Read files 
+# Load files 
 
 ```{r}
 load(file = here("data_outputs", "study123.rda"))
@@ -35,7 +38,31 @@ study23 <- study23 %>%
                              "Hispanic" = "Latino"
                              ))
 
-study123 <- full_join(study1, study2) %>% full_join(study3)
+study123 <- full_join(study1, study2) %>% 
+    full_join(study3)
+```
+
+# Race response distribution per name and racial prevalence 
+
+```{r}
+race_dummies <- study123 %>%
+    select(race) %>%
+    dummy_cols() %>%
+    select(!race)
+```
+
+```{r}
+study123_dummies <- bind_cols(study123, race_dummies)
+
+dum_sum <- study123_dummies %>%
+    group_by(identity, name) %>%
+    summarize(white_pct = mean(race_White, na.rm = TRUE),
+              asian_pct = mean(`race_Asian or Pacific Islander`, na.rm = TRUE),
+              black_pct = mean(`race_Black or African American`),
+              latino_pct = mean(race_Hispanic),
+              other_pct = mean(race_Other))
+
+write_rds(dum_sum, here("data_outputs", "names_race_perception.rds"))
 ```
 
 # Correspondecne validation 
@@ -90,7 +117,7 @@ other_white_plot <- map2_dfr(c("Black", "AAPI", "Latino"), c("White", "White", "
     geom_text_repel()
 ```
 
-```{r}
+```{r eval = FALSE}
 group_group_plot /
 white_other_plot /
 other_white_plot
@@ -100,7 +127,7 @@ ggsave(here("plots", "res_race_identity_correspondence.png"),
        height = 10)
 ```
 
-## Test outputs
+## Dataset based on correspondence validation
 
 Group -> Group 
 
@@ -176,8 +203,6 @@ summ123 <- study123 %>%
               Education = mean(education.ord, na.rm = T),
               Income = mean(income.ord, na.rm = T))
 
-mod_black <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Black or African American")) %>% tidy()
-
 mod_black <- lm_robust(Correct ~ Citizen + Education + Income, data = subset(summ123, w.asian == 0 & identity == "Black or African American")) %>% 
     tidy() %>%
     mutate(identity = "Black")
@@ -217,7 +242,7 @@ all_mod %>%
 ggsave(here("plots", "estimate_by_race.png"))
 ```
 
-## Test outputs 
+## Dataset based on informaiton equivalence validation
 
 ```{r}
 diff_res <- reduce(list(diff_summ("citizen", "citizen"),
@@ -233,5 +258,5 @@ pct_correct_df <- study123 %>%
 
 diff_pct_correct <- left_join(diff_res, pct_correct_df)
 
-write_rds(diff_pct_correct, here("data_outputs", "pct_correct_covariate.rds")) 
+write_rds(diff_pct_correct, here("data_outputs", "pct_correct_covariate.rds"))
 ```

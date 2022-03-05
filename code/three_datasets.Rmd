@@ -49,6 +49,8 @@ perceptions_df <- read_csv_custom(3)
 
 ## Name dataset
 names_df <- read.csv(here("data", "names.csv"))
+
+write_rds(names_df, here("data_outputs", "names.rds"))
 ```
 
 # Preprocess three datasets and merge them with the names dataset 
