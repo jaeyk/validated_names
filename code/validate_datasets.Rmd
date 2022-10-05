@@ -62,6 +62,10 @@ dum_sum <- study123_dummies %>%
               latino_pct = mean(race_Hispanic),
               other_pct = mean(race_Other))
 
+# CSV
+write_csv(dum_sum, here("data_outputs", "names_race_perception.csv"))
+
+# RDS
 write_rds(dum_sum, here("data_outputs", "names_race_perception.rds"))
 ```
 
@@ -145,6 +149,10 @@ high_quality_group_group_names %>%
     select(res.race, identity, pct_quality_names) %>%
     distinct()
 
+# CSV
+write_csv(high_quality_group_group_names, here("data_outputs", "hq_group_group_names.csv"))
+
+# RDS
 write_rds(high_quality_group_group_names, here("data_outputs", "hq_group_group_names.rds"))
 ```
 
@@ -163,6 +171,10 @@ high_quality_white_other_names %>%
     select(res.race, identity, pct_quality_names) %>%
     distinct()
 
+# CSV
+write_csv(high_quality_white_other_names, here("data_outputs", "hq_white_other_names.csv"))
+
+# RDS
 write_rds(high_quality_white_other_names, here("data_outputs", "hq_white_other_names.rds"))
 ```
 
@@ -181,6 +193,10 @@ high_quality_other_white_names %>%
     select(res.race, identity, pct_quality_names) %>%
     distinct()
 
+# CSV
+write_csv(high_quality_other_white_names, here("data_outputs", "hq_other_white_names.csv"))
+
+# RDS
 write_rds(high_quality_other_white_names, here("data_outputs", "hq_other_white_names.rds"))
 ```
 
@@ -258,5 +274,9 @@ pct_correct_df <- study123 %>%
 
 diff_pct_correct <- left_join(diff_res, pct_correct_df)
 
+# CSV
+write_csv(diff_pct_correct, here("data_outputs", "pct_correct_covariate.csv"))
+
+# RDS
 write_rds(diff_pct_correct, here("data_outputs", "pct_correct_covariate.rds"))
 ```

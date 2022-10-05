@@ -9,6 +9,7 @@ editor_options:
 # Load libs 
 
 ```{r}
+
 if (!require(pacman)) install.packages("pacman")
 
 pacman::p_load(here, # reproducibility
@@ -17,6 +18,7 @@ pacman::p_load(here, # reproducibility
                tools, 
                jtools, 
                # data visualization 
+               hrbrthemes,
                ggpubr,
                viridis, 
                ggstance, 
@@ -50,6 +52,10 @@ perceptions_df <- read_csv_custom(3)
 ## Name dataset
 names_df <- read.csv(here("data", "names.csv"))
 
+# CSV
+write_csv(names_df, here("data_outputs", "names.csv"))
+
+# RDS
 write_rds(names_df, here("data_outputs", "names.rds"))
 ```
 

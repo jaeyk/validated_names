@@ -1,0 +1,1801 @@
+identity,w.asian,name,diff,covariate,pct_correct
+White,0,David Hansen,0.04212860310421285,citizen,0.7884615384615384
+White,0,David Hoffman,0.022648083623693305,citizen,0.8541666666666666
+White,0,David Johnston,-0.014084507042253502,citizen,0.7553191489361702
+White,0,David Larson,0.0032051282051281937,citizen,0.8125
+White,0,David Meyer,0.15340909090909094,citizen,0.8461538461538461
+White,0,David Olson,0.025693035835023692,citizen,0.8365384615384616
+White,0,David Ryan,0.06182795698924737,citizen,0.8857142857142857
+White,0,David Schmidt,-0.032467532467532534,citizen,0.8461538461538461
+White,0,David Snyder,0.09579831932773109,citizen,0.8585858585858586
+White,0,David Wagner,0.15555555555555556,citizen,0.8571428571428571
+White,0,James Hansen,0.125,citizen,0.7241379310344828
+White,0,James Hoffman,0.13137424373379425,citizen,0.8725490196078431
+White,0,James Johnston,0.023699802501645828,citizen,0.6125
+White,0,James Larson,0.27577639751552796,citizen,0.7526881720430108
+White,0,James Meyer,0.03310886644219968,citizen,0.7864077669902912
+White,0,James Olson,0.1295238095238096,citizen,0.78125
+White,0,James Ryan,0.21707060063224437,citizen,0.8488372093023255
+White,0,James Schmidt,0.13002873563218387,citizen,0.8446601941747572
+White,0,James Snyder,0.13976164680390035,citizen,0.8452380952380952
+White,0,James Wagner,0.02832674571805005,citizen,0.7415730337078652
+White,0,John Hansen,0.01501501501501501,citizen,0.8043478260869565
+White,0,John Hoffman,0.057347670250896154,citizen,0.8378378378378378
+White,0,John Johnston,-0.02647352647352652,citizen,0.7475728155339806
+White,0,John Larson,0.1230110159118728,citizen,0.819047619047619
+White,0,John Meyer,0.025108643167552014,citizen,0.8515625
+White,0,John Olson,0.21090387374461983,citizen,0.8282828282828283
+White,0,John Ryan,0.12158054711246202,citizen,0.8703703703703703
+White,0,John Schmidt,0.22394678492239461,citizen,0.8817204301075269
+White,0,John Snyder,0.11479591836734693,citizen,0.8596491228070176
+White,0,John Wagner,0.13057929724596384,citizen,0.7570093457943925
+White,0,Mark Hansen,0.058943089430894324,citizen,0.8723404255319149
+White,0,Mark Hoffman,-0.032258064516129004,citizen,0.8857142857142857
+White,0,Mark Johnston,0.015309246785058184,citizen,0.7553191489361702
+White,0,Mark Larson,0.025609756097561,citizen,0.803921568627451
+White,0,Mark Meyer,-0.010752688172043001,citizen,0.8857142857142857
+White,0,Mark Olson,0.17947421638018202,citizen,0.7889908256880734
+White,0,Mark Ryan,0.2093200916730329,citizen,0.8191489361702128
+White,0,Mark Schmidt,0,citizen,0.8387096774193549
+White,0,Mark Snyder,0.1113831089351286,citizen,0.819047619047619
+White,0,Mark Wagner,0.17631103074141052,citizen,0.8494623655913979
+White,0,Mary Hansen,0.17871148459383757,citizen,0.8018867924528302
+White,0,Mary Hoffman,0.08395061728395059,citizen,0.84375
+White,0,Mary Johnston,0.0157004830917874,citizen,0.7578947368421053
+White,0,Mary Larson,0.030069930069930084,citizen,0.7471264367816092
+White,0,Mary Meyer,0.11280487804878048,citizen,0.9111111111111111
+White,0,Mary Olson,0.16313725490196085,citizen,0.8152173913043478
+White,0,Mary Ryan,-0.023809523809523836,citizen,0.8842105263157894
+White,0,Mary Schmidt,0.09833333333333338,citizen,0.8241758241758241
+White,0,Mary Snyder,0.14489164086687312,citizen,0.8482142857142857
+White,0,Mary Wagner,0.017580872011251802,citizen,0.8144329896907216
+White,0,Michael Hansen,0.13648648648648654,citizen,0.7872340425531915
+White,0,Michael Hoffman,0.11721611721611724,citizen,0.8478260869565217
+White,0,Michael Johnston,0.012382075471698117,citizen,0.6235294117647059
+White,0,Michael Larson,0.04439063761097661,citizen,0.7375
+White,0,Michael Meyer,0.081453634085213,citizen,0.8155339805825242
+White,0,Michael Olson,-0.018045624787197845,citizen,0.7295081967213115
+White,0,Michael Ryan,0.08053221288515411,citizen,0.7640449438202247
+White,0,Michael Schmidt,0.23443223443223438,citizen,0.7878787878787878
+White,0,Michael Snyder,0.22196078431372557,citizen,0.8152173913043478
+White,0,Michael Wagner,0.011111111111111072,citizen,0.9
+White,0,Richard Hansen,0.059929494712103515,citizen,0.7628865979381443
+White,0,Richard Hoffman,0.4053156146179402,citizen,0.9247311827956989
+White,0,Richard Johnston,0.03116883116883118,citizen,0.7608695652173914
+White,0,Richard Larson,-0.012016718913270719,citizen,0.7981651376146789
+White,0,Richard Meyer,-0.048192771084337394,citizen,0.8645833333333334
+White,0,Richard Olson,0.07999999999999996,citizen,0.8333333333333334
+White,0,Richard Ryan,0.14853896103896103,citizen,0.8279569892473119
+White,0,Richard Schmidt,0.06459948320413444,citizen,0.9052631578947369
+White,0,Richard Snyder,0.07136485280999105,citizen,0.7564102564102564
+White,0,Richard Wagner,0.10829817158931077,citizen,0.8144329896907216
+White,0,Robert Hansen,0.15433161216293745,citizen,0.7980769230769231
+White,0,Robert Hoffman,0.043215211754537575,citizen,0.8725490196078431
+White,0,Robert Johnston,0.003676470588235281,citizen,0.68
+White,0,Robert Larson,-0.039337474120082816,citizen,0.8141592920353983
+White,0,Robert Meyer,0.18699690402476776,citizen,0.8173076923076923
+White,0,Robert Olson,0.18765432098765422,citizen,0.801980198019802
+White,0,Robert Ryan,0.10555555555555562,citizen,0.8181818181818182
+White,0,Robert Schmidt,0.14169570267131237,citizen,0.7961165048543689
+White,0,Robert Snyder,0.13573883161512024,citizen,0.8899082568807339
+White,0,Robert Wagner,0.06081871345029244,citizen,0.8256880733944955
+White,0,Thomas Hansen,0.16711229946524064,citizen,0.8380952380952381
+White,0,Thomas Hoffman,0.10698924731182802,citizen,0.8230088495575221
+White,0,Thomas Johnston,-0.04014410705095217,citizen,0.6979166666666666
+White,0,Thomas Larson,0.08393919365499014,citizen,0.839622641509434
+White,0,Thomas Meyer,0.03376623376623378,citizen,0.8641975308641975
+White,0,Thomas Olson,0.06862745098039225,citizen,0.85
+White,0,Thomas Ryan,0.19727272727272727,citizen,0.819672131147541
+White,0,Thomas Schmidt,0.1468699839486356,citizen,0.8640776699029126
+White,0,Thomas Snyder,-0.02631578947368418,citizen,0.9047619047619048
+White,0,Thomas Wagner,-0.0957446808510638,citizen,0.9306930693069307
+White,0,William Hansen,-0.007936507936507908,citizen,0.7741935483870968
+White,0,William Hoffman,0.2387640449438202,citizen,0.8476190476190476
+White,0,William Johnston,-0.009722222222222188,citizen,0.6896551724137931
+White,0,William Larson,0.02917505030181078,citizen,0.8352941176470589
+White,0,William Meyer,0.15909090909090906,citizen,0.8
+White,0,William Olson,0.01631701631701632,citizen,0.717391304347826
+White,0,William Ryan,0.10389610389610393,citizen,0.7857142857142857
+White,0,William Schmidt,-0.021354933726067782,citizen,0.8738738738738738
+White,0,William Snyder,0.04583333333333339,citizen,0.8695652173913043
+White,0,William Wagner,-0.02564102564102566,citizen,0.8478260869565217
+Asian or Pacific Islander,0,Hong Chen,-0.04835164835164829,citizen,0.8227848101265823
+Asian or Pacific Islander,0,Hong Kim,0.16770963704630792,citizen,0.734375
+Asian or Pacific Islander,0,Hong Le,-0.2142857142857143,citizen,0.8157894736842105
+Asian or Pacific Islander,0,Hong Li,0.2949308755760369,citizen,0.8157894736842105
+Asian or Pacific Islander,0,Hong Nguyen,0.06194029850746263,citizen,0.7701149425287356
+Asian or Pacific Islander,0,Hong Patel,0.03692115143929908,citizen,0.5802469135802469
+Asian or Pacific Islander,0,Hong Pham,0.07887323943661967,citizen,0.8255813953488372
+Asian or Pacific Islander,0,Hong Tran,0.04132973944294693,citizen,0.7162162162162162
+Asian or Pacific Islander,0,Hong Wang,-0.2367941712204007,citizen,0.8714285714285714
+Asian or Pacific Islander,0,Hong Yang,-0.16905901116427435,citizen,0.7764705882352941
+Asian or Pacific Islander,0,Hung Chen,-0.1177944862155389,citizen,0.890625
+Asian or Pacific Islander,0,Hung Kim,0.10101010101010105,citizen,0.8513513513513513
+Asian or Pacific Islander,0,Hung Le,0.13636363636363635,citizen,0.7333333333333333
+Asian or Pacific Islander,0,Hung Li,-0.17930419268510256,citizen,0.7564102564102564
+Asian or Pacific Islander,0,Hung Nguyen,-0.14999999999999997,citizen,0.6666666666666666
+Asian or Pacific Islander,0,Hung Patel,0.03830369357045138,citizen,0.5584415584415584
+Asian or Pacific Islander,0,Hung Pham,-0.1725490196078432,citizen,0.7183098591549296
+Asian or Pacific Islander,0,Hung Tran,-0.39337474120082816,citizen,0.6461538461538462
+Asian or Pacific Islander,0,Hung Wang,-0.3,citizen,0.8823529411764706
+Asian or Pacific Islander,0,Hung Yang,-0.06993006993007,citizen,0.8354430379746836
+Asian or Pacific Islander,0,Jian Chen,0.052631578947368474,citizen,0.75
+Asian or Pacific Islander,0,Jian Kim,0.06888888888888889,citizen,0.7352941176470589
+Asian or Pacific Islander,0,Jian Le,-0.07646474677259185,citizen,0.7361111111111112
+Asian or Pacific Islander,0,Jian Li,-0.2553897180762853,citizen,0.881578947368421
+Asian or Pacific Islander,0,Jian Nguyen,-0.01304347826086949,citizen,0.696969696969697
+Asian or Pacific Islander,0,Jian Patel,0.03623188405797095,citizen,0.43902439024390244
+Asian or Pacific Islander,0,Jian Pham,-0.06321839080459768,citizen,0.7945205479452054
+Asian or Pacific Islander,0,Jian Tran,0.007836990595611382,citizen,0.725
+Asian or Pacific Islander,0,Jian Wang,-0.004761904761904745,citizen,0.8108108108108109
+Asian or Pacific Islander,0,Jian Yang,-0.017857142857142905,citizen,0.8205128205128205
+Asian or Pacific Islander,0,Jin Chen,-0.13103448275862062,citizen,0.8529411764705882
+Asian or Pacific Islander,0,Jin Kim,0.08571428571428574,citizen,0.8333333333333334
+Asian or Pacific Islander,0,Jin Le,-0.2666666666666667,citizen,0.8333333333333334
+Asian or Pacific Islander,0,Jin Li,-0.11515151515151512,citizen,0.7857142857142857
+Asian or Pacific Islander,0,Jin Nguyen,0.005550416281221104,citizen,0.6714285714285714
+Asian or Pacific Islander,0,Jin Patel,0.06666666666666665,citizen,0.4827586206896552
+Asian or Pacific Islander,0,Jin Pham,-0.11575091575091567,citizen,0.7558139534883721
+Asian or Pacific Islander,0,Jin Tran,0.12422360248447206,citizen,0.7666666666666667
+Asian or Pacific Islander,0,Jin Wang,0.019813519813519864,citizen,0.8354430379746836
+Asian or Pacific Islander,0,Jin Yang,-0.23197492163009414,citizen,0.8405797101449275
+Asian or Pacific Islander,0,Li Chen,-0.009615384615384581,citizen,0.8666666666666667
+Asian or Pacific Islander,0,Li Kim,0.12683823529411764,citizen,0.7901234567901234
+Asian or Pacific Islander,0,Li Le,-0.05705329153605021,citizen,0.6547619047619048
+Asian or Pacific Islander,0,Li Li,0.09999999999999998,citizen,0.8064516129032258
+Asian or Pacific Islander,0,Li Nguyen,-0.07759562841530054,citizen,0.8026315789473685
+Asian or Pacific Islander,0,Li Patel,-0.07751937984496127,citizen,0.47560975609756095
+Asian or Pacific Islander,0,Li Pham,-0.10965630114566294,citizen,0.7833333333333333
+Asian or Pacific Islander,0,Li Tran,-0.005649717514124242,citizen,0.8309859154929577
+Asian or Pacific Islander,0,Li Wang,0.26249999999999996,citizen,0.7894736842105263
+Asian or Pacific Islander,0,Li Yang,0.04105263157894734,citizen,0.7246376811594203
+Asian or Pacific Islander,0,Minh Chen,0.11702127659574468,citizen,0.7966101694915254
+Asian or Pacific Islander,0,Minh Kim,-0.01715686274509809,citizen,0.7611940298507462
+Asian or Pacific Islander,0,Minh Le,-0.02604166666666663,citizen,0.810126582278481
+Asian or Pacific Islander,0,Minh Li,-0.021516393442622905,citizen,0.7922077922077922
+Asian or Pacific Islander,0,Minh Nguyen,-0.07857142857142863,citizen,0.7590361445783133
+Asian or Pacific Islander,0,Minh Patel,-0.26595744680851063,citizen,0.37333333333333335
+Asian or Pacific Islander,0,Minh Pham,-0.21850079744816586,citizen,0.7215189873417721
+Asian or Pacific Islander,0,Minh Tran,-0.020146520146520186,citizen,0.6176470588235294
+Asian or Pacific Islander,0,Minh Wang,-0.0051229508196721785,citizen,0.7922077922077922
+Asian or Pacific Islander,0,Minh Yang,-0.32763532763532766,citizen,0.8059701492537313
+Asian or Pacific Islander,0,Thanh Chen,-0.0482758620689655,citizen,0.7945205479452054
+Asian or Pacific Islander,0,Thanh Kim,-0.1655844155844156,citizen,0.7586206896551724
+Asian or Pacific Islander,0,Thanh Le,-0.008474576271186418,citizen,0.8082191780821918
+Asian or Pacific Islander,0,Thanh Li,-0.01538461538461533,citizen,0.8125
+Asian or Pacific Islander,0,Thanh Nguyen,0.08377358490566034,citizen,0.6794871794871795
+Asian or Pacific Islander,0,Thanh Patel,0.01304347826086949,citizen,0.352112676056338
+Asian or Pacific Islander,0,Thanh Pham,0.019943019943019946,citizen,0.6582278481012658
+Asian or Pacific Islander,0,Thanh Tran,-0.11050724637681164,citizen,0.676056338028169
+Asian or Pacific Islander,0,Thanh Wang,0.15598290598290598,citizen,0.8524590163934426
+Asian or Pacific Islander,0,Thanh Yang,0.08564814814814814,citizen,0.7714285714285715
+Asian or Pacific Islander,0,Wei Chen,0.02444444444444438,citizen,0.7352941176470589
+Asian or Pacific Islander,0,Wei Kim,-0.0117647058823529,citizen,0.7727272727272727
+Asian or Pacific Islander,0,Wei Le,-0.14957264957264954,citizen,0.8059701492537313
+Asian or Pacific Islander,0,Wei Li,-0.1912568306010929,citizen,0.9104477611940298
+Asian or Pacific Islander,0,Wei Nguyen,0.06842105263157894,citizen,0.7246376811594203
+Asian or Pacific Islander,0,Wei Patel,-0.05769230769230771,citizen,0.5185185185185185
+Asian or Pacific Islander,0,Wei Pham,-0.0117647058823529,citizen,0.6710526315789473
+Asian or Pacific Islander,0,Wei Tran,-0.125,citizen,0.75
+Asian or Pacific Islander,0,Wei Wang,0.11428571428571421,citizen,0.7407407407407407
+Asian or Pacific Islander,0,Wei Yang,0.11016949152542377,citizen,0.855072463768116
+Asian or Pacific Islander,0,Yong Chen,-0.25274725274725274,citizen,0.7878787878787878
+Asian or Pacific Islander,0,Yong Kim,0.0625814863102998,citizen,0.8194444444444444
+Asian or Pacific Islander,0,Yong Le,-0.06020408163265312,citizen,0.7101449275362319
+Asian or Pacific Islander,0,Yong Li,-0.32971014492753614,citizen,0.7931034482758621
+Asian or Pacific Islander,0,Yong Nguyen,-0.10648148148148151,citizen,0.7714285714285715
+Asian or Pacific Islander,0,Yong Patel,-0.1697936210131331,citizen,0.6119402985074627
+Asian or Pacific Islander,0,Yong Pham,0.07454545454545458,citizen,0.819672131147541
+Asian or Pacific Islander,0,Yong Tran,0.016666666666666607,citizen,0.7575757575757576
+Asian or Pacific Islander,0,Yong Wang,-0.2647058823529411,citizen,0.7901234567901234
+Asian or Pacific Islander,0,Yong Yang,0.12440191387559807,citizen,0.7432432432432432
+Asian or Pacific Islander,0,Young Chen,0.05746268656716419,citizen,0.7701149425287356
+Asian or Pacific Islander,0,Young Kim,-0.1264775413711584,citizen,0.7230769230769231
+Asian or Pacific Islander,0,Young Le,0.07017543859649122,citizen,0.8636363636363636
+Asian or Pacific Islander,0,Young Li,-0.07738095238095233,citizen,0.8615384615384616
+Asian or Pacific Islander,0,Young Nguyen,-0.017429193899782147,citizen,0.7605633802816901
+Asian or Pacific Islander,0,Young Patel,0.08181818181818179,citizen,0.26666666666666666
+Asian or Pacific Islander,0,Young Pham,0.07499999999999996,citizen,0.7058823529411765
+Asian or Pacific Islander,0,Young Tran,-0.07065217391304346,citizen,0.676056338028169
+Asian or Pacific Islander,0,Young Wang,-0.13756613756613756,citizen,0.7941176470588235
+Asian or Pacific Islander,0,Young Yang,0.1620648259303722,citizen,0.7424242424242424
+Asian or Pacific Islander,1,Alan Chen,0.03857280617164904,citizen,0.782051282051282
+Asian or Pacific Islander,1,Alan Kim,0.21449275362318843,citizen,0.6617647058823529
+Asian or Pacific Islander,1,Alan Le,-0.05892255892255893,citizen,0.6206896551724138
+Asian or Pacific Islander,1,Alan Li,-0.2067395264116575,citizen,0.7721518987341772
+Asian or Pacific Islander,1,Alan Nguyen,0.047987616099071206,citizen,0.6263736263736264
+Asian or Pacific Islander,1,Alan Patel,-0.014285714285714346,citizen,0.16666666666666666
+Asian or Pacific Islander,1,Alan Pham,0.06043956043956045,citizen,0.65
+Asian or Pacific Islander,1,Alan Tran,0,citizen,0.4
+Asian or Pacific Islander,1,Alan Wang,-0.03607503607503604,citizen,0.8513513513513513
+Asian or Pacific Islander,1,Alan Yang,0.17500000000000004,citizen,0.7377049180327869
+Asian or Pacific Islander,1,Albert Chen,-0.0038699690402476117,citizen,0.7816091954022989
+Asian or Pacific Islander,1,Albert Kim,0.0013368983957219305,citizen,0.5641025641025641
+Asian or Pacific Islander,1,Albert Le,-0.055432372505543226,citizen,0.5540540540540541
+Asian or Pacific Islander,1,Albert Li,-0.12144702842377253,citizen,0.6142857142857143
+Asian or Pacific Islander,1,Albert Nguyen,-0.006086956521739184,citizen,0.647887323943662
+Asian or Pacific Islander,1,Albert Patel,-0.05740740740740746,citizen,0.2702702702702703
+Asian or Pacific Islander,1,Albert Pham,-0.06506238859180036,citizen,0.4925373134328358
+Asian or Pacific Islander,1,Albert Tran,-0.0071428571428571175,citizen,0.4878048780487805
+Asian or Pacific Islander,1,Albert Wang,0.23529411764705876,citizen,0.75
+Asian or Pacific Islander,1,Albert Yang,0.12590299277605788,citizen,0.7285714285714285
+Asian or Pacific Islander,1,Alex Chen,0.08673469387755106,citizen,0.7101449275362319
+Asian or Pacific Islander,1,Alex Kim,-0.1497584541062802,citizen,0.6301369863013698
+Asian or Pacific Islander,1,Alex Le,0.04029304029304026,citizen,0.6176470588235294
+Asian or Pacific Islander,1,Alex Li,0.00911854103343468,citizen,0.6911764705882353
+Asian or Pacific Islander,1,Alex Nguyen,0.009590235396687019,citizen,0.5441176470588235
+Asian or Pacific Islander,1,Alex Patel,-0.08000000000000007,citizen,0.3333333333333333
+Asian or Pacific Islander,1,Alex Pham,-0.013714967203339312,citizen,0.524390243902439
+Asian or Pacific Islander,1,Alex Tran,-0.04861111111111116,citizen,0.5294117647058824
+Asian or Pacific Islander,1,Alex Wang,-0.13095238095238093,citizen,0.7
+Asian or Pacific Islander,1,Alex Yang,0.0732714138286894,citizen,0.7285714285714285
+Asian or Pacific Islander,1,Alice Chen,-0.008714596949891074,citizen,0.7605633802816901
+Asian or Pacific Islander,1,Alice Kim,0.014311270125223596,citizen,0.6231884057971014
+Asian or Pacific Islander,1,Alice Le,-0.05021276595744684,citizen,0.6527777777777778
+Asian or Pacific Islander,1,Alice Li,-0.03804347826086951,citizen,0.7088607594936709
+Asian or Pacific Islander,1,Alice Nguyen,0.11056511056511054,citizen,0.6271186440677966
+Asian or Pacific Islander,1,Alice Patel,-0.002192982456140302,citizen,0.2191780821917808
+Asian or Pacific Islander,1,Alice Pham,0.028048780487804903,citizen,0.5061728395061729
+Asian or Pacific Islander,1,Alice Tran,-0.09999999999999998,citizen,0.5
+Asian or Pacific Islander,1,Alice Wang,0.08461538461538454,citizen,0.7222222222222222
+Asian or Pacific Islander,1,Alice Yang,-0.015686274509803866,citizen,0.7258064516129032
+Asian or Pacific Islander,1,Amy Chen,-0.05165692007797262,citizen,0.7397260273972602
+Asian or Pacific Islander,1,Amy Kim,-0.022448979591836782,citizen,0.620253164556962
+Asian or Pacific Islander,1,Amy Le,-0.0703389830508474,citizen,0.7468354430379747
+Asian or Pacific Islander,1,Amy Li,-0.0692090395480226,citizen,0.8309859154929577
+Asian or Pacific Islander,1,Amy Nguyen,-0.04037267080745344,citizen,0.6461538461538462
+Asian or Pacific Islander,1,Amy Patel,0.06186612576064909,citizen,0.22666666666666666
+Asian or Pacific Islander,1,Amy Pham,-0.010863350485991963,citizen,0.6162790697674418
+Asian or Pacific Islander,1,Amy Tran,-0.02777777777777779,citizen,0.5
+Asian or Pacific Islander,1,Amy Wang,-0.07352941176470584,citizen,0.7671232876712328
+Asian or Pacific Islander,1,Amy Yang,-0.07070707070707061,citizen,0.8301886792452831
+Asian or Pacific Islander,1,Andrew Chen,-0.21316614420062696,citizen,0.725
+Asian or Pacific Islander,1,Andrew Kim,0.16489361702127658,citizen,0.6266666666666667
+Asian or Pacific Islander,1,Andrew Le,-0.13518518518518519,citizen,0.7297297297297297
+Asian or Pacific Islander,1,Andrew Li,-0.02648171500630514,citizen,0.7011494252873564
+Asian or Pacific Islander,1,Andrew Nguyen,0.015151515151515138,citizen,0.6857142857142857
+Asian or Pacific Islander,1,Andrew Patel,-0.032196969696969724,citizen,0.3142857142857143
+Asian or Pacific Islander,1,Andrew Pham,0.07692307692307687,citizen,0.5
+Asian or Pacific Islander,1,Andrew Tran,0.05216622458001763,citizen,0.5735294117647058
+Asian or Pacific Islander,1,Andrew Wang,0.12083333333333335,citizen,0.7619047619047619
+Asian or Pacific Islander,1,Andrew Yang,0.07415254237288138,citizen,0.7108433734939759
+Asian or Pacific Islander,1,Andy Chen,0.05789473684210533,citizen,0.7246376811594203
+Asian or Pacific Islander,1,Andy Kim,-0.045454545454545414,citizen,0.56
+Asian or Pacific Islander,1,Andy Le,0.07840531561461783,citizen,0.5512820512820513
+Asian or Pacific Islander,1,Andy Li,0.03190476190476199,citizen,0.7281553398058253
+Asian or Pacific Islander,1,Andy Nguyen,0.0174825174825175,citizen,0.6285714285714286
+Asian or Pacific Islander,1,Andy Patel,-0.08181818181818179,citizen,0.2857142857142857
+Asian or Pacific Islander,1,Andy Pham,-0.07612179487179482,citizen,0.4507042253521127
+Asian or Pacific Islander,1,Andy Tran,0.04047619047619044,citizen,0.4878048780487805
+Asian or Pacific Islander,1,Andy Wang,-0.0015151515151515804,citizen,0.8450704225352113
+Asian or Pacific Islander,1,Andy Yang,-0.0040431266846361336,citizen,0.7910447761194029
+Asian or Pacific Islander,1,Cecilia Chen,0.0635451505016722,citizen,0.6290322580645161
+Asian or Pacific Islander,1,Cecilia Kim,0.14685314685314688,citizen,0.4583333333333333
+Asian or Pacific Islander,1,Cecilia Le,0.08628841607565008,citizen,0.5662650602409639
+Asian or Pacific Islander,1,Cecilia Li,0.004347826086956497,citizen,0.647887323943662
+Asian or Pacific Islander,1,Cecilia Nguyen,0.09673659673659674,citizen,0.611764705882353
+Asian or Pacific Islander,1,Cecilia Patel,-0.11111111111111116,citizen,0.25
+Asian or Pacific Islander,1,Cecilia Pham,-0.22619047619047628,citizen,0.6
+Asian or Pacific Islander,1,Cecilia Tran,0.10185185185185186,citizen,0.5714285714285714
+Asian or Pacific Islander,1,Cecilia Wang,-0.13473684210526315,citizen,0.7246376811594203
+Asian or Pacific Islander,1,Cecilia Yang,-0.07999999999999996,citizen,0.7058823529411765
+Asian or Pacific Islander,1,Cindy Chen,0.005050505050505083,citizen,0.6716417910447762
+Asian or Pacific Islander,1,Cindy Kim,0.009817671809256634,citizen,0.5974025974025974
+Asian or Pacific Islander,1,Cindy Le,-0.11637931034482762,citizen,0.7073170731707317
+Asian or Pacific Islander,1,Cindy Li,0.1071428571428571,citizen,0.8032786885245902
+Asian or Pacific Islander,1,Cindy Nguyen,0.03431372549019607,citizen,0.6455696202531646
+Asian or Pacific Islander,1,Cindy Patel,0.005952380952380931,citizen,0.2727272727272727
+Asian or Pacific Islander,1,Cindy Pham,0.009302325581395432,citizen,0.44871794871794873
+Asian or Pacific Islander,1,Cindy Tran,-0.0625,citizen,0.6
+Asian or Pacific Islander,1,Cindy Wang,-0.0013440860215053752,citizen,0.7209302325581395
+Asian or Pacific Islander,1,Cindy Yang,0.005952380952381042,citizen,0.7272727272727273
+Asian or Pacific Islander,1,Dan Chen,0.0535714285714286,citizen,0.6666666666666666
+Asian or Pacific Islander,1,Dan Kim,0.015686274509803866,citizen,0.7727272727272727
+Asian or Pacific Islander,1,Dan Le,0,citizen,0.6666666666666666
+Asian or Pacific Islander,1,Dan Li,-0.12,citizen,0.6875
+Asian or Pacific Islander,1,Dan Nguyen,0.132094943240454,citizen,0.7285714285714285
+Asian or Pacific Islander,1,Dan Patel,-0.0038461538461538325,citizen,0.2777777777777778
+Asian or Pacific Islander,1,Dan Pham,0.05716878402903813,citizen,0.5671641791044776
+Asian or Pacific Islander,1,Dan Tran,-0.07218045112781957,citizen,0.6195652173913043
+Asian or Pacific Islander,1,Dan Wang,0.08333333333333337,citizen,0.7272727272727273
+Asian or Pacific Islander,1,Dan Yang,0.3214285714285714,citizen,0.8484848484848485
+Asian or Pacific Islander,1,David Chen,-0.08663101604278078,citizen,0.7638888888888888
+Asian or Pacific Islander,1,David Kim,0.029032258064516148,citizen,0.5633802816901409
+Asian or Pacific Islander,1,David Le,0.16346153846153844,citizen,0.6190476190476191
+Asian or Pacific Islander,1,David Li,-0.10876803551609315,citizen,0.7571428571428571
+Asian or Pacific Islander,1,David Nguyen,-0.010000000000000009,citizen,0.6753246753246753
+Asian or Pacific Islander,1,David Patel,0.023809523809523725,citizen,0.3333333333333333
+Asian or Pacific Islander,1,David Pham,-0.01904761904761898,citizen,0.46153846153846156
+Asian or Pacific Islander,1,David Tran,0.06013513513513513,citizen,0.5194805194805194
+Asian or Pacific Islander,1,David Wang,0.16959064327485374,citizen,0.76
+Asian or Pacific Islander,1,David Yang,0.05366357069143446,citizen,0.7702702702702703
+Asian or Pacific Islander,1,Eric Chen,0.23863636363636365,citizen,0.6451612903225806
+Asian or Pacific Islander,1,Eric Kim,-0.07017543859649122,citizen,0.75
+Asian or Pacific Islander,1,Eric Le,-0.012765957446808529,citizen,0.7014925373134329
+Asian or Pacific Islander,1,Eric Li,0.14187643020594964,citizen,0.7076923076923077
+Asian or Pacific Islander,1,Eric Nguyen,0.15000000000000002,citizen,0.6666666666666666
+Asian or Pacific Islander,1,Eric Patel,-0.05372807017543868,citizen,0.2835820895522388
+Asian or Pacific Islander,1,Eric Pham,-0.025583982202447175,citizen,0.5166666666666667
+Asian or Pacific Islander,1,Eric Tran,-0.03280067283431454,citizen,0.5857142857142857
+Asian or Pacific Islander,1,Eric Wang,0.06440677966101693,citizen,0.7972972972972973
+Asian or Pacific Islander,1,Eric Yang,0.10601976639712496,citizen,0.7162162162162162
+Asian or Pacific Islander,1,Grace Chen,-0.1466666666666666,citizen,0.8241758241758241
+Asian or Pacific Islander,1,Grace Kim,-0.012962962962962954,citizen,0.5970149253731343
+Asian or Pacific Islander,1,Grace Le,0.04166666666666663,citizen,0.625
+Asian or Pacific Islander,1,Grace Li,0.09361702127659566,citizen,0.7014925373134329
+Asian or Pacific Islander,1,Grace Nguyen,-0.10909090909090902,citizen,0.6944444444444444
+Asian or Pacific Islander,1,Grace Patel,-0.04814814814814816,citizen,0.35064935064935066
+Asian or Pacific Islander,1,Grace Pham,-0.07894736842105265,citizen,0.5
+Asian or Pacific Islander,1,Grace Tran,0.06846846846846844,citizen,0.5487804878048781
+Asian or Pacific Islander,1,Grace Wang,-0.056451612903225756,citizen,0.5633802816901409
+Asian or Pacific Islander,1,Grace Yang,0.2979591836734694,citizen,0.8305084745762712
+Asian or Pacific Islander,1,Jane Chen,0.11594202898550732,citizen,0.6571428571428571
+Asian or Pacific Islander,1,Jane Kim,0.03530377668308704,citizen,0.7341772151898734
+Asian or Pacific Islander,1,Jane Le,-0.0490196078431373,citizen,0.7391304347826086
+Asian or Pacific Islander,1,Jane Li,-0.031339031339031376,citizen,0.8059701492537313
+Asian or Pacific Islander,1,Jane Nguyen,0.051490514905149,citizen,0.6029411764705882
+Asian or Pacific Islander,1,Jane Patel,-0.07543520309477747,citizen,0.1896551724137931
+Asian or Pacific Islander,1,Jane Pham,0.01449275362318836,citizen,0.5227272727272727
+Asian or Pacific Islander,1,Jane Tran,-0.013565891472868241,citizen,0.45569620253164556
+Asian or Pacific Islander,1,Jane Wang,-0.11666666666666659,citizen,0.75
+Asian or Pacific Islander,1,Jane Yang,0.023809523809523725,citizen,0.8032786885245902
+Asian or Pacific Islander,1,Jennifer Chen,0.02759740259740251,citizen,0.717948717948718
+Asian or Pacific Islander,1,Jennifer Kim,-0.0552380952380952,citizen,0.6268656716417911
+Asian or Pacific Islander,1,Jennifer Le,-0.18604651162790697,citizen,0.5972222222222222
+Asian or Pacific Islander,1,Jennifer Li,0.09795918367346934,citizen,0.7101449275362319
+Asian or Pacific Islander,1,Jennifer Nguyen,0.08243727598566308,citizen,0.5921052631578947
+Asian or Pacific Islander,1,Jennifer Patel,0.0981481481481481,citizen,0.2702702702702703
+Asian or Pacific Islander,1,Jennifer Pham,0.0892857142857143,citizen,0.4666666666666667
+Asian or Pacific Islander,1,Jennifer Tran,0.054545454545454564,citizen,0.47619047619047616
+Asian or Pacific Islander,1,Jennifer Wang,-0.10384615384615381,citizen,0.7222222222222222
+Asian or Pacific Islander,1,Jennifer Yang,0.025500910746812377,citizen,0.6931818181818182
+Asian or Pacific Islander,1,Jenny Chen,0.2122328666175387,citizen,0.7195121951219512
+Asian or Pacific Islander,1,Jenny Kim,0.10365853658536583,citizen,0.6721311475409836
+Asian or Pacific Islander,1,Jenny Le,0.09999999999999998,citizen,0.6153846153846154
+Asian or Pacific Islander,1,Jenny Li,0.17416545718432508,citizen,0.803030303030303
+Asian or Pacific Islander,1,Jenny Nguyen,0.07716836734693877,citizen,0.6049382716049383
+Asian or Pacific Islander,1,Jenny Patel,0.11111111111111116,citizen,0.2222222222222222
+Asian or Pacific Islander,1,Jenny Pham,-0.013533834586466065,citizen,0.4794520547945205
+Asian or Pacific Islander,1,Jenny Tran,0.037411526794742134,citizen,0.6515151515151515
+Asian or Pacific Islander,1,Jenny Wang,-0.06533776301218164,citizen,0.671875
+Asian or Pacific Islander,1,Jenny Yang,0.0682839173405212,citizen,0.7162162162162162
+Asian or Pacific Islander,1,May Chen,0.17376294591484465,citizen,0.8777777777777778
+Asian or Pacific Islander,1,May Kim,-0.009603841536614643,citizen,0.7424242424242424
+Asian or Pacific Islander,1,May Le,-0.04516806722689082,citizen,0.7671232876712328
+Asian or Pacific Islander,1,May Li,0.09478260869565225,citizen,0.684931506849315
+Asian or Pacific Islander,1,May Nguyen,-0.15802675585284276,citizen,0.6933333333333334
+Asian or Pacific Islander,1,May Patel,0.22515212981744415,citizen,0.3625
+Asian or Pacific Islander,1,May Pham,8.576329331047017e-4,citizen,0.7066666666666667
+Asian or Pacific Islander,1,May Tran,0.02941176470588236,citizen,0.6
+Asian or Pacific Islander,1,May Wang,-0.1824561403508772,citizen,0.7916666666666666
+Asian or Pacific Islander,1,May Yang,-0.09482758620689657,citizen,0.8285714285714286
+Asian or Pacific Islander,1,Peter Chen,-0.03489531405782653,citizen,0.7763157894736842
+Asian or Pacific Islander,1,Peter Kim,-0.0827906976744186,citizen,0.6323529411764706
+Asian or Pacific Islander,1,Peter Le,0.003875968992248069,citizen,0.6417910447761194
+Asian or Pacific Islander,1,Peter Li,-0.19999999999999996,citizen,0.821917808219178
+Asian or Pacific Islander,1,Peter Nguyen,0.002564102564102555,citizen,0.5652173913043478
+Asian or Pacific Islander,1,Peter Patel,-0.002892960462873684,citizen,0.21794871794871795
+Asian or Pacific Islander,1,Peter Pham,0.10641891891891897,citizen,0.5362318840579711
+Asian or Pacific Islander,1,Peter Tran,-0.1425155428024869,citizen,0.5543478260869565
+Asian or Pacific Islander,1,Peter Wang,0.10457516339869277,citizen,0.7391304347826086
+Asian or Pacific Islander,1,Peter Yang,-0.05555555555555558,citizen,0.6923076923076923
+Asian or Pacific Islander,1,Sam Chen,-0.01543859649122803,citizen,0.6951219512195121
+Asian or Pacific Islander,1,Sam Kim,0.13372582001682087,citizen,0.5857142857142857
+Asian or Pacific Islander,1,Sam Le,0.1204481792717087,citizen,0.7083333333333334
+Asian or Pacific Islander,1,Sam Li,-0.1932234432234432,citizen,0.7123287671232876
+Asian or Pacific Islander,1,Sam Nguyen,-0.15666666666666662,citizen,0.6756756756756757
+Asian or Pacific Islander,1,Sam Patel,-0.012013729977116694,citizen,0.23232323232323232
+Asian or Pacific Islander,1,Sam Pham,-0.04435204435204443,citizen,0.5131578947368421
+Asian or Pacific Islander,1,Sam Tran,-0.015151515151515138,citizen,0.55
+Asian or Pacific Islander,1,Sam Wang,0.11973875181422355,citizen,0.6708860759493671
+Asian or Pacific Islander,1,Sam Yang,0.22012578616352207,citizen,0.7794117647058824
+Asian or Pacific Islander,1,Vivian Chen,0.028708133971291905,citizen,0.6984126984126984
+Asian or Pacific Islander,1,Vivian Kim,-0.08653846153846156,citizen,0.6486486486486487
+Asian or Pacific Islander,1,Vivian Le,0.08699186991869912,citizen,0.5774647887323944
+Asian or Pacific Islander,1,Vivian Li,-0.008620689655172376,citizen,0.6588235294117647
+Asian or Pacific Islander,1,Vivian Nguyen,0.033333333333333326,citizen,0.6
+Asian or Pacific Islander,1,Vivian Patel,0.02200956937799048,citizen,0.25675675675675674
+Asian or Pacific Islander,1,Vivian Pham,-0.10034013605442171,citizen,0.6712328767123288
+Asian or Pacific Islander,1,Vivian Tran,0.11842105263157898,citizen,0.5135135135135135
+Asian or Pacific Islander,1,Vivian Wang,0.11381074168797956,citizen,0.7301587301587301
+Asian or Pacific Islander,1,Vivian Yang,0.06666666666666665,citizen,0.75
+Black or African American,0,Darnell Burke,0.07094594594594594,citizen,0.4805194805194805
+Black or African American,0,Darnell Carpenter,-0.02857142857142858,citizen,0.5932203389830508
+Black or African American,0,Darnell Fox,-0.010000000000000009,citizen,0.6153846153846154
+Black or African American,0,Darnell Jackson,0.1113831089351286,citizen,0.6935483870967742
+Black or African American,0,Darnell Stone,0.004464285714285698,citizen,0.5333333333333333
+Black or African American,0,Darnell Sullivan,0.13296703296703294,citizen,0.4262295081967213
+Black or African American,0,Darnell Washington,0.22142857142857142,citizen,0.5932203389830508
+Black or African American,0,Darnell Weaver,0.13793103448275867,citizen,0.5245901639344263
+Black or African American,0,Darnell Williams,0.07777777777777772,citizen,0.6923076923076923
+Black or African American,0,Darnell Wood,0.033333333333333326,citizen,0.620253164556962
+Black or African American,0,Ebony Burke,0.10871794871794871,citizen,0.609375
+Black or African American,0,Ebony Carpenter,0.0854838709677419,citizen,0.6078431372549019
+Black or African American,0,Ebony Fox,0.014880952380952328,citizen,0.7241379310344828
+Black or African American,0,Ebony Jackson,-0.0714285714285714,citizen,0.7636363636363637
+Black or African American,0,Ebony Stone,0.05555555555555558,citizen,0.6727272727272727
+Black or African American,0,Ebony Sullivan,0.1785714285714286,citizen,0.5409836065573771
+Black or African American,0,Ebony Washington,0.09269893355209191,citizen,0.6973684210526315
+Black or African American,0,Ebony Weaver,0.14035087719298245,citizen,0.6785714285714286
+Black or African American,0,Ebony Williams,0.125,citizen,0.7419354838709677
+Black or African American,0,Ebony Wood,0.09188034188034189,citizen,0.6582278481012658
+Black or African American,0,Jermaine Burke,0.27586206896551724,citizen,0.5735294117647058
+Black or African American,0,Jermaine Carpenter,0.042857142857142816,citizen,0.5555555555555556
+Black or African American,0,Jermaine Fox,0.08403361344537819,citizen,0.6181818181818182
+Black or African American,0,Jermaine Jackson,0.09723889555822329,citizen,0.7424242424242424
+Black or African American,0,Jermaine Stone,0.06736242884250476,citizen,0.5230769230769231
+Black or African American,0,Jermaine Sullivan,0.06304347826086953,citizen,0.696969696969697
+Black or African American,0,Jermaine Washington,0.0293040293040292,citizen,0.6176470588235294
+Black or African American,0,Jermaine Weaver,0.09435897435897433,citizen,0.609375
+Black or African American,0,Jermaine Williams,0.15700483091787443,citizen,0.71875
+Black or African American,0,Jermaine Wood,-0.021276595744680882,citizen,0.746031746031746
+Black or African American,0,Lakisha Burke,0.2642140468227425,citizen,0.6388888888888888
+Black or African American,0,Lakisha Carpenter,0.06944444444444453,citizen,0.7272727272727273
+Black or African American,0,Lakisha Fox,0.11764705882352944,citizen,0.7068965517241379
+Black or African American,0,Lakisha Jackson,0.4,citizen,0.8913043478260869
+Black or African American,0,Lakisha Stone,0.3277777777777777,citizen,0.7894736842105263
+Black or African American,0,Lakisha Sullivan,0.16666666666666663,citizen,0.7096774193548387
+Black or African American,0,Lakisha Washington,0.16666666666666663,citizen,0.75
+Black or African American,0,Lakisha Weaver,0.12383900928792568,citizen,0.6909090909090909
+Black or African American,0,Lakisha Williams,0.0625,citizen,0.7681159420289855
+Black or African American,0,Lakisha Wood,0.036111111111111094,citizen,0.8490566037735849
+Black or African American,0,Latasha Burke,0.31333333333333335,citizen,0.8064516129032258
+Black or African American,0,Latasha Carpenter,0.25338753387533874,citizen,0.6949152542372882
+Black or African American,0,Latasha Fox,0.11904761904761907,citizen,0.75
+Black or African American,0,Latasha Jackson,0.11111111111111116,citizen,0.8524590163934426
+Black or African American,0,Latasha Stone,0.033660589060308554,citizen,0.5740740740740741
+Black or African American,0,Latasha Sullivan,0.25,citizen,0.6296296296296297
+Black or African American,0,Latasha Washington,0.10526315789473684,citizen,0.7205882352941176
+Black or African American,0,Latasha Weaver,0.1428571428571429,citizen,0.6181818181818182
+Black or African American,0,Latasha Williams,0.21111111111111114,citizen,0.782608695652174
+Black or African American,0,Latasha Wood,0.08730158730158732,citizen,0.6086956521739131
+Black or African American,0,Latonya Burke,0.2272727272727273,citizen,0.6333333333333333
+Black or African American,0,Latonya Carpenter,0.20346320346320346,citizen,0.65625
+Black or African American,0,Latonya Fox,0.1797385620915033,citizen,0.7605633802816901
+Black or African American,0,Latonya Jackson,0.06763285024154597,citizen,0.71875
+Black or African American,0,Latonya Stone,0.2222222222222222,citizen,0.7272727272727273
+Black or African American,0,Latonya Sullivan,0.11344537815126055,citizen,0.6181818181818182
+Black or African American,0,Latonya Washington,0.18148148148148147,citizen,0.7297297297297297
+Black or African American,0,Latonya Weaver,0.1984848484848485,citizen,0.7457627118644068
+Black or African American,0,Latonya Williams,0.11748251748251748,citizen,0.8088235294117647
+Black or African American,0,Latonya Wood,0.07320261437908504,citizen,0.7258064516129032
+Black or African American,0,Latoya Burke,0.23076923076923073,citizen,0.7903225806451613
+Black or African American,0,Latoya Carpenter,0.11538461538461542,citizen,0.5806451612903226
+Black or African American,0,Latoya Fox,0.1507936507936508,citizen,0.7
+Black or African American,0,Latoya Jackson,0.06638418079096053,citizen,0.8309859154929577
+Black or African American,0,Latoya Stone,0.10662525879917184,citizen,0.6461538461538462
+Black or African American,0,Latoya Sullivan,0.1785714285714286,citizen,0.4909090909090909
+Black or African American,0,Latoya Washington,0.005494505494505475,citizen,0.7636363636363637
+Black or African American,0,Latoya Weaver,0.09558823529411764,citizen,0.68
+Black or African American,0,Latoya Williams,0.07894736842105265,citizen,0.6666666666666666
+Black or African American,0,Latoya Wood,0.09999999999999998,citizen,0.6666666666666666
+Black or African American,0,Roosevelt Burke,0.10810810810810811,citizen,0.3508771929824561
+Black or African American,0,Roosevelt Carpenter,0.07499999999999996,citizen,0.26229508196721313
+Black or African American,0,Roosevelt Fox,0.07894736842105265,citizen,0.2830188679245283
+Black or African American,0,Roosevelt Jackson,-0.001322751322751392,citizen,0.4909090909090909
+Black or African American,0,Roosevelt Stone,0.06689342403628118,citizen,0.26865671641791045
+Black or African American,0,Roosevelt Sullivan,-0.00982800982800991,citizen,0.22916666666666666
+Black or African American,0,Roosevelt Washington,0.1365384615384616,citizen,0.3939393939393939
+Black or African American,0,Roosevelt Weaver,0.0444444444444444,citizen,0.35714285714285715
+Black or African American,0,Roosevelt Williams,0.021276595744680882,citizen,0.4050632911392405
+Black or African American,0,Roosevelt Wood,0.07692307692307687,citizen,0.3389830508474576
+Black or African American,0,Tamika Burke,-0.006393861892583064,citizen,0.7301587301587301
+Black or African American,0,Tamika Carpenter,-0.029550827423167836,citizen,0.7230769230769231
+Black or African American,0,Tamika Fox,-0.06000000000000005,citizen,0.7936507936507936
+Black or African American,0,Tamika Jackson,-0.039215686274509776,citizen,0.864406779661017
+Black or African American,0,Tamika Stone,0.07111111111111112,citizen,0.6428571428571429
+Black or African American,0,Tamika Sullivan,0.15384615384615385,citizen,0.6
+Black or African American,0,Tamika Washington,-0.01666666666666672,citizen,0.7058823529411765
+Black or African American,0,Tamika Weaver,0.1034077555816687,citizen,0.6166666666666667
+Black or African American,0,Tamika Williams,0.23113207547169812,citizen,0.8153846153846154
+Black or African American,0,Tamika Wood,0.09523809523809523,citizen,0.75
+Black or African American,0,Tanisha Burke,0.10526315789473684,citizen,0.6481481481481481
+Black or African American,0,Tanisha Carpenter,0.1333333333333333,citizen,0.7058823529411765
+Black or African American,0,Tanisha Fox,0.13387096774193552,citizen,0.7560975609756098
+Black or African American,0,Tanisha Jackson,0.01737451737451734,citizen,0.7254901960784313
+Black or African American,0,Tanisha Stone,0,citizen,0.7192982456140351
+Black or African American,0,Tanisha Sullivan,0.08666666666666667,citizen,0.5454545454545454
+Black or African American,0,Tanisha Washington,0.06818181818181823,citizen,0.8
+Black or African American,0,Tanisha Weaver,0.023809523809523836,citizen,0.6666666666666666
+Black or African American,0,Tanisha Williams,0.20238095238095233,citizen,0.7777777777777778
+Black or African American,0,Tanisha Wood,0.12063492063492065,citizen,0.6164383561643836
+Hispanic,0,Alejandro Garcia,0.0016025641025640969,citizen,0.7868852459016393
+Hispanic,0,Alejandro Gonzalez,-0.09389140271493213,citizen,0.7536231884057971
+Hispanic,0,Alejandro Hernandez,-0.17532467532467533,citizen,0.7924528301886793
+Hispanic,0,Alejandro Lopez,-0.02765957446808509,citizen,0.8245614035087719
+Hispanic,0,Alejandro Martinez,0.22448979591836737,citizen,0.7777777777777778
+Hispanic,0,Alejandro Perez,0.062146892655367214,citizen,0.8309859154929577
+Hispanic,0,Alejandro Ramirez,-0.07407407407407407,citizen,0.8571428571428571
+Hispanic,0,Alejandro Rodriguez,-0.003868471953578312,citizen,0.8103448275862069
+Hispanic,0,Alejandro Sanchez,0,citizen,0.8
+Hispanic,0,Alejandro Torres,0.23715846994535517,citizen,0.8026315789473685
+Hispanic,0,Guadalupe Garcia,-0.27818627450980393,citizen,0.7384615384615385
+Hispanic,0,Guadalupe Gonzalez,0.024159663865546244,citizen,0.7671232876712328
+Hispanic,0,Guadalupe Hernandez,0.016483516483516425,citizen,0.7878787878787878
+Hispanic,0,Guadalupe Lopez,-0.10565110565110569,citizen,0.7708333333333334
+Hispanic,0,Guadalupe Martinez,-0.10769230769230775,citizen,0.8387096774193549
+Hispanic,0,Guadalupe Perez,-0.08666666666666667,citizen,0.7352941176470589
+Hispanic,0,Guadalupe Ramirez,0.2860169491525424,citizen,0.7866666666666666
+Hispanic,0,Guadalupe Rodriguez,-0.25,citizen,0.875
+Hispanic,0,Guadalupe Sanchez,-0.07180851063829785,citizen,0.746031746031746
+Hispanic,0,Guadalupe Torres,-0.15413533834586468,citizen,0.7307692307692307
+Hispanic,0,Hector Garcia,0.18466898954703836,citizen,0.8541666666666666
+Hispanic,0,Hector Gonzalez,-0.18888888888888888,citizen,0.847457627118644
+Hispanic,0,Hector Hernandez,-0.08260869565217399,citizen,0.7540983606557377
+Hispanic,0,Hector Lopez,0.1257309941520467,citizen,0.76
+Hispanic,0,Hector Martinez,-0.055984555984555984,citizen,0.7254901960784313
+Hispanic,0,Hector Perez,-0.18206521739130432,citizen,0.676056338028169
+Hispanic,0,Hector Ramirez,-0.15217391304347827,citizen,0.8363636363636363
+Hispanic,0,Hector Rodriguez,-0.072072072072072,citizen,0.8604651162790697
+Hispanic,0,Hector Sanchez,-0.024822695035461084,citizen,0.7966101694915254
+Hispanic,0,Hector Torres,-0.03361344537815125,citizen,0.5483870967741935
+Hispanic,0,Javier Garcia,-0.09006211180124224,citizen,0.7666666666666667
+Hispanic,0,Javier Gonzalez,-0.2257575757575757,citizen,0.8208955223880597
+Hispanic,0,Javier Hernandez,-0.12252964426877477,citizen,0.8070175438596491
+Hispanic,0,Javier Lopez,-0.0835866261398176,citizen,0.7704918032786885
+Hispanic,0,Javier Martinez,-0.023679417122040136,citizen,0.8714285714285714
+Hispanic,0,Javier Perez,-0.07558139534883723,citizen,0.6825396825396826
+Hispanic,0,Javier Ramirez,-0.1253071253071253,citizen,0.7708333333333334
+Hispanic,0,Javier Rodriguez,-0.050000000000000044,citizen,0.8148148148148148
+Hispanic,0,Javier Sanchez,-0.02777777777777779,citizen,0.8524590163934426
+Hispanic,0,Javier Torres,0.06000000000000005,citizen,0.7142857142857143
+Hispanic,0,Jesus Garcia,-0.17032967032967028,citizen,0.7358490566037735
+Hispanic,0,Jesus Gonzalez,-0.019607843137254832,citizen,0.75
+Hispanic,0,Jesus Hernandez,-0.06211180124223603,citizen,0.7666666666666667
+Hispanic,0,Jesus Lopez,0.10833333333333339,citizen,0.8275862068965517
+Hispanic,0,Jesus Martinez,-0.050000000000000044,citizen,0.8275862068965517
+Hispanic,0,Jesus Perez,0.11111111111111105,citizen,0.85
+Hispanic,0,Jesus Ramirez,0.029032258064516148,citizen,0.8611111111111112
+Hispanic,0,Jesus Rodriguez,0.16231884057971013,citizen,0.7540983606557377
+Hispanic,0,Jesus Sanchez,-0.1120448179271708,citizen,0.7846153846153846
+Hispanic,0,Jesus Torres,0.05054945054945059,citizen,0.5737704918032787
+Hispanic,0,Jorge Garcia,-0.16899224806201552,citizen,0.7413793103448276
+Hispanic,0,Jorge Gonzalez,-0.26449275362318836,citizen,0.7931034482758621
+Hispanic,0,Jorge Hernandez,0.2467948717948718,citizen,0.7868852459016393
+Hispanic,0,Jorge Lopez,-0.11175616835994195,citizen,0.803030303030303
+Hispanic,0,Jorge Martinez,-0.013265306122448917,citizen,0.7101449275362319
+Hispanic,0,Jorge Perez,-0.0687361419068736,citizen,0.7884615384615384
+Hispanic,0,Jorge Ramirez,-0.050724637681159424,citizen,0.6571428571428571
+Hispanic,0,Jorge Rodriguez,-0.19121447028423766,citizen,0.8269230769230769
+Hispanic,0,Jorge Sanchez,-0.10416666666666663,citizen,0.75
+Hispanic,0,Jorge Torres,-0.042081949058693224,citizen,0.671875
+Hispanic,0,Juan Garcia,0.0033936651583710287,citizen,0.7536231884057971
+Hispanic,0,Juan Gonzalez,-0.132996632996633,citizen,0.8307692307692308
+Hispanic,0,Juan Hernandez,-0.004166666666666652,citizen,0.7619047619047619
+Hispanic,0,Juan Lopez,-0.008658008658008698,citizen,0.7924528301886793
+Hispanic,0,Juan Martinez,0.016913319238900604,citizen,0.7962962962962963
+Hispanic,0,Juan Perez,-0.042105263157894646,citizen,0.7916666666666666
+Hispanic,0,Juan Ramirez,-0.09748427672955984,citizen,0.8153846153846154
+Hispanic,0,Juan Rodriguez,0.14337568058076222,citizen,0.7532467532467533
+Hispanic,0,Juan Sanchez,0.11835748792270528,citizen,0.71875
+Hispanic,0,Juan Torres,0.15333333333333332,citizen,0.7352941176470589
+Hispanic,0,Julio Garcia,0.08307210031347956,citizen,0.8405797101449275
+Hispanic,0,Julio Gonzalez,-0.011166253101737023,citizen,0.8266666666666667
+Hispanic,0,Julio Hernandez,-0.18434343434343425,citizen,0.7096774193548387
+Hispanic,0,Julio Lopez,0.07509157509157505,citizen,0.7358490566037735
+Hispanic,0,Julio Martinez,0.1029411764705882,citizen,0.7384615384615385
+Hispanic,0,Julio Perez,-0.020408163265306145,citizen,0.875
+Hispanic,0,Julio Ramirez,-0.21130952380952372,citizen,0.8727272727272727
+Hispanic,0,Julio Rodriguez,0.08585858585858586,citizen,0.7857142857142857
+Hispanic,0,Julio Sanchez,-0.13876319758672695,citizen,0.6964285714285714
+Hispanic,0,Julio Torres,0.06349206349206349,citizen,0.7941176470588235
+Hispanic,0,Miguel Garcia,-0.033333333333333326,citizen,0.7831325301204819
+Hispanic,0,Miguel Gonzalez,-0.1843853820598007,citizen,0.7543859649122807
+Hispanic,0,Miguel Hernandez,0.02298850574712652,citizen,0.7945205479452054
+Hispanic,0,Miguel Lopez,-0.07923497267759572,citizen,0.8356164383561644
+Hispanic,0,Miguel Martinez,0.018003273322422242,citizen,0.7833333333333333
+Hispanic,0,Miguel Perez,-0.045882352941176485,citizen,0.746268656716418
+Hispanic,0,Miguel Ramirez,-0.3076923076923077,citizen,0.8125
+Hispanic,0,Miguel Rodriguez,-0.06190476190476191,citizen,0.7368421052631579
+Hispanic,0,Miguel Sanchez,-0.18434343434343425,citizen,0.8301886792452831
+Hispanic,0,Miguel Torres,0.06504065040650409,citizen,0.7321428571428571
+Hispanic,0,Salvador Garcia,0.06461538461538463,citizen,0.7936507936507936
+Hispanic,0,Salvador Gonzalez,-0.08385093167701863,citizen,0.8679245283018868
+Hispanic,0,Salvador Hernandez,-0.01477272727272727,citizen,0.7746478873239436
+Hispanic,0,Salvador Lopez,-0.18253968253968256,citizen,0.8235294117647058
+Hispanic,0,Salvador Martinez,-0.1053511705685618,citizen,0.7796610169491526
+Hispanic,0,Salvador Perez,0.1727574750830565,citizen,0.671875
+Hispanic,0,Salvador Ramirez,-0.2152133580705009,citizen,0.8166666666666667
+Hispanic,0,Salvador Rodriguez,-0.22689075630252098,citizen,0.7424242424242424
+Hispanic,0,Salvador Sanchez,0.5203252032520325,citizen,0.7321428571428571
+Hispanic,0,Salvador Torres,0.16541353383458646,citizen,0.8028169014084507
+White,0,David Hansen,-0.17479674796747968,education,0.7884615384615384
+White,0,David Hoffman,0.0662020905923345,education,0.8541666666666666
+White,0,David Johnston,-0.011430904266176767,education,0.7553191489361702
+White,0,David Larson,-0.0641025641025641,education,0.8125
+White,0,David Meyer,0.10227272727272729,education,0.8461538461538461
+White,0,David Olson,0.05025918413342345,education,0.8365384615384616
+White,0,David Ryan,-0.09408602150537632,education,0.8857142857142857
+White,0,David Schmidt,0.18398268398268403,education,0.8461538461538461
+White,0,David Snyder,-0.0879551820728291,education,0.8585858585858586
+White,0,David Wagner,0.07407407407407407,education,0.8571428571428571
+White,0,James Hansen,-0.10648148148148145,education,0.7241379310344828
+White,0,James Hoffman,0.07173725151253241,education,0.8725490196078431
+White,0,James Johnston,-0.11147684880403774,education,0.6125
+White,0,James Larson,NA,education,0.7526881720430108
+White,0,James Meyer,-0.08417508417508418,education,0.7864077669902912
+White,0,James Olson,0.06349206349206349,education,0.78125
+White,0,James Ryan,-0.11169652265542679,education,0.8488372093023255
+White,0,James Schmidt,-0.05435823754789276,education,0.8446601941747572
+White,0,James Snyder,-0.10220296135789092,education,0.8452380952380952
+White,0,James Wagner,-0.03711023276240666,education,0.7415730337078652
+White,0,John Hansen,NA,education,0.8043478260869565
+White,0,John Hoffman,0.05675029868578252,education,0.8378378378378378
+White,0,John Johnston,-0.12037962037962036,education,0.7475728155339806
+White,0,John Larson,-0.023867809057527556,education,0.819047619047619
+White,0,John Meyer,NA,education,0.8515625
+White,0,John Olson,0.016260162601625994,education,0.8282828282828283
+White,0,John Ryan,NA,education,0.8703703703703703
+White,0,John Schmidt,-0.10273466371027346,education,0.8817204301075269
+White,0,John Snyder,NA,education,0.8596491228070176
+White,0,John Wagner,-0.009654954099398538,education,0.7570093457943925
+White,0,Mark Hansen,-0.17411924119241196,education,0.8723404255319149
+White,0,Mark Hoffman,NA,education,0.8857142857142857
+White,0,Mark Johnston,0.005511328842620955,education,0.7553191489361702
+White,0,Mark Larson,0.11544715447154469,education,0.803921568627451
+White,0,Mark Meyer,0.03225806451612906,education,0.8857142857142857
+White,0,Mark Olson,0.007751937984496138,education,0.7889908256880734
+White,0,Mark Ryan,NA,education,0.8191489361702128
+White,0,Mark Schmidt,NA,education,0.8387096774193549
+White,0,Mark Snyder,-0.023663810689514453,education,0.819047619047619
+White,0,Mark Wagner,0.04520795660036164,education,0.8494623655913979
+White,0,Mary Hansen,-0.07973856209150326,education,0.8018867924528302
+White,0,Mary Hoffman,0.18518518518518517,education,0.84375
+White,0,Mary Johnston,0.047504025764895375,education,0.7578947368421053
+White,0,Mary Larson,NA,education,0.7471264367816092
+White,0,Mary Meyer,-0.0782520325203252,education,0.9111111111111111
+White,0,Mary Olson,-0.07398692810457513,education,0.8152173913043478
+White,0,Mary Ryan,0.006493506493506496,education,0.8842105263157894
+White,0,Mary Schmidt,NA,education,0.8241758241758241
+White,0,Mary Snyder,-0.06026831785345721,education,0.8482142857142857
+White,0,Mary Wagner,-0.14486638537271446,education,0.8144329896907216
+White,0,Michael Hansen,-0.018468468468468446,education,0.7872340425531915
+White,0,Michael Hoffman,-0.050671550671550714,education,0.8478260869565217
+White,0,Michael Johnston,0.035573899371069195,education,0.6235294117647059
+White,0,Michael Larson,0.08259348937315036,education,0.7375
+White,0,Michael Meyer,NA,education,0.8155339805825242
+White,0,Michael Olson,-0.047100215639541476,education,0.7295081967213115
+White,0,Michael Ryan,0.009803921568627472,education,0.7640449438202247
+White,0,Michael Schmidt,-0.021367521367521347,education,0.7878787878787878
+White,0,Michael Snyder,0.09254901960784312,education,0.8152173913043478
+White,0,Michael Wagner,0.06666666666666665,education,0.9
+White,0,Richard Hansen,0.2410889150019585,education,0.7628865979381443
+White,0,Richard Hoffman,0.1511627906976744,education,0.9247311827956989
+White,0,Richard Johnston,NA,education,0.7608695652173914
+White,0,Richard Larson,0.026994078718216685,education,0.7981651376146789
+White,0,Richard Meyer,NA,education,0.8645833333333334
+White,0,Richard Olson,0.12444444444444447,education,0.8333333333333334
+White,0,Richard Ryan,0.028409090909090884,education,0.8279569892473119
+White,0,Richard Schmidt,-0.047372954349698515,education,0.9052631578947369
+White,0,Richard Snyder,-0.030627415997621144,education,0.7564102564102564
+White,0,Richard Wagner,0.18120018752930142,education,0.8144329896907216
+White,0,Robert Hansen,NA,education,0.7980769230769231
+White,0,Robert Hoffman,-0.12330740420628056,education,0.8725490196078431
+White,0,Robert Johnston,-0.03247549019607843,education,0.68
+White,0,Robert Larson,NA,education,0.8141592920353983
+White,0,Robert Meyer,0.22291021671826622,education,0.8173076923076923
+White,0,Robert Olson,-0.1674897119341564,education,0.801980198019802
+White,0,Robert Ryan,NA,education,0.8181818181818182
+White,0,Robert Schmidt,-0.07781649245063876,education,0.7961165048543689
+White,0,Robert Snyder,NA,education,0.8899082568807339
+White,0,Robert Wagner,0.029824561403508754,education,0.8256880733944955
+White,0,Thomas Hansen,NA,education,0.8380952380952381
+White,0,Thomas Hoffman,NA,education,0.8230088495575221
+White,0,Thomas Johnston,0.09006690684508492,education,0.6979166666666666
+White,0,Thomas Larson,NA,education,0.839622641509434
+White,0,Thomas Meyer,0.05541125541125541,education,0.8641975308641975
+White,0,Thomas Olson,NA,education,0.85
+White,0,Thomas Ryan,0.013636363636363613,education,0.819672131147541
+White,0,Thomas Schmidt,-0.08159443552701984,education,0.8640776699029126
+White,0,Thomas Snyder,0.11403508771929821,education,0.9047619047619048
+White,0,Thomas Wagner,NA,education,0.9306930693069307
+White,0,William Hansen,0.031746031746031744,education,0.7741935483870968
+White,0,William Hoffman,-9.363295880149836e-4,education,0.8476190476190476
+White,0,William Johnston,0.07500000000000001,education,0.6896551724137931
+White,0,William Larson,-0.05298457411133467,education,0.8352941176470589
+White,0,William Meyer,-0.0037878787878787845,education,0.8
+White,0,William Olson,0.1452991452991453,education,0.717391304347826
+White,0,William Ryan,0.012987012987012991,education,0.7857142857142857
+White,0,William Schmidt,NA,education,0.8738738738738738
+White,0,William Snyder,NA,education,0.8695652173913043
+White,0,William Wagner,NA,education,0.8478260869565217
+Asian or Pacific Islander,0,Hong Chen,0.17399267399267404,education,0.8227848101265823
+Asian or Pacific Islander,0,Hong Kim,0.10262828535669588,education,0.734375
+Asian or Pacific Islander,0,Hong Le,0.11367127496159757,education,0.8157894736842105
+Asian or Pacific Islander,0,Hong Li,0.05990783410138251,education,0.8157894736842105
+Asian or Pacific Islander,0,Hong Nguyen,0.007960199004975133,education,0.7701149425287356
+Asian or Pacific Islander,0,Hong Patel,-0.08760951188986232,education,0.5802469135802469
+Asian or Pacific Islander,0,Hong Pham,NA,education,0.8255813953488372
+Asian or Pacific Islander,0,Hong Tran,0.027553159628631307,education,0.7162162162162162
+Asian or Pacific Islander,0,Hong Wang,-0.0018214936247722968,education,0.8714285714285714
+Asian or Pacific Islander,0,Hong Yang,-0.05954279638490162,education,0.7764705882352941
+Asian or Pacific Islander,0,Hung Chen,0.010025062656641603,education,0.890625
+Asian or Pacific Islander,0,Hung Kim,-0.1394901394901395,education,0.8513513513513513
+Asian or Pacific Islander,0,Hung Le,-0.015151515151515138,education,0.7333333333333333
+Asian or Pacific Islander,0,Hung Li,-0.07374368123699082,education,0.7564102564102564
+Asian or Pacific Islander,0,Hung Nguyen,NA,education,0.6666666666666666
+Asian or Pacific Islander,0,Hung Patel,0.0672594619243046,education,0.5584415584415584
+Asian or Pacific Islander,0,Hung Pham,0.02189542483660134,education,0.7183098591549296
+Asian or Pacific Islander,0,Hung Tran,-0.08971704623878535,education,0.6461538461538462
+Asian or Pacific Islander,0,Hung Wang,-0.06944444444444442,education,0.8823529411764706
+Asian or Pacific Islander,0,Hung Yang,0.11616161616161619,education,0.8354430379746836
+Asian or Pacific Islander,0,Jian Chen,-0.023391812865497075,education,0.75
+Asian or Pacific Islander,0,Jian Kim,0.10962962962962963,education,0.7352941176470589
+Asian or Pacific Islander,0,Jian Le,-0.006951340615690138,education,0.7361111111111112
+Asian or Pacific Islander,0,Jian Li,0.15865118850193477,education,0.881578947368421
+Asian or Pacific Islander,0,Jian Nguyen,0.1166666666666667,education,0.696969696969697
+Asian or Pacific Islander,0,Jian Patel,NA,education,0.43902439024390244
+Asian or Pacific Islander,0,Jian Pham,NA,education,0.7945205479452054
+Asian or Pacific Islander,0,Jian Tran,0.0381400208986416,education,0.725
+Asian or Pacific Islander,0,Jian Wang,NA,education,0.8108108108108109
+Asian or Pacific Islander,0,Jian Yang,0.1138392857142857,education,0.8205128205128205
+Asian or Pacific Islander,0,Jin Chen,0.12068965517241381,education,0.8529411764705882
+Asian or Pacific Islander,0,Jin Kim,0.028571428571428525,education,0.8333333333333334
+Asian or Pacific Islander,0,Jin Le,NA,education,0.8333333333333334
+Asian or Pacific Islander,0,Jin Li,-0.004040404040404066,education,0.7857142857142857
+Asian or Pacific Islander,0,Jin Nguyen,0.06197964847363552,education,0.6714285714285714
+Asian or Pacific Islander,0,Jin Patel,-0.07671957671957669,education,0.4827586206896552
+Asian or Pacific Islander,0,Jin Pham,NA,education,0.7558139534883721
+Asian or Pacific Islander,0,Jin Tran,NA,education,0.7666666666666667
+Asian or Pacific Islander,0,Jin Wang,0.023310023310023298,education,0.8354430379746836
+Asian or Pacific Islander,0,Jin Yang,0.21577847439916403,education,0.8405797101449275
+Asian or Pacific Islander,0,Li Chen,-0.1314102564102564,education,0.8666666666666667
+Asian or Pacific Islander,0,Li Kim,0.04656862745098039,education,0.7901234567901234
+Asian or Pacific Islander,0,Li Le,-0.00773249738766979,education,0.6547619047619048
+Asian or Pacific Islander,0,Li Li,NA,education,0.8064516129032258
+Asian or Pacific Islander,0,Li Nguyen,0.04845173041894352,education,0.8026315789473685
+Asian or Pacific Islander,0,Li Patel,0.10276287020473074,education,0.47560975609756095
+Asian or Pacific Islander,0,Li Pham,0.09929078014184395,education,0.7833333333333333
+Asian or Pacific Islander,0,Li Tran,-0.08192090395480228,education,0.8309859154929577
+Asian or Pacific Islander,0,Li Wang,NA,education,0.7894736842105263
+Asian or Pacific Islander,0,Li Yang,0.21438596491228068,education,0.7246376811594203
+Asian or Pacific Islander,0,Minh Chen,-0.11702127659574468,education,0.7966101694915254
+Asian or Pacific Islander,0,Minh Kim,0.24305555555555558,education,0.7611940298507462
+Asian or Pacific Islander,0,Minh Le,NA,education,0.810126582278481
+Asian or Pacific Islander,0,Minh Li,NA,education,0.7922077922077922
+Asian or Pacific Islander,0,Minh Nguyen,-0.0447089947089947,education,0.7590361445783133
+Asian or Pacific Islander,0,Minh Patel,-0.006079027355623101,education,0.37333333333333335
+Asian or Pacific Islander,0,Minh Pham,-0.07708665603402448,education,0.7215189873417721
+Asian or Pacific Islander,0,Minh Tran,-0.018315018315018305,education,0.6176470588235294
+Asian or Pacific Islander,0,Minh Wang,NA,education,0.7922077922077922
+Asian or Pacific Islander,0,Minh Yang,-0.07359924026590692,education,0.8059701492537313
+Asian or Pacific Islander,0,Thanh Chen,-0.06360153256704981,education,0.7945205479452054
+Asian or Pacific Islander,0,Thanh Kim,0.0010822510822510734,education,0.7586206896551724
+Asian or Pacific Islander,0,Thanh Le,-0.10209846650524618,education,0.8082191780821918
+Asian or Pacific Islander,0,Thanh Li,NA,education,0.8125
+Asian or Pacific Islander,0,Thanh Nguyen,-0.035220125786163514,education,0.6794871794871795
+Asian or Pacific Islander,0,Thanh Patel,-0.15217391304347827,education,0.352112676056338
+Asian or Pacific Islander,0,Thanh Pham,NA,education,0.6582278481012658
+Asian or Pacific Islander,0,Thanh Tran,-0.013888888888888895,education,0.676056338028169
+Asian or Pacific Islander,0,Thanh Wang,0.004273504273504258,education,0.8524590163934426
+Asian or Pacific Islander,0,Thanh Yang,0.07021604938271603,education,0.7714285714285715
+Asian or Pacific Islander,0,Wei Chen,-0.06814814814814812,education,0.7352941176470589
+Asian or Pacific Islander,0,Wei Kim,-0.02647058823529408,education,0.7727272727272727
+Asian or Pacific Islander,0,Wei Le,-0.11680911680911682,education,0.8059701492537313
+Asian or Pacific Islander,0,Wei Li,-0.06830601092896177,education,0.9104477611940298
+Asian or Pacific Islander,0,Wei Nguyen,-0.0870175438596491,education,0.7246376811594203
+Asian or Pacific Islander,0,Wei Patel,NA,education,0.5185185185185185
+Asian or Pacific Islander,0,Wei Pham,0.012810457516339913,education,0.6710526315789473
+Asian or Pacific Islander,0,Wei Tran,0.00694444444444442,education,0.75
+Asian or Pacific Islander,0,Wei Wang,0.06825396825396823,education,0.7407407407407407
+Asian or Pacific Islander,0,Wei Yang,0.15310734463276837,education,0.855072463768116
+Asian or Pacific Islander,0,Yong Chen,0.07051282051282054,education,0.7878787878787878
+Asian or Pacific Islander,0,Yong Kim,0.096045197740113,education,0.8194444444444444
+Asian or Pacific Islander,0,Yong Le,NA,education,0.7101449275362319
+Asian or Pacific Islander,0,Yong Li,NA,education,0.7931034482758621
+Asian or Pacific Islander,0,Yong Nguyen,-0.11342592592592599,education,0.7714285714285715
+Asian or Pacific Islander,0,Yong Patel,0.15228267667292056,education,0.6119402985074627
+Asian or Pacific Islander,0,Yong Pham,-0.0981818181818182,education,0.819672131147541
+Asian or Pacific Islander,0,Yong Tran,-0.08944444444444444,education,0.7575757575757576
+Asian or Pacific Islander,0,Yong Wang,0.0845588235294118,education,0.7901234567901234
+Asian or Pacific Islander,0,Yong Yang,0.004465709728867617,education,0.7432432432432432
+Asian or Pacific Islander,0,Young Chen,0.04925373134328359,education,0.7701149425287356
+Asian or Pacific Islander,0,Young Kim,-0.08865248226950356,education,0.7230769230769231
+Asian or Pacific Islander,0,Young Le,-0.06042884990253411,education,0.8636363636363636
+Asian or Pacific Islander,0,Young Li,0.07473544973544977,education,0.8615384615384616
+Asian or Pacific Islander,0,Young Nguyen,-0.08678286129266516,education,0.7605633802816901
+Asian or Pacific Islander,0,Young Patel,0.06666666666666665,education,0.26666666666666666
+Asian or Pacific Islander,0,Young Pham,0.05555555555555558,education,0.7058823529411765
+Asian or Pacific Islander,0,Young Tran,0.08695652173913043,education,0.676056338028169
+Asian or Pacific Islander,0,Young Wang,-0.019400352733686066,education,0.7941176470588235
+Asian or Pacific Islander,0,Young Yang,0.10644257703081234,education,0.7424242424242424
+Asian or Pacific Islander,1,Alan Chen,0.17164898746383805,education,0.782051282051282
+Asian or Pacific Islander,1,Alan Kim,0.04669887278582929,education,0.6617647058823529
+Asian or Pacific Islander,1,Alan Le,NA,education,0.6206896551724138
+Asian or Pacific Islander,1,Alan Li,-0.12264723740133576,education,0.7721518987341772
+Asian or Pacific Islander,1,Alan Nguyen,-0.010147918816649448,education,0.6263736263736264
+Asian or Pacific Islander,1,Alan Patel,-0.047619047619047616,education,0.16666666666666666
+Asian or Pacific Islander,1,Alan Pham,NA,education,0.65
+Asian or Pacific Islander,1,Alan Tran,-0.0222222222222222,education,0.4
+Asian or Pacific Islander,1,Alan Wang,NA,education,0.8513513513513513
+Asian or Pacific Islander,1,Alan Yang,-0.07175925925925924,education,0.7377049180327869
+Asian or Pacific Islander,1,Albert Chen,-0.10758513931888547,education,0.7816091954022989
+Asian or Pacific Islander,1,Albert Kim,0.040552584670231706,education,0.5641025641025641
+Asian or Pacific Islander,1,Albert Le,0.05518600640551863,education,0.5540540540540541
+Asian or Pacific Islander,1,Albert Li,0.16738443870226816,education,0.6142857142857143
+Asian or Pacific Islander,1,Albert Nguyen,0.10144927536231885,education,0.647887323943662
+Asian or Pacific Islander,1,Albert Patel,NA,education,0.2702702702702703
+Asian or Pacific Islander,1,Albert Pham,NA,education,0.4925373134328358
+Asian or Pacific Islander,1,Albert Tran,NA,education,0.4878048780487805
+Asian or Pacific Islander,1,Albert Wang,0.0065359477124182774,education,0.75
+Asian or Pacific Islander,1,Albert Yang,0.13278293773649813,education,0.7285714285714285
+Asian or Pacific Islander,1,Alex Chen,NA,education,0.7101449275362319
+Asian or Pacific Islander,1,Alex Kim,NA,education,0.6301369863013698
+Asian or Pacific Islander,1,Alex Le,NA,education,0.6176470588235294
+Asian or Pacific Islander,1,Alex Li,-0.010131712259371817,education,0.6911764705882353
+Asian or Pacific Islander,1,Alex Nguyen,NA,education,0.5441176470588235
+Asian or Pacific Islander,1,Alex Patel,0.0733333333333333,education,0.3333333333333333
+Asian or Pacific Islander,1,Alex Pham,NA,education,0.524390243902439
+Asian or Pacific Islander,1,Alex Tran,0.03125,education,0.5294117647058824
+Asian or Pacific Islander,1,Alex Wang,-0.07142857142857145,education,0.7
+Asian or Pacific Islander,1,Alex Yang,-0.06673546611627112,education,0.7285714285714285
+Asian or Pacific Islander,1,Alice Chen,0.010893246187363814,education,0.7605633802816901
+Asian or Pacific Islander,1,Alice Kim,-0.022361359570661876,education,0.6231884057971014
+Asian or Pacific Islander,1,Alice Le,0.05503546099290779,education,0.6527777777777778
+Asian or Pacific Islander,1,Alice Li,0.022515527950310532,education,0.7088607594936709
+Asian or Pacific Islander,1,Alice Nguyen,0.04217854217854217,education,0.6271186440677966
+Asian or Pacific Islander,1,Alice Patel,0.233187134502924,education,0.2191780821917808
+Asian or Pacific Islander,1,Alice Pham,0.06483739837398372,education,0.5061728395061729
+Asian or Pacific Islander,1,Alice Tran,0.07777777777777778,education,0.5
+Asian or Pacific Islander,1,Alice Wang,-0.047435897435897434,education,0.7222222222222222
+Asian or Pacific Islander,1,Alice Yang,0.07712418300653595,education,0.7258064516129032
+Asian or Pacific Islander,1,Amy Chen,0.02014294996751137,education,0.7397260273972602
+Asian or Pacific Islander,1,Amy Kim,NA,education,0.620253164556962
+Asian or Pacific Islander,1,Amy Le,0.19152542372881354,education,0.7468354430379747
+Asian or Pacific Islander,1,Amy Li,0.16854990583804141,education,0.8309859154929577
+Asian or Pacific Islander,1,Amy Nguyen,-0.0614216701173223,education,0.6461538461538462
+Asian or Pacific Islander,1,Amy Patel,0.0801217038539554,education,0.22666666666666666
+Asian or Pacific Islander,1,Amy Pham,-0.007623403849818966,education,0.6162790697674418
+Asian or Pacific Islander,1,Amy Tran,0.08333333333333337,education,0.5
+Asian or Pacific Islander,1,Amy Wang,0.0892857142857143,education,0.7671232876712328
+Asian or Pacific Islander,1,Amy Yang,0.07070707070707072,education,0.8301886792452831
+Asian or Pacific Islander,1,Andrew Chen,NA,education,0.725
+Asian or Pacific Islander,1,Andrew Kim,0.07548125633232017,education,0.6266666666666667
+Asian or Pacific Islander,1,Andrew Le,-0.08395061728395065,education,0.7297297297297297
+Asian or Pacific Islander,1,Andrew Li,NA,education,0.7011494252873564
+Asian or Pacific Islander,1,Andrew Nguyen,NA,education,0.6857142857142857
+Asian or Pacific Islander,1,Andrew Patel,0.12626262626262624,education,0.3142857142857143
+Asian or Pacific Islander,1,Andrew Pham,NA,education,0.5
+Asian or Pacific Islander,1,Andrew Tran,-0.05776598880047157,education,0.5735294117647058
+Asian or Pacific Islander,1,Andrew Wang,0.11944444444444441,education,0.7619047619047619
+Asian or Pacific Islander,1,Andrew Yang,NA,education,0.7108433734939759
+Asian or Pacific Islander,1,Andy Chen,0.18842105263157893,education,0.7246376811594203
+Asian or Pacific Islander,1,Andy Kim,-0.0021645021645021467,education,0.56
+Asian or Pacific Islander,1,Andy Le,0.09302325581395349,education,0.5512820512820513
+Asian or Pacific Islander,1,Andy Li,NA,education,0.7281553398058253
+Asian or Pacific Islander,1,Andy Nguyen,0.05477855477855481,education,0.6285714285714286
+Asian or Pacific Islander,1,Andy Patel,0.009090909090909094,education,0.2857142857142857
+Asian or Pacific Islander,1,Andy Pham,NA,education,0.4507042253521127
+Asian or Pacific Islander,1,Andy Tran,0.046031746031746035,education,0.4878048780487805
+Asian or Pacific Islander,1,Andy Wang,0.0919191919191919,education,0.8450704225352113
+Asian or Pacific Islander,1,Andy Yang,0.019317160826594792,education,0.7910447761194029
+Asian or Pacific Islander,1,Cecilia Chen,-0.12337421033073209,education,0.6290322580645161
+Asian or Pacific Islander,1,Cecilia Kim,-0.020979020979020935,education,0.4583333333333333
+Asian or Pacific Islander,1,Cecilia Le,NA,education,0.5662650602409639
+Asian or Pacific Islander,1,Cecilia Li,-0.04028985507246374,education,0.647887323943662
+Asian or Pacific Islander,1,Cecilia Nguyen,0.015345765345765316,education,0.611764705882353
+Asian or Pacific Islander,1,Cecilia Patel,0.10370370370370374,education,0.25
+Asian or Pacific Islander,1,Cecilia Pham,0.031746031746031744,education,0.6
+Asian or Pacific Islander,1,Cecilia Tran,NA,education,0.5714285714285714
+Asian or Pacific Islander,1,Cecilia Wang,0.056491228070175425,education,0.7246376811594203
+Asian or Pacific Islander,1,Cecilia Yang,-0.012222222222222245,education,0.7058823529411765
+Asian or Pacific Islander,1,Cindy Chen,NA,education,0.6716417910447762
+Asian or Pacific Islander,1,Cindy Kim,0.0514258999532492,education,0.5974025974025974
+Asian or Pacific Islander,1,Cindy Le,-0.02490421455938696,education,0.7073170731707317
+Asian or Pacific Islander,1,Cindy Li,NA,education,0.8032786885245902
+Asian or Pacific Islander,1,Cindy Nguyen,0.15336134453781514,education,0.6455696202531646
+Asian or Pacific Islander,1,Cindy Patel,0.14880952380952378,education,0.2727272727272727
+Asian or Pacific Islander,1,Cindy Pham,-0.036987818383167226,education,0.44871794871794873
+Asian or Pacific Islander,1,Cindy Tran,0.006944444444444475,education,0.6
+Asian or Pacific Islander,1,Cindy Wang,0.15143369175627241,education,0.7209302325581395
+Asian or Pacific Islander,1,Cindy Yang,NA,education,0.7272727272727273
+Asian or Pacific Islander,1,Dan Chen,NA,education,0.6666666666666666
+Asian or Pacific Islander,1,Dan Kim,NA,education,0.7727272727272727
+Asian or Pacific Islander,1,Dan Le,-0.022727272727272707,education,0.6666666666666666
+Asian or Pacific Islander,1,Dan Li,0.14909090909090905,education,0.6875
+Asian or Pacific Islander,1,Dan Nguyen,0.012383900928792602,education,0.7285714285714285
+Asian or Pacific Islander,1,Dan Patel,0.060256410256410264,education,0.2777777777777778
+Asian or Pacific Islander,1,Dan Pham,0.08378705384150031,education,0.5671641791044776
+Asian or Pacific Islander,1,Dan Tran,NA,education,0.6195652173913043
+Asian or Pacific Islander,1,Dan Wang,NA,education,0.7272727272727273
+Asian or Pacific Islander,1,Dan Yang,-0.1392857142857143,education,0.8484848484848485
+Asian or Pacific Islander,1,David Chen,0.05347593582887705,education,0.7638888888888888
+Asian or Pacific Islander,1,David Kim,0.2048387096774193,education,0.5633802816901409
+Asian or Pacific Islander,1,David Le,0.058760683760683774,education,0.6190476190476191
+Asian or Pacific Islander,1,David Li,-0.017758046614872403,education,0.7571428571428571
+Asian or Pacific Islander,1,David Nguyen,0.14794871794871794,education,0.6753246753246753
+Asian or Pacific Islander,1,David Patel,0.12698412698412703,education,0.3333333333333333
+Asian or Pacific Islander,1,David Pham,0.02857142857142858,education,0.46153846153846156
+Asian or Pacific Islander,1,David Tran,NA,education,0.5194805194805194
+Asian or Pacific Islander,1,David Wang,0.010721247563352798,education,0.76
+Asian or Pacific Islander,1,David Yang,0.14000687994496047,education,0.7702702702702703
+Asian or Pacific Islander,1,Eric Chen,0.05757575757575756,education,0.6451612903225806
+Asian or Pacific Islander,1,Eric Kim,0.05263157894736842,education,0.75
+Asian or Pacific Islander,1,Eric Le,-0.06737588652482274,education,0.7014925373134329
+Asian or Pacific Islander,1,Eric Li,-0.06559877955758969,education,0.7076923076923077
+Asian or Pacific Islander,1,Eric Nguyen,0.05833333333333335,education,0.6666666666666666
+Asian or Pacific Islander,1,Eric Patel,0.2708333333333333,education,0.2835820895522388
+Asian or Pacific Islander,1,Eric Pham,-0.07341490545050056,education,0.5166666666666667
+Asian or Pacific Islander,1,Eric Tran,-0.03223997757218949,education,0.5857142857142857
+Asian or Pacific Islander,1,Eric Wang,NA,education,0.7972972972972973
+Asian or Pacific Islander,1,Eric Yang,-0.0613956274333633,education,0.7162162162162162
+Asian or Pacific Islander,1,Grace Chen,0.09472222222222226,education,0.8241758241758241
+Asian or Pacific Islander,1,Grace Kim,0.055864197530864246,education,0.5970149253731343
+Asian or Pacific Islander,1,Grace Le,NA,education,0.625
+Asian or Pacific Islander,1,Grace Li,-0.07659574468085106,education,0.7014925373134329
+Asian or Pacific Islander,1,Grace Nguyen,0.13515151515151513,education,0.6944444444444444
+Asian or Pacific Islander,1,Grace Patel,-0.024197530864197514,education,0.35064935064935066
+Asian or Pacific Islander,1,Grace Pham,0.03508771929824561,education,0.5
+Asian or Pacific Islander,1,Grace Tran,0.04544544544544543,education,0.5487804878048781
+Asian or Pacific Islander,1,Grace Wang,0.0185483870967742,education,0.5633802816901409
+Asian or Pacific Islander,1,Grace Yang,0.21156462585034014,education,0.8305084745762712
+Asian or Pacific Islander,1,Jane Chen,0.07608695652173914,education,0.6571428571428571
+Asian or Pacific Islander,1,Jane Kim,-0.06513409961685823,education,0.7341772151898734
+Asian or Pacific Islander,1,Jane Le,0.06318082788671026,education,0.7391304347826086
+Asian or Pacific Islander,1,Jane Li,0.10921177587844255,education,0.8059701492537313
+Asian or Pacific Islander,1,Jane Nguyen,0.0888286660644384,education,0.6029411764705882
+Asian or Pacific Islander,1,Jane Patel,0.18568665377176008,education,0.1896551724137931
+Asian or Pacific Islander,1,Jane Pham,0.05866114561766739,education,0.5227272727272727
+Asian or Pacific Islander,1,Jane Tran,NA,education,0.45569620253164556
+Asian or Pacific Islander,1,Jane Wang,-0.011111111111111127,education,0.75
+Asian or Pacific Islander,1,Jane Yang,NA,education,0.8032786885245902
+Asian or Pacific Islander,1,Jennifer Chen,0.03300865800865799,education,0.717948717948718
+Asian or Pacific Islander,1,Jennifer Kim,0.06063492063492065,education,0.6268656716417911
+Asian or Pacific Islander,1,Jennifer Le,0.0970328789093825,education,0.5972222222222222
+Asian or Pacific Islander,1,Jennifer Li,0.113265306122449,education,0.7101449275362319
+Asian or Pacific Islander,1,Jennifer Nguyen,0.11660692951015528,education,0.5921052631578947
+Asian or Pacific Islander,1,Jennifer Patel,0.07037037037037036,education,0.2702702702702703
+Asian or Pacific Islander,1,Jennifer Pham,NA,education,0.4666666666666667
+Asian or Pacific Islander,1,Jennifer Tran,0.08383838383838382,education,0.47619047619047616
+Asian or Pacific Islander,1,Jennifer Wang,0.09487179487179487,education,0.7222222222222222
+Asian or Pacific Islander,1,Jennifer Yang,0.0022262699858328072,education,0.6931818181818182
+Asian or Pacific Islander,1,Jenny Chen,0.06632277081798088,education,0.7195121951219512
+Asian or Pacific Islander,1,Jenny Kim,-0.12601626016260165,education,0.6721311475409836
+Asian or Pacific Islander,1,Jenny Le,0.07833333333333337,education,0.6153846153846154
+Asian or Pacific Islander,1,Jenny Li,0.010159651669085668,education,0.803030303030303
+Asian or Pacific Islander,1,Jenny Nguyen,0.06356292517006806,education,0.6049382716049383
+Asian or Pacific Islander,1,Jenny Patel,NA,education,0.2222222222222222
+Asian or Pacific Islander,1,Jenny Pham,NA,education,0.4794520547945205
+Asian or Pacific Islander,1,Jenny Tran,-0.04044489383215366,education,0.6515151515151515
+Asian or Pacific Islander,1,Jenny Wang,NA,education,0.671875
+Asian or Pacific Islander,1,Jenny Yang,-0.07397424378556455,education,0.7162162162162162
+Asian or Pacific Islander,1,May Chen,NA,education,0.8777777777777778
+Asian or Pacific Islander,1,May Kim,NA,education,0.7424242424242424
+Asian or Pacific Islander,1,May Le,-0.20203081232492998,education,0.7671232876712328
+Asian or Pacific Islander,1,May Li,0.06318840579710144,education,0.684931506849315
+Asian or Pacific Islander,1,May Nguyen,0.06243032329988851,education,0.6933333333333334
+Asian or Pacific Islander,1,May Patel,NA,education,0.3625
+Asian or Pacific Islander,1,May Pham,NA,education,0.7066666666666667
+Asian or Pacific Islander,1,May Tran,NA,education,0.6
+Asian or Pacific Islander,1,May Wang,0.030409356725146164,education,0.7916666666666666
+Asian or Pacific Islander,1,May Yang,0.13793103448275862,education,0.8285714285714286
+Asian or Pacific Islander,1,Peter Chen,0.1887670322366235,education,0.7763157894736842
+Asian or Pacific Islander,1,Peter Kim,0.04279069767441862,education,0.6323529411764706
+Asian or Pacific Islander,1,Peter Le,-0.042958656330749356,education,0.6417910447761194
+Asian or Pacific Islander,1,Peter Li,0.04957264957264956,education,0.821917808219178
+Asian or Pacific Islander,1,Peter Nguyen,NA,education,0.5652173913043478
+Asian or Pacific Islander,1,Peter Patel,0.18386370941819352,education,0.21794871794871795
+Asian or Pacific Islander,1,Peter Pham,-0.08333333333333331,education,0.5362318840579711
+Asian or Pacific Islander,1,Peter Tran,NA,education,0.5543478260869565
+Asian or Pacific Islander,1,Peter Wang,0.09694989106753815,education,0.7391304347826086
+Asian or Pacific Islander,1,Peter Yang,0.1648148148148148,education,0.6923076923076923
+Asian or Pacific Islander,1,Sam Chen,0.047017543859649125,education,0.6951219512195121
+Asian or Pacific Islander,1,Sam Kim,0.01093355761143816,education,0.5857142857142857
+Asian or Pacific Islander,1,Sam Le,0.099906629318394,education,0.7083333333333334
+Asian or Pacific Islander,1,Sam Li,NA,education,0.7123287671232876
+Asian or Pacific Islander,1,Sam Nguyen,0.0016666666666666496,education,0.6756756756756757
+Asian or Pacific Islander,1,Sam Patel,0.0602593440122044,education,0.23232323232323232
+Asian or Pacific Islander,1,Sam Pham,0.02471702471702475,education,0.5131578947368421
+Asian or Pacific Islander,1,Sam Tran,0.062289562289562284,education,0.55
+Asian or Pacific Islander,1,Sam Wang,NA,education,0.6708860759493671
+Asian or Pacific Islander,1,Sam Yang,0.052410901467505266,education,0.7794117647058824
+Asian or Pacific Islander,1,Vivian Chen,0.14912280701754388,education,0.6984126984126984
+Asian or Pacific Islander,1,Vivian Kim,-0.08760683760683757,education,0.6486486486486487
+Asian or Pacific Islander,1,Vivian Le,NA,education,0.5774647887323944
+Asian or Pacific Islander,1,Vivian Li,0.098111658456486,education,0.6588235294117647
+Asian or Pacific Islander,1,Vivian Nguyen,NA,education,0.6
+Asian or Pacific Islander,1,Vivian Patel,NA,education,0.25675675675675674
+Asian or Pacific Islander,1,Vivian Pham,-0.11252834467120176,education,0.6712328767123288
+Asian or Pacific Islander,1,Vivian Tran,-0.001949317738791423,education,0.5135135135135135
+Asian or Pacific Islander,1,Vivian Wang,-0.043052003410059714,education,0.7301587301587301
+Asian or Pacific Islander,1,Vivian Yang,0.07222222222222224,education,0.75
+Black or African American,0,Darnell Burke,-0.10202702702702704,education,0.4805194805194805
+Black or African American,0,Darnell Carpenter,NA,education,0.5932203389830508
+Black or African American,0,Darnell Fox,-0.11333333333333334,education,0.6153846153846154
+Black or African American,0,Darnell Jackson,NA,education,0.6935483870967742
+Black or African American,0,Darnell Stone,-0.10267857142857145,education,0.5333333333333333
+Black or African American,0,Darnell Sullivan,-0.08278388278388282,education,0.4262295081967213
+Black or African American,0,Darnell Washington,-0.14404761904761904,education,0.5932203389830508
+Black or African American,0,Darnell Weaver,-0.19827586206896547,education,0.5245901639344263
+Black or African American,0,Darnell Williams,-0.08148148148148149,education,0.6923076923076923
+Black or African American,0,Darnell Wood,NA,education,0.620253164556962
+Black or African American,0,Ebony Burke,-0.04478632478632477,education,0.609375
+Black or African American,0,Ebony Carpenter,-0.13440860215053763,education,0.6078431372549019
+Black or African American,0,Ebony Fox,-0.10515873015873017,education,0.7241379310344828
+Black or African American,0,Ebony Jackson,NA,education,0.7636363636363637
+Black or African American,0,Ebony Stone,-0.03603603603603606,education,0.6727272727272727
+Black or African American,0,Ebony Sullivan,-0.11183261183261184,education,0.5409836065573771
+Black or African American,0,Ebony Washington,-0.06043204812687997,education,0.6973684210526315
+Black or African American,0,Ebony Weaver,NA,education,0.6785714285714286
+Black or African American,0,Ebony Williams,-0.1675724637681159,education,0.7419354838709677
+Black or African American,0,Ebony Wood,-0.09377967711301044,education,0.6582278481012658
+Black or African American,0,Jermaine Burke,0.002947244326554632,education,0.5735294117647058
+Black or African American,0,Jermaine Carpenter,-0.17142857142857143,education,0.5555555555555556
+Black or African American,0,Jermaine Fox,NA,education,0.6181818181818182
+Black or African American,0,Jermaine Jackson,-0.09963985594237695,education,0.7424242424242424
+Black or African American,0,Jermaine Stone,NA,education,0.5230769230769231
+Black or African American,0,Jermaine Sullivan,0.0065217391304348005,education,0.696969696969697
+Black or African American,0,Jermaine Washington,-0.18986568986568989,education,0.6176470588235294
+Black or African American,0,Jermaine Weaver,-0.18256410256410258,education,0.609375
+Black or African American,0,Jermaine Williams,-0.047504025764895375,education,0.71875
+Black or African American,0,Jermaine Wood,-0.1901595744680851,education,0.746031746031746
+Black or African American,0,Lakisha Burke,-0.2787068004459309,education,0.6388888888888888
+Black or African American,0,Lakisha Carpenter,-0.16435185185185183,education,0.7272727272727273
+Black or African American,0,Lakisha Fox,-0.0946915351506456,education,0.7068965517241379
+Black or African American,0,Lakisha Jackson,-0.2292682926829268,education,0.8913043478260869
+Black or African American,0,Lakisha Stone,NA,education,0.7894736842105263
+Black or African American,0,Lakisha Sullivan,-0.06060606060606061,education,0.7096774193548387
+Black or African American,0,Lakisha Washington,-0.20634920634920637,education,0.75
+Black or African American,0,Lakisha Weaver,-0.18163054695562436,education,0.6909090909090909
+Black or African American,0,Lakisha Williams,-0.18789308176100628,education,0.7681159420289855
+Black or African American,0,Lakisha Wood,NA,education,0.8490566037735849
+Black or African American,0,Latasha Burke,NA,education,0.8064516129032258
+Black or African American,0,Latasha Carpenter,-0.1264679313459801,education,0.6949152542372882
+Black or African American,0,Latasha Fox,-0.13492063492063494,education,0.75
+Black or African American,0,Latasha Jackson,-0.1752136752136752,education,0.8524590163934426
+Black or African American,0,Latasha Stone,-0.20149602618045814,education,0.5740740740740741
+Black or African American,0,Latasha Sullivan,-0.24901960784313726,education,0.6296296296296297
+Black or African American,0,Latasha Washington,-0.28428213390619406,education,0.7205882352941176
+Black or African American,0,Latasha Weaver,-0.23249299719887953,education,0.6181818181818182
+Black or African American,0,Latasha Williams,NA,education,0.782608695652174
+Black or African American,0,Latasha Wood,-0.1781305114638448,education,0.6086956521739131
+Black or African American,0,Latonya Burke,-0.038277511961722493,education,0.6333333333333333
+Black or African American,0,Latonya Carpenter,-0.17748917748917747,education,0.65625
+Black or African American,0,Latonya Fox,-0.011982570806100212,education,0.7605633802816901
+Black or African American,0,Latonya Jackson,NA,education,0.71875
+Black or African American,0,Latonya Stone,NA,education,0.7272727272727273
+Black or African American,0,Latonya Sullivan,-0.025676937441643344,education,0.6181818181818182
+Black or African American,0,Latonya Washington,-0.043209876543209846,education,0.7297297297297297
+Black or African American,0,Latonya Weaver,-0.03838383838383841,education,0.7457627118644068
+Black or African American,0,Latonya Williams,-0.01678321678321676,education,0.8088235294117647
+Black or African American,0,Latonya Wood,-0.027015250544662306,education,0.7258064516129032
+Black or African American,0,Latoya Burke,-0.14338042909471482,education,0.7903225806451613
+Black or African American,0,Latoya Carpenter,NA,education,0.5806451612903226
+Black or African American,0,Latoya Fox,-0.14021164021164023,education,0.7
+Black or African American,0,Latoya Jackson,-0.12853107344632764,education,0.8309859154929577
+Black or African American,0,Latoya Stone,NA,education,0.6461538461538462
+Black or African American,0,Latoya Sullivan,NA,education,0.4909090909090909
+Black or African American,0,Latoya Washington,-0.21733821733821734,education,0.7636363636363637
+Black or African American,0,Latoya Weaver,-0.2549019607843137,education,0.68
+Black or African American,0,Latoya Williams,-0.0789473684210526,education,0.6666666666666666
+Black or African American,0,Latoya Wood,-0.16666666666666663,education,0.6666666666666666
+Black or African American,0,Roosevelt Burke,NA,education,0.3508771929824561
+Black or African American,0,Roosevelt Carpenter,-0.06481481481481483,education,0.26229508196721313
+Black or African American,0,Roosevelt Fox,-0.2345029239766082,education,0.2830188679245283
+Black or African American,0,Roosevelt Jackson,-0.1450617283950617,education,0.4909090909090909
+Black or African American,0,Roosevelt Stone,-0.07067271352985638,education,0.26865671641791045
+Black or African American,0,Roosevelt Sullivan,-0.08681408681408681,education,0.22916666666666666
+Black or African American,0,Roosevelt Washington,NA,education,0.3939393939393939
+Black or African American,0,Roosevelt Weaver,-0.1837037037037037,education,0.35714285714285715
+Black or African American,0,Roosevelt Williams,-0.12056737588652483,education,0.4050632911392405
+Black or African American,0,Roosevelt Wood,0.01709401709401709,education,0.3389830508474576
+Black or African American,0,Tamika Burke,NA,education,0.7301587301587301
+Black or African American,0,Tamika Carpenter,-0.22773837667454688,education,0.7230769230769231
+Black or African American,0,Tamika Fox,-0.1292307692307692,education,0.7936507936507936
+Black or African American,0,Tamika Jackson,-0.028594771241830075,education,0.864406779661017
+Black or African American,0,Tamika Stone,-0.07111111111111112,education,0.6428571428571429
+Black or African American,0,Tamika Sullivan,-0.07264957264957264,education,0.6
+Black or African American,0,Tamika Washington,0.08148148148148149,education,0.7058823529411765
+Black or African American,0,Tamika Weaver,-0.09048178613396002,education,0.6166666666666667
+Black or African American,0,Tamika Williams,-0.17033542976939203,education,0.8153846153846154
+Black or African American,0,Tamika Wood,-0.16666666666666669,education,0.75
+Black or African American,0,Tanisha Burke,NA,education,0.6481481481481481
+Black or African American,0,Tanisha Carpenter,-0.06296296296296294,education,0.7058823529411765
+Black or African American,0,Tanisha Fox,-0.019892473118279574,education,0.7560975609756098
+Black or African American,0,Tanisha Jackson,-0.16988416988416988,education,0.7254901960784313
+Black or African American,0,Tanisha Stone,NA,education,0.7192982456140351
+Black or African American,0,Tanisha Sullivan,NA,education,0.5454545454545454
+Black or African American,0,Tanisha Washington,-0.030303030303030304,education,0.8
+Black or African American,0,Tanisha Weaver,-0.07936507936507936,education,0.6666666666666666
+Black or African American,0,Tanisha Williams,-0.16269841269841268,education,0.7777777777777778
+Black or African American,0,Tanisha Wood,-0.09497354497354493,education,0.6164383561643836
+Hispanic,0,Alejandro Garcia,-0.1511752136752137,education,0.7868852459016393
+Hispanic,0,Alejandro Gonzalez,0.01432880844645551,education,0.7536231884057971
+Hispanic,0,Alejandro Hernandez,-0.20057720057720058,education,0.7924528301886793
+Hispanic,0,Alejandro Lopez,-0.26595744680851063,education,0.8245614035087719
+Hispanic,0,Alejandro Martinez,-0.21768707482993194,education,0.7777777777777778
+Hispanic,0,Alejandro Perez,-0.2806026365348399,education,0.8309859154929577
+Hispanic,0,Alejandro Ramirez,-0.14814814814814814,education,0.8571428571428571
+Hispanic,0,Alejandro Rodriguez,-0.3932946486137976,education,0.8103448275862069
+Hispanic,0,Alejandro Sanchez,NA,education,0.8
+Hispanic,0,Alejandro Torres,NA,education,0.8026315789473685
+Hispanic,0,Guadalupe Garcia,-0.07189542483660133,education,0.7384615384615385
+Hispanic,0,Guadalupe Gonzalez,-0.056722689075630245,education,0.7671232876712328
+Hispanic,0,Guadalupe Hernandez,-0.1391941391941392,education,0.7878787878787878
+Hispanic,0,Guadalupe Lopez,-0.361998361998362,education,0.7708333333333334
+Hispanic,0,Guadalupe Martinez,-0.32179487179487176,education,0.8387096774193549
+Hispanic,0,Guadalupe Perez,NA,education,0.7352941176470589
+Hispanic,0,Guadalupe Ramirez,-0.08262711864406777,education,0.7866666666666666
+Hispanic,0,Guadalupe Rodriguez,-0.23214285714285712,education,0.875
+Hispanic,0,Guadalupe Sanchez,-0.05851063829787234,education,0.746031746031746
+Hispanic,0,Guadalupe Torres,NA,education,0.7307692307692307
+Hispanic,0,Hector Garcia,-0.0975609756097561,education,0.8541666666666666
+Hispanic,0,Hector Gonzalez,-0.049629629629629635,education,0.847457627118644
+Hispanic,0,Hector Hernandez,-0.21932367149758455,education,0.7540983606557377
+Hispanic,0,Hector Lopez,NA,education,0.76
+Hispanic,0,Hector Martinez,NA,education,0.7254901960784313
+Hispanic,0,Hector Perez,NA,education,0.676056338028169
+Hispanic,0,Hector Ramirez,-0.04347826086956519,education,0.8363636363636363
+Hispanic,0,Hector Rodriguez,NA,education,0.8604651162790697
+Hispanic,0,Hector Sanchez,-0.23226950354609927,education,0.7966101694915254
+Hispanic,0,Hector Torres,-0.16946778711484595,education,0.5483870967741935
+Hispanic,0,Javier Garcia,-0.2028985507246377,education,0.7666666666666667
+Hispanic,0,Javier Gonzalez,-0.2696969696969697,education,0.8208955223880597
+Hispanic,0,Javier Hernandez,-0.11594202898550723,education,0.8070175438596491
+Hispanic,0,Javier Lopez,-0.11347517730496454,education,0.7704918032786885
+Hispanic,0,Javier Martinez,NA,education,0.8714285714285714
+Hispanic,0,Javier Perez,-0.2271317829457364,education,0.6825396825396826
+Hispanic,0,Javier Ramirez,-0.16871416871416872,education,0.7708333333333334
+Hispanic,0,Javier Rodriguez,-0.013636363636363613,education,0.8148148148148148
+Hispanic,0,Javier Sanchez,-0.2685185185185185,education,0.8524590163934426
+Hispanic,0,Javier Torres,-0.21999999999999997,education,0.7142857142857143
+Hispanic,0,Jesus Garcia,-0.22344322344322343,education,0.7358490566037735
+Hispanic,0,Jesus Gonzalez,-0.20261437908496732,education,0.75
+Hispanic,0,Jesus Hernandez,-0.27329192546583847,education,0.7666666666666667
+Hispanic,0,Jesus Lopez,-0.2847222222222222,education,0.8275862068965517
+Hispanic,0,Jesus Martinez,-0.002777777777777768,education,0.8275862068965517
+Hispanic,0,Jesus Perez,-0.21132897603485837,education,0.85
+Hispanic,0,Jesus Ramirez,-0.13010752688172042,education,0.8611111111111112
+Hispanic,0,Jesus Rodriguez,-0.1294685990338164,education,0.7540983606557377
+Hispanic,0,Jesus Sanchez,NA,education,0.7846153846153846
+Hispanic,0,Jesus Torres,-0.10183150183150186,education,0.5737704918032787
+Hispanic,0,Jorge Garcia,-0.30180878552971574,education,0.7413793103448276
+Hispanic,0,Jorge Gonzalez,-0.15942028985507245,education,0.7931034482758621
+Hispanic,0,Jorge Hernandez,-0.29059829059829057,education,0.7868852459016393
+Hispanic,0,Jorge Lopez,NA,education,0.803030303030303
+Hispanic,0,Jorge Martinez,NA,education,0.7101449275362319
+Hispanic,0,Jorge Perez,-0.25942350332594233,education,0.7884615384615384
+Hispanic,0,Jorge Ramirez,-0.08031400966183574,education,0.6571428571428571
+Hispanic,0,Jorge Rodriguez,0.004306632213608941,education,0.8269230769230769
+Hispanic,0,Jorge Sanchez,NA,education,0.75
+Hispanic,0,Jorge Torres,-0.13252122554448134,education,0.671875
+Hispanic,0,Juan Garcia,-0.2907239819004525,education,0.7536231884057971
+Hispanic,0,Juan Gonzalez,0.004489337822671163,education,0.8307692307692308
+Hispanic,0,Juan Hernandez,-0.24166666666666667,education,0.7619047619047619
+Hispanic,0,Juan Lopez,-0.2611832611832612,education,0.7924528301886793
+Hispanic,0,Juan Martinez,-0.07822410147991546,education,0.7962962962962963
+Hispanic,0,Juan Perez,-0.17894736842105258,education,0.7916666666666666
+Hispanic,0,Juan Ramirez,-0.08018867924528303,education,0.8153846153846154
+Hispanic,0,Juan Rodriguez,-0.2026618269812462,education,0.7532467532467533
+Hispanic,0,Juan Sanchez,-0.15780998389694045,education,0.71875
+Hispanic,0,Juan Torres,NA,education,0.7352941176470589
+Hispanic,0,Julio Garcia,-0.21316614420062696,education,0.8405797101449275
+Hispanic,0,Julio Gonzalez,-0.1021505376344086,education,0.8266666666666667
+Hispanic,0,Julio Hernandez,-0.12878787878787878,education,0.7096774193548387
+Hispanic,0,Julio Lopez,-0.1282051282051282,education,0.7358490566037735
+Hispanic,0,Julio Martinez,-0.21037581699346405,education,0.7384615384615385
+Hispanic,0,Julio Perez,-0.08843537414965985,education,0.875
+Hispanic,0,Julio Ramirez,-0.09722222222222221,education,0.8727272727272727
+Hispanic,0,Julio Rodriguez,-0.0824915824915825,education,0.7857142857142857
+Hispanic,0,Julio Sanchez,-0.1282051282051282,education,0.6964285714285714
+Hispanic,0,Julio Torres,-0.1578483245149912,education,0.7941176470588235
+Hispanic,0,Miguel Garcia,-0.0883190883190883,education,0.7831325301204819
+Hispanic,0,Miguel Gonzalez,-0.18715393133997785,education,0.7543859649122807
+Hispanic,0,Miguel Hernandez,-0.15363984674329503,education,0.7945205479452054
+Hispanic,0,Miguel Lopez,-0.17076502732240434,education,0.8356164383561644
+Hispanic,0,Miguel Martinez,NA,education,0.7833333333333333
+Hispanic,0,Miguel Perez,NA,education,0.746268656716418
+Hispanic,0,Miguel Ramirez,-0.3732193732193732,education,0.8125
+Hispanic,0,Miguel Rodriguez,-0.265079365079365,education,0.7368421052631579
+Hispanic,0,Miguel Sanchez,-0.28367003367003363,education,0.8301886792452831
+Hispanic,0,Miguel Torres,NA,education,0.7321428571428571
+Hispanic,0,Salvador Garcia,-0.141025641025641,education,0.7936507936507936
+Hispanic,0,Salvador Gonzalez,-0.09420289855072464,education,0.8679245283018868
+Hispanic,0,Salvador Hernandez,-0.1723484848484848,education,0.7746478873239436
+Hispanic,0,Salvador Lopez,-0.21428571428571427,education,0.8235294117647058
+Hispanic,0,Salvador Martinez,-0.25139353400222963,education,0.7796610169491526
+Hispanic,0,Salvador Perez,-0.10778885197489849,education,0.671875
+Hispanic,0,Salvador Ramirez,-0.02473716759431044,education,0.8166666666666667
+Hispanic,0,Salvador Rodriguez,-0.10044017607042821,education,0.7424242424242424
+Hispanic,0,Salvador Sanchez,NA,education,0.7321428571428571
+Hispanic,0,Salvador Torres,-0.15288220551378445,education,0.8028169014084507
+White,0,David Hansen,-0.16685144124168516,income,0.7884615384615384
+White,0,David Hoffman,0.07317073170731703,income,0.8541666666666666
+White,0,David Johnston,0.007042253521126751,income,0.7553191489361702
+White,0,David Larson,0.10256410256410259,income,0.8125
+White,0,David Meyer,0.10227272727272729,income,0.8461538461538461
+White,0,David Olson,NA,income,0.8365384615384616
+White,0,David Ryan,0.014784946236559182,income,0.8857142857142857
+White,0,David Schmidt,0.11688311688311687,income,0.8461538461538461
+White,0,David Snyder,0.1012605042016807,income,0.8585858585858586
+White,0,David Wagner,NA,income,0.8571428571428571
+White,0,James Hansen,NA,income,0.7241379310344828
+White,0,James Hoffman,0.13872082973206573,income,0.8725490196078431
+White,0,James Johnston,-0.04937458854509541,income,0.6125
+White,0,James Larson,NA,income,0.7526881720430108
+White,0,James Meyer,-0.022727272727272707,income,0.7864077669902912
+White,0,James Olson,0.07809523809523816,income,0.78125
+White,0,James Ryan,-0.0410958904109589,income,0.8488372093023255
+White,0,James Schmidt,-0.03125,income,0.8446601941747572
+White,0,James Snyder,-0.11213434452871068,income,0.8452380952380952
+White,0,James Wagner,-0.008563899868247682,income,0.7415730337078652
+White,0,John Hansen,0.12462462462462459,income,0.8043478260869565
+White,0,John Hoffman,0.03673835125448033,income,0.8378378378378378
+White,0,John Johnston,NA,income,0.7475728155339806
+White,0,John Larson,0.023255813953488413,income,0.819047619047619
+White,0,John Meyer,NA,income,0.8515625
+White,0,John Olson,0.005021520803443313,income,0.8282828282828283
+White,0,John Ryan,-0.07294832826747721,income,0.8703703703703703
+White,0,John Schmidt,-0.07261640798226165,income,0.8817204301075269
+White,0,John Snyder,-0.009566326530612235,income,0.8596491228070176
+White,0,John Wagner,-0.07003798670465339,income,0.7570093457943925
+White,0,Mark Hansen,-0.13109756097560976,income,0.8723404255319149
+White,0,Mark Hoffman,-0.008064516129032251,income,0.8857142857142857
+White,0,Mark Johnston,0.045315370483772155,income,0.7553191489361702
+White,0,Mark Larson,0.0128048780487805,income,0.803921568627451
+White,0,Mark Meyer,NA,income,0.8857142857142857
+White,0,Mark Olson,-0.021739130434782594,income,0.7889908256880734
+White,0,Mark Ryan,-0.03246753246753248,income,0.8191489361702128
+White,0,Mark Schmidt,0.0987179487179487,income,0.8387096774193549
+White,0,Mark Snyder,NA,income,0.819047619047619
+White,0,Mark Wagner,NA,income,0.8494623655913979
+White,0,Mary Hansen,0.10756302521008404,income,0.8018867924528302
+White,0,Mary Hoffman,0.10370370370370374,income,0.84375
+White,0,Mary Johnston,-0.033816425120772986,income,0.7578947368421053
+White,0,Mary Larson,0.04545454545454547,income,0.7471264367816092
+White,0,Mary Meyer,-0.2347560975609756,income,0.9111111111111111
+White,0,Mary Olson,-0.01058823529411762,income,0.8152173913043478
+White,0,Mary Ryan,NA,income,0.8842105263157894
+White,0,Mary Schmidt,-0.11125000000000002,income,0.8241758241758241
+White,0,Mary Snyder,0.10495356037151699,income,0.8482142857142857
+White,0,Mary Wagner,-0.15928270042194098,income,0.8144329896907216
+White,0,Michael Hansen,0.0952702702702703,income,0.7872340425531915
+White,0,Michael Hoffman,0.05128205128205132,income,0.8478260869565217
+White,0,Michael Johnston,-0.009728773584905648,income,0.6235294117647059
+White,0,Michael Larson,0.005246166263115415,income,0.7375
+White,0,Michael Meyer,0.10776942355889724,income,0.8155339805825242
+White,0,Michael Olson,0.007320394960844467,income,0.7295081967213115
+White,0,Michael Ryan,-0.012955182072829086,income,0.7640449438202247
+White,0,Michael Schmidt,0.14010989010989006,income,0.7878787878787878
+White,0,Michael Snyder,0.02941176470588236,income,0.8152173913043478
+White,0,Michael Wagner,0.09444444444444444,income,0.9
+White,0,Richard Hansen,0.14482961222091656,income,0.7628865979381443
+White,0,Richard Hoffman,0.16860465116279066,income,0.9247311827956989
+White,0,Richard Johnston,0.11948051948051946,income,0.7608695652173914
+White,0,Richard Larson,0.07419017763845354,income,0.7981651376146789
+White,0,Richard Meyer,0.13716404077849859,income,0.8645833333333334
+White,0,Richard Olson,0.10666666666666669,income,0.8333333333333334
+White,0,Richard Ryan,0.17045454545454541,income,0.8279569892473119
+White,0,Richard Schmidt,NA,income,0.9052631578947369
+White,0,Richard Snyder,0.0517395182872436,income,0.7564102564102564
+White,0,Richard Wagner,0.14908579465541488,income,0.8144329896907216
+White,0,Robert Hansen,NA,income,0.7980769230769231
+White,0,Robert Hoffman,-0.14822817631806395,income,0.8725490196078431
+White,0,Robert Johnston,-0.022977941176470562,income,0.68
+White,0,Robert Larson,0.09860248447204972,income,0.8141592920353983
+White,0,Robert Meyer,0.12879256965944275,income,0.8173076923076923
+White,0,Robert Olson,-0.037962962962962865,income,0.801980198019802
+White,0,Robert Ryan,0.05277777777777781,income,0.8181818181818182
+White,0,Robert Schmidt,NA,income,0.7961165048543689
+White,0,Robert Snyder,0.04123711340206182,income,0.8899082568807339
+White,0,Robert Wagner,0.1248538011695906,income,0.8256880733944955
+White,0,Thomas Hansen,0.11764705882352944,income,0.8380952380952381
+White,0,Thomas Hoffman,-0.08037634408602146,income,0.8230088495575221
+White,0,Thomas Johnston,NA,income,0.6979166666666666
+White,0,Thomas Larson,-0.02247191011235955,income,0.839622641509434
+White,0,Thomas Meyer,0.04545454545454547,income,0.8641975308641975
+White,0,Thomas Olson,-0.004901960784313708,income,0.85
+White,0,Thomas Ryan,-0.024545454545454537,income,0.819672131147541
+White,0,Thomas Schmidt,-0.1484751203852328,income,0.8640776699029126
+White,0,Thomas Snyder,0.1743421052631579,income,0.9047619047619048
+White,0,Thomas Wagner,-0.13753799392097266,income,0.9306930693069307
+White,0,William Hansen,0.05555555555555558,income,0.7741935483870968
+White,0,William Hoffman,0.004915730337078705,income,0.8476190476190476
+White,0,William Johnston,0.10069444444444442,income,0.6896551724137931
+White,0,William Larson,-0.008048289738430525,income,0.8352941176470589
+White,0,William Meyer,0.15909090909090906,income,0.8
+White,0,William Olson,0.11538461538461536,income,0.717391304347826
+White,0,William Ryan,0.04329004329004327,income,0.7857142857142857
+White,0,William Schmidt,0.005522827687776122,income,0.8738738738738738
+White,0,William Snyder,-0.016666666666666607,income,0.8695652173913043
+White,0,William Wagner,0.012820512820512775,income,0.8478260869565217
+Asian or Pacific Islander,0,Hong Chen,-0.02032967032967037,income,0.8227848101265823
+Asian or Pacific Islander,0,Hong Kim,0.010638297872340385,income,0.734375
+Asian or Pacific Islander,0,Hong Le,0.027649769585253448,income,0.8157894736842105
+Asian or Pacific Islander,0,Hong Li,0,income,0.8157894736842105
+Asian or Pacific Islander,0,Hong Nguyen,-0.03246268656716422,income,0.7701149425287356
+Asian or Pacific Islander,0,Hong Patel,-0.02941176470588236,income,0.5802469135802469
+Asian or Pacific Islander,0,Hong Pham,-0.07558685446009389,income,0.8255813953488372
+Asian or Pacific Islander,0,Hong Tran,0.06199460916442051,income,0.7162162162162162
+Asian or Pacific Islander,0,Hong Wang,-0.10473588342440804,income,0.8714285714285714
+Asian or Pacific Islander,0,Hong Yang,0.022328548644338142,income,0.7764705882352941
+Asian or Pacific Islander,0,Hung Chen,-0.036340852130325785,income,0.890625
+Asian or Pacific Islander,0,Hung Kim,-0.061327561327561286,income,0.8513513513513513
+Asian or Pacific Islander,0,Hung Le,0.019886363636363646,income,0.7333333333333333
+Asian or Pacific Islander,0,Hung Li,0.06021409455843002,income,0.7564102564102564
+Asian or Pacific Islander,0,Hung Nguyen,0.050000000000000044,income,0.6666666666666666
+Asian or Pacific Islander,0,Hung Patel,0.10157318741450072,income,0.5584415584415584
+Asian or Pacific Islander,0,Hung Pham,-0.04362745098039211,income,0.7183098591549296
+Asian or Pacific Islander,0,Hung Tran,-0.07556935817805382,income,0.6461538461538462
+Asian or Pacific Islander,0,Hung Wang,0.12916666666666665,income,0.8823529411764706
+Asian or Pacific Islander,0,Hung Yang,NA,income,0.8354430379746836
+Asian or Pacific Islander,0,Jian Chen,0.09649122807017546,income,0.75
+Asian or Pacific Islander,0,Jian Kim,0.16666666666666669,income,0.7352941176470589
+Asian or Pacific Islander,0,Jian Le,0.05461767626613706,income,0.7361111111111112
+Asian or Pacific Islander,0,Jian Li,0.2595356550580431,income,0.881578947368421
+Asian or Pacific Islander,0,Jian Nguyen,0.1467391304347826,income,0.696969696969697
+Asian or Pacific Islander,0,Jian Patel,-0.013888888888888895,income,0.43902439024390244
+Asian or Pacific Islander,0,Jian Pham,0.049425287356321845,income,0.7945205479452054
+Asian or Pacific Islander,0,Jian Tran,0.04231974921630094,income,0.725
+Asian or Pacific Islander,0,Jian Wang,0.06904761904761902,income,0.8108108108108109
+Asian or Pacific Islander,0,Jian Yang,NA,income,0.8205128205128205
+Asian or Pacific Islander,0,Jin Chen,0.2844827586206896,income,0.8529411764705882
+Asian or Pacific Islander,0,Jin Kim,0.02857142857142858,income,0.8333333333333334
+Asian or Pacific Islander,0,Jin Le,0.06666666666666671,income,0.8333333333333334
+Asian or Pacific Islander,0,Jin Li,0.012121212121212088,income,0.7857142857142857
+Asian or Pacific Islander,0,Jin Nguyen,0.05411655874190563,income,0.6714285714285714
+Asian or Pacific Islander,0,Jin Patel,-0.010317460317460392,income,0.4827586206896552
+Asian or Pacific Islander,0,Jin Pham,-0.08681318681318678,income,0.7558139534883721
+Asian or Pacific Islander,0,Jin Tran,0.09627329192546585,income,0.7666666666666667
+Asian or Pacific Islander,0,Jin Wang,0.09207459207459207,income,0.8354430379746836
+Asian or Pacific Islander,0,Jin Yang,0.06034482758620685,income,0.8405797101449275
+Asian or Pacific Islander,0,Li Chen,-0.14423076923076922,income,0.8666666666666667
+Asian or Pacific Islander,0,Li Kim,NA,income,0.7901234567901234
+Asian or Pacific Islander,0,Li Le,NA,income,0.6547619047619048
+Asian or Pacific Islander,0,Li Li,-0.12333333333333335,income,0.8064516129032258
+Asian or Pacific Islander,0,Li Nguyen,0.12459016393442623,income,0.8026315789473685
+Asian or Pacific Islander,0,Li Patel,0.11657722122838399,income,0.47560975609756095
+Asian or Pacific Islander,0,Li Pham,0.3355155482815057,income,0.7833333333333333
+Asian or Pacific Islander,0,Li Tran,-0.10875706214689268,income,0.8309859154929577
+Asian or Pacific Islander,0,Li Wang,NA,income,0.7894736842105263
+Asian or Pacific Islander,0,Li Yang,0.32947368421052636,income,0.7246376811594203
+Asian or Pacific Islander,0,Minh Chen,-0.125,income,0.7966101694915254
+Asian or Pacific Islander,0,Minh Kim,0.2015931372549019,income,0.7611940298507462
+Asian or Pacific Islander,0,Minh Le,-0.048958333333333326,income,0.810126582278481
+Asian or Pacific Islander,0,Minh Li,-0.0015368852459016202,income,0.7922077922077922
+Asian or Pacific Islander,0,Minh Nguyen,NA,income,0.7590361445783133
+Asian or Pacific Islander,0,Minh Patel,0.007218844984802519,income,0.37333333333333335
+Asian or Pacific Islander,0,Minh Pham,-0.12280701754385964,income,0.7215189873417721
+Asian or Pacific Islander,0,Minh Tran,0.1565934065934066,income,0.6176470588235294
+Asian or Pacific Islander,0,Minh Wang,NA,income,0.7922077922077922
+Asian or Pacific Islander,0,Minh Yang,NA,income,0.8059701492537313
+Asian or Pacific Islander,0,Thanh Chen,-0.12471264367816093,income,0.7945205479452054
+Asian or Pacific Islander,0,Thanh Kim,-0.04545454545454547,income,0.7586206896551724
+Asian or Pacific Islander,0,Thanh Le,0.10895883777239707,income,0.8082191780821918
+Asian or Pacific Islander,0,Thanh Li,-0.02564102564102566,income,0.8125
+Asian or Pacific Islander,0,Thanh Nguyen,-0.017735849056603747,income,0.6794871794871795
+Asian or Pacific Islander,0,Thanh Patel,-0.12173913043478257,income,0.352112676056338
+Asian or Pacific Islander,0,Thanh Pham,-0.013176638176638167,income,0.6582278481012658
+Asian or Pacific Islander,0,Thanh Tran,NA,income,0.676056338028169
+Asian or Pacific Islander,0,Thanh Wang,NA,income,0.8524590163934426
+Asian or Pacific Islander,0,Thanh Yang,-0.09375,income,0.7714285714285715
+Asian or Pacific Islander,0,Wei Chen,0.0155555555555556,income,0.7352941176470589
+Asian or Pacific Islander,0,Wei Kim,0.022058823529411797,income,0.7727272727272727
+Asian or Pacific Islander,0,Wei Le,-0.1417378917378917,income,0.8059701492537313
+Asian or Pacific Islander,0,Wei Li,-0.016393442622950838,income,0.9104477611940298
+Asian or Pacific Islander,0,Wei Nguyen,NA,income,0.7246376811594203
+Asian or Pacific Islander,0,Wei Patel,-0.039835164835164805,income,0.5185185185185185
+Asian or Pacific Islander,0,Wei Pham,-0.04862745098039212,income,0.6710526315789473
+Asian or Pacific Islander,0,Wei Tran,0.052083333333333315,income,0.75
+Asian or Pacific Islander,0,Wei Wang,-0.036904761904761885,income,0.7407407407407407
+Asian or Pacific Islander,0,Wei Yang,0.03389830508474578,income,0.855072463768116
+Asian or Pacific Islander,0,Yong Chen,0.19780219780219782,income,0.7878787878787878
+Asian or Pacific Islander,0,Yong Kim,0.1707953063885267,income,0.8194444444444444
+Asian or Pacific Islander,0,Yong Le,0.0806122448979592,income,0.7101449275362319
+Asian or Pacific Islander,0,Yong Li,0.012681159420289911,income,0.7931034482758621
+Asian or Pacific Islander,0,Yong Nguyen,-0.1527777777777778,income,0.7714285714285715
+Asian or Pacific Islander,0,Yong Patel,NA,income,0.6119402985074627
+Asian or Pacific Islander,0,Yong Pham,-0.035454545454545405,income,0.819672131147541
+Asian or Pacific Islander,0,Yong Tran,-0.07499999999999996,income,0.7575757575757576
+Asian or Pacific Islander,0,Yong Wang,0.09604779411764708,income,0.7901234567901234
+Asian or Pacific Islander,0,Yong Yang,0.009090909090909038,income,0.7432432432432432
+Asian or Pacific Islander,0,Young Chen,0.16716417910447756,income,0.7701149425287356
+Asian or Pacific Islander,0,Young Kim,0.01713947990543735,income,0.7230769230769231
+Asian or Pacific Islander,0,Young Le,0.02631578947368418,income,0.8636363636363636
+Asian or Pacific Islander,0,Young Li,-0.06845238095238093,income,0.8615384615384616
+Asian or Pacific Islander,0,Young Nguyen,0.049564270152505474,income,0.7605633802816901
+Asian or Pacific Islander,0,Young Patel,0.08863636363636368,income,0.26666666666666666
+Asian or Pacific Islander,0,Young Pham,NA,income,0.7058823529411765
+Asian or Pacific Islander,0,Young Tran,0.014039855072463747,income,0.676056338028169
+Asian or Pacific Islander,0,Young Wang,NA,income,0.7941176470588235
+Asian or Pacific Islander,0,Young Yang,0.09843937575030015,income,0.7424242424242424
+Asian or Pacific Islander,1,Alan Chen,0.13259402121504338,income,0.782051282051282
+Asian or Pacific Islander,1,Alan Kim,0.06714975845410631,income,0.6617647058823529
+Asian or Pacific Islander,1,Alan Le,0.09427609427609424,income,0.6206896551724138
+Asian or Pacific Islander,1,Alan Li,-0.10109289617486339,income,0.7721518987341772
+Asian or Pacific Islander,1,Alan Nguyen,-0.017801857585139302,income,0.6263736263736264
+Asian or Pacific Islander,1,Alan Patel,NA,income,0.16666666666666666
+Asian or Pacific Islander,1,Alan Pham,0.04395604395604391,income,0.65
+Asian or Pacific Islander,1,Alan Tran,NA,income,0.4
+Asian or Pacific Islander,1,Alan Wang,NA,income,0.8513513513513513
+Asian or Pacific Islander,1,Alan Yang,-0.03819444444444442,income,0.7377049180327869
+Asian or Pacific Islander,1,Albert Chen,0.03676470588235292,income,0.7816091954022989
+Asian or Pacific Islander,1,Albert Kim,0.08622994652406413,income,0.5641025641025641
+Asian or Pacific Islander,1,Albert Le,0.08832224685883217,income,0.5540540540540541
+Asian or Pacific Islander,1,Albert Li,0.19724375538329025,income,0.6142857142857143
+Asian or Pacific Islander,1,Albert Nguyen,0.11086956521739133,income,0.647887323943662
+Asian or Pacific Islander,1,Albert Patel,NA,income,0.2702702702702703
+Asian or Pacific Islander,1,Albert Pham,0.11853832442067735,income,0.4925373134328358
+Asian or Pacific Islander,1,Albert Tran,NA,income,0.4878048780487805
+Asian or Pacific Islander,1,Albert Wang,0.1568627450980392,income,0.75
+Asian or Pacific Islander,1,Albert Yang,0.09494324045407637,income,0.7285714285714285
+Asian or Pacific Islander,1,Alex Chen,NA,income,0.7101449275362319
+Asian or Pacific Islander,1,Alex Kim,0.009661835748792202,income,0.6301369863013698
+Asian or Pacific Islander,1,Alex Le,0.009157509157509236,income,0.6176470588235294
+Asian or Pacific Islander,1,Alex Li,0.10081053698074977,income,0.6911764705882353
+Asian or Pacific Islander,1,Alex Nguyen,0.06713164777680908,income,0.5441176470588235
+Asian or Pacific Islander,1,Alex Patel,0.05999999999999994,income,0.3333333333333333
+Asian or Pacific Islander,1,Alex Pham,0.06171735241502685,income,0.524390243902439
+Asian or Pacific Islander,1,Alex Tran,-0.06770833333333331,income,0.5294117647058824
+Asian or Pacific Islander,1,Alex Wang,0.03273809523809523,income,0.7
+Asian or Pacific Islander,1,Alex Yang,0.05882352941176472,income,0.7285714285714285
+Asian or Pacific Islander,1,Alice Chen,0.04793028322440085,income,0.7605633802816901
+Asian or Pacific Islander,1,Alice Kim,-0.04203935599284436,income,0.6231884057971014
+Asian or Pacific Islander,1,Alice Le,0.14,income,0.6527777777777778
+Asian or Pacific Islander,1,Alice Li,0.044642857142857095,income,0.7088607594936709
+Asian or Pacific Islander,1,Alice Nguyen,0.07248157248157244,income,0.6271186440677966
+Asian or Pacific Islander,1,Alice Patel,0.08114035087719296,income,0.2191780821917808
+Asian or Pacific Islander,1,Alice Pham,NA,income,0.5061728395061729
+Asian or Pacific Islander,1,Alice Tran,0.04999999999999999,income,0.5
+Asian or Pacific Islander,1,Alice Wang,-0.11538461538461542,income,0.7222222222222222
+Asian or Pacific Islander,1,Alice Yang,NA,income,0.7258064516129032
+Asian or Pacific Islander,1,Amy Chen,-0.049707602339181256,income,0.7397260273972602
+Asian or Pacific Islander,1,Amy Kim,-0.07687074829931972,income,0.620253164556962
+Asian or Pacific Islander,1,Amy Le,0.151271186440678,income,0.7468354430379747
+Asian or Pacific Islander,1,Amy Li,0.1673728813559322,income,0.8309859154929577
+Asian or Pacific Islander,1,Amy Nguyen,-0.05331262939958592,income,0.6461538461538462
+Asian or Pacific Islander,1,Amy Patel,0.1470588235294118,income,0.22666666666666666
+Asian or Pacific Islander,1,Amy Pham,NA,income,0.6162790697674418
+Asian or Pacific Islander,1,Amy Tran,0.04166666666666674,income,0.5
+Asian or Pacific Islander,1,Amy Wang,-0.0357142857142857,income,0.7671232876712328
+Asian or Pacific Islander,1,Amy Yang,-0.03282828282828287,income,0.8301886792452831
+Asian or Pacific Islander,1,Andrew Chen,-0.05956112852664586,income,0.725
+Asian or Pacific Islander,1,Andrew Kim,NA,income,0.6266666666666667
+Asian or Pacific Islander,1,Andrew Le,NA,income,0.7297297297297297
+Asian or Pacific Islander,1,Andrew Li,0.040983606557377095,income,0.7011494252873564
+Asian or Pacific Islander,1,Andrew Nguyen,-0.012310606060606077,income,0.6857142857142857
+Asian or Pacific Islander,1,Andrew Patel,0.12405303030303033,income,0.3142857142857143
+Asian or Pacific Islander,1,Andrew Pham,0.1282051282051282,income,0.5
+Asian or Pacific Islander,1,Andrew Tran,-0.017241379310344862,income,0.5735294117647058
+Asian or Pacific Islander,1,Andrew Wang,0.12083333333333335,income,0.7619047619047619
+Asian or Pacific Islander,1,Andrew Yang,NA,income,0.7108433734939759
+Asian or Pacific Islander,1,Andy Chen,0.18157894736842112,income,0.7246376811594203
+Asian or Pacific Islander,1,Andy Kim,0.1255411255411255,income,0.56
+Asian or Pacific Islander,1,Andy Le,NA,income,0.5512820512820513
+Asian or Pacific Islander,1,Andy Li,0.18952380952380948,income,0.7281553398058253
+Asian or Pacific Islander,1,Andy Nguyen,NA,income,0.6285714285714286
+Asian or Pacific Islander,1,Andy Patel,-0.0636363636363636,income,0.2857142857142857
+Asian or Pacific Islander,1,Andy Pham,0.017227564102564097,income,0.4507042253521127
+Asian or Pacific Islander,1,Andy Tran,0.1196428571428571,income,0.4878048780487805
+Asian or Pacific Islander,1,Andy Wang,0.050000000000000044,income,0.8450704225352113
+Asian or Pacific Islander,1,Andy Yang,0.0417789757412399,income,0.7910447761194029
+Asian or Pacific Islander,1,Cecilia Chen,-0.04069119286510592,income,0.6290322580645161
+Asian or Pacific Islander,1,Cecilia Kim,0.11538461538461536,income,0.4583333333333333
+Asian or Pacific Islander,1,Cecilia Le,0.06294326241134757,income,0.5662650602409639
+Asian or Pacific Islander,1,Cecilia Li,0.03434782608695652,income,0.647887323943662
+Asian or Pacific Islander,1,Cecilia Nguyen,0.04545454545454547,income,0.611764705882353
+Asian or Pacific Islander,1,Cecilia Patel,0.16666666666666663,income,0.25
+Asian or Pacific Islander,1,Cecilia Pham,0.07142857142857145,income,0.6
+Asian or Pacific Islander,1,Cecilia Tran,0,income,0.5714285714285714
+Asian or Pacific Islander,1,Cecilia Wang,0.017368421052631478,income,0.7246376811594203
+Asian or Pacific Islander,1,Cecilia Yang,NA,income,0.7058823529411765
+Asian or Pacific Islander,1,Cindy Chen,0.022222222222222254,income,0.6716417910447762
+Asian or Pacific Islander,1,Cindy Kim,0.1942496493688639,income,0.5974025974025974
+Asian or Pacific Islander,1,Cindy Le,-0.04166666666666663,income,0.7073170731707317
+Asian or Pacific Islander,1,Cindy Li,NA,income,0.8032786885245902
+Asian or Pacific Islander,1,Cindy Nguyen,0.10539215686274511,income,0.6455696202531646
+Asian or Pacific Islander,1,Cindy Patel,0.14583333333333337,income,0.2727272727272727
+Asian or Pacific Islander,1,Cindy Pham,NA,income,0.44871794871794873
+Asian or Pacific Islander,1,Cindy Tran,0.046875,income,0.6
+Asian or Pacific Islander,1,Cindy Wang,NA,income,0.7209302325581395
+Asian or Pacific Islander,1,Cindy Yang,0.10714285714285715,income,0.7272727272727273
+Asian or Pacific Islander,1,Dan Chen,NA,income,0.6666666666666666
+Asian or Pacific Islander,1,Dan Kim,0.08235294117647063,income,0.7727272727272727
+Asian or Pacific Islander,1,Dan Le,0.10227272727272729,income,0.6666666666666666
+Asian or Pacific Islander,1,Dan Li,NA,income,0.6875
+Asian or Pacific Islander,1,Dan Nguyen,NA,income,0.7285714285714285
+Asian or Pacific Islander,1,Dan Patel,-0.026923076923076827,income,0.2777777777777778
+Asian or Pacific Islander,1,Dan Pham,NA,income,0.5671641791044776
+Asian or Pacific Islander,1,Dan Tran,0.06265664160401002,income,0.6195652173913043
+Asian or Pacific Islander,1,Dan Wang,NA,income,0.7272727272727273
+Asian or Pacific Islander,1,Dan Yang,-0.005357142857142949,income,0.8484848484848485
+Asian or Pacific Islander,1,David Chen,NA,income,0.7638888888888888
+Asian or Pacific Islander,1,David Kim,0.15564516129032252,income,0.5633802816901409
+Asian or Pacific Islander,1,David Le,0.1474358974358974,income,0.6190476190476191
+Asian or Pacific Islander,1,David Li,0.009433962264150941,income,0.7571428571428571
+Asian or Pacific Islander,1,David Nguyen,0.1384615384615384,income,0.6753246753246753
+Asian or Pacific Islander,1,David Patel,0.0714285714285714,income,0.3333333333333333
+Asian or Pacific Islander,1,David Pham,0.02619047619047621,income,0.46153846153846156
+Asian or Pacific Islander,1,David Tran,0.08310810810810809,income,0.5194805194805194
+Asian or Pacific Islander,1,David Wang,0.007309941520467822,income,0.76
+Asian or Pacific Islander,1,David Yang,0.18782249742002066,income,0.7702702702702703
+Asian or Pacific Islander,1,Eric Chen,0.14318181818181813,income,0.6451612903225806
+Asian or Pacific Islander,1,Eric Kim,0.17543859649122812,income,0.75
+Asian or Pacific Islander,1,Eric Le,-0.07499999999999996,income,0.7014925373134329
+Asian or Pacific Islander,1,Eric Li,0.02345537757437066,income,0.7076923076923077
+Asian or Pacific Islander,1,Eric Nguyen,0.12500000000000006,income,0.6666666666666666
+Asian or Pacific Islander,1,Eric Patel,0.16282894736842102,income,0.2835820895522388
+Asian or Pacific Islander,1,Eric Pham,0.10344827586206895,income,0.5166666666666667
+Asian or Pacific Islander,1,Eric Tran,NA,income,0.5857142857142857
+Asian or Pacific Islander,1,Eric Wang,0.04293785310734466,income,0.7972972972972973
+Asian or Pacific Islander,1,Eric Yang,NA,income,0.7162162162162162
+Asian or Pacific Islander,1,Grace Chen,0.08916666666666662,income,0.8241758241758241
+Asian or Pacific Islander,1,Grace Kim,0.11944444444444446,income,0.5970149253731343
+Asian or Pacific Islander,1,Grace Le,0.1916666666666667,income,0.625
+Asian or Pacific Islander,1,Grace Li,-0.10372340425531912,income,0.7014925373134329
+Asian or Pacific Islander,1,Grace Nguyen,0.010000000000000009,income,0.6944444444444444
+Asian or Pacific Islander,1,Grace Patel,-0.11148148148148151,income,0.35064935064935066
+Asian or Pacific Islander,1,Grace Pham,-0.09210526315789475,income,0.5
+Asian or Pacific Islander,1,Grace Tran,0.040540540540540515,income,0.5487804878048781
+Asian or Pacific Islander,1,Grace Wang,-0.014516129032258074,income,0.5633802816901409
+Asian or Pacific Islander,1,Grace Yang,0.031632653061224425,income,0.8305084745762712
+Asian or Pacific Islander,1,Jane Chen,0.07518115942028986,income,0.6571428571428571
+Asian or Pacific Islander,1,Jane Kim,-0.09072249589490972,income,0.7341772151898734
+Asian or Pacific Islander,1,Jane Le,0.19771241830065361,income,0.7391304347826086
+Asian or Pacific Islander,1,Jane Li,0.1217948717948718,income,0.8059701492537313
+Asian or Pacific Islander,1,Jane Nguyen,0.024841915085817512,income,0.6029411764705882
+Asian or Pacific Islander,1,Jane Patel,NA,income,0.1896551724137931
+Asian or Pacific Islander,1,Jane Pham,0.04089026915113869,income,0.5227272727272727
+Asian or Pacific Islander,1,Jane Tran,NA,income,0.45569620253164556
+Asian or Pacific Islander,1,Jane Wang,0.050000000000000044,income,0.75
+Asian or Pacific Islander,1,Jane Yang,0.14455782312925164,income,0.8032786885245902
+Asian or Pacific Islander,1,Jennifer Chen,0.025162337662337664,income,0.717948717948718
+Asian or Pacific Islander,1,Jennifer Kim,0.04809523809523808,income,0.6268656716417911
+Asian or Pacific Islander,1,Jennifer Le,0.11026463512429835,income,0.5972222222222222
+Asian or Pacific Islander,1,Jennifer Li,0.12602040816326526,income,0.7101449275362319
+Asian or Pacific Islander,1,Jennifer Nguyen,0.0444444444444444,income,0.5921052631578947
+Asian or Pacific Islander,1,Jennifer Patel,0.09722222222222221,income,0.2702702702702703
+Asian or Pacific Islander,1,Jennifer Pham,0.012500000000000011,income,0.4666666666666667
+Asian or Pacific Islander,1,Jennifer Tran,-0.00303030303030305,income,0.47619047619047616
+Asian or Pacific Islander,1,Jennifer Wang,0.0807692307692307,income,0.7222222222222222
+Asian or Pacific Islander,1,Jennifer Yang,0.11505768063145116,income,0.6931818181818182
+Asian or Pacific Islander,1,Jenny Chen,0.0423728813559322,income,0.7195121951219512
+Asian or Pacific Islander,1,Jenny Kim,-0.14939024390243905,income,0.6721311475409836
+Asian or Pacific Islander,1,Jenny Le,NA,income,0.6153846153846154
+Asian or Pacific Islander,1,Jenny Li,0.037735849056603765,income,0.803030303030303
+Asian or Pacific Islander,1,Jenny Nguyen,NA,income,0.6049382716049383
+Asian or Pacific Islander,1,Jenny Patel,0.023809523809523836,income,0.2222222222222222
+Asian or Pacific Islander,1,Jenny Pham,0.050375939849624074,income,0.4794520547945205
+Asian or Pacific Islander,1,Jenny Tran,0.08543983822042467,income,0.6515151515151515
+Asian or Pacific Islander,1,Jenny Wang,-0.013842746400885897,income,0.671875
+Asian or Pacific Islander,1,Jenny Yang,0.028301886792452824,income,0.7162162162162162
+Asian or Pacific Islander,1,May Chen,0.03797468354430378,income,0.8777777777777778
+Asian or Pacific Islander,1,May Kim,0.1188475390156063,income,0.7424242424242424
+Asian or Pacific Islander,1,May Le,NA,income,0.7671232876712328
+Asian or Pacific Islander,1,May Li,0.07347826086956527,income,0.684931506849315
+Asian or Pacific Islander,1,May Nguyen,0.0773411371237458,income,0.6933333333333334
+Asian or Pacific Islander,1,May Patel,NA,income,0.3625
+Asian or Pacific Islander,1,May Pham,-0.10763293310463118,income,0.7066666666666667
+Asian or Pacific Islander,1,May Tran,0.019607843137254943,income,0.6
+Asian or Pacific Islander,1,May Wang,-0.015789473684210464,income,0.7916666666666666
+Asian or Pacific Islander,1,May Yang,0.17528735632183906,income,0.8285714285714286
+Asian or Pacific Islander,1,Peter Chen,0.21086739780658026,income,0.7763157894736842
+Asian or Pacific Islander,1,Peter Kim,NA,income,0.6323529411764706
+Asian or Pacific Islander,1,Peter Le,0.009205426356589108,income,0.6417910447761194
+Asian or Pacific Islander,1,Peter Li,0.039743589743589824,income,0.821917808219178
+Asian or Pacific Islander,1,Peter Nguyen,0.16794871794871796,income,0.5652173913043478
+Asian or Pacific Islander,1,Peter Patel,NA,income,0.21794871794871795
+Asian or Pacific Islander,1,Peter Pham,0.06672297297297297,income,0.5362318840579711
+Asian or Pacific Islander,1,Peter Tran,0.06838833094213298,income,0.5543478260869565
+Asian or Pacific Islander,1,Peter Wang,-0.011437908496731986,income,0.7391304347826086
+Asian or Pacific Islander,1,Peter Yang,0.2138888888888889,income,0.6923076923076923
+Asian or Pacific Islander,1,Sam Chen,NA,income,0.6951219512195121
+Asian or Pacific Islander,1,Sam Kim,0.032380151387720824,income,0.5857142857142857
+Asian or Pacific Islander,1,Sam Le,-0.018207282913165312,income,0.7083333333333334
+Asian or Pacific Islander,1,Sam Li,NA,income,0.7123287671232876
+Asian or Pacific Islander,1,Sam Nguyen,0.05916666666666659,income,0.6756756756756757
+Asian or Pacific Islander,1,Sam Patel,0.10211670480549206,income,0.23232323232323232
+Asian or Pacific Islander,1,Sam Pham,NA,income,0.5131578947368421
+Asian or Pacific Islander,1,Sam Tran,NA,income,0.55
+Asian or Pacific Islander,1,Sam Wang,0.027576197387518153,income,0.6708860759493671
+Asian or Pacific Islander,1,Sam Yang,0.051572327044025146,income,0.7794117647058824
+Asian or Pacific Islander,1,Vivian Chen,0.1549043062200957,income,0.6984126984126984
+Asian or Pacific Islander,1,Vivian Kim,-0.0993589743589744,income,0.6486486486486487
+Asian or Pacific Islander,1,Vivian Le,-0.0044715447154471955,income,0.5774647887323944
+Asian or Pacific Islander,1,Vivian Li,0.06126847290640397,income,0.6588235294117647
+Asian or Pacific Islander,1,Vivian Nguyen,0.033333333333333326,income,0.6
+Asian or Pacific Islander,1,Vivian Patel,0.07990430622009576,income,0.25675675675675674
+Asian or Pacific Islander,1,Vivian Pham,-0.165391156462585,income,0.6712328767123288
+Asian or Pacific Islander,1,Vivian Tran,0.05555555555555558,income,0.5135135135135135
+Asian or Pacific Islander,1,Vivian Wang,0.018542199488491062,income,0.7301587301587301
+Asian or Pacific Islander,1,Vivian Yang,0.11666666666666664,income,0.75
+Black or African American,0,Darnell Burke,0.008445945945945943,income,0.4805194805194805
+Black or African American,0,Darnell Carpenter,-0.21309523809523806,income,0.5932203389830508
+Black or African American,0,Darnell Fox,NA,income,0.6153846153846154
+Black or African American,0,Darnell Jackson,-0.07833537331701346,income,0.6935483870967742
+Black or African American,0,Darnell Stone,NA,income,0.5333333333333333
+Black or African American,0,Darnell Sullivan,0.09065934065934073,income,0.4262295081967213
+Black or African American,0,Darnell Washington,-0.09107142857142858,income,0.5932203389830508
+Black or African American,0,Darnell Weaver,-0.14547413793103448,income,0.5245901639344263
+Black or African American,0,Darnell Williams,-0.0888888888888889,income,0.6923076923076923
+Black or African American,0,Darnell Wood,0.09523809523809523,income,0.620253164556962
+Black or African American,0,Ebony Burke,0.06871794871794873,income,0.609375
+Black or African American,0,Ebony Carpenter,-0.007258064516129037,income,0.6078431372549019
+Black or African American,0,Ebony Fox,-0.03720238095238093,income,0.7241379310344828
+Black or African American,0,Ebony Jackson,-0.059523809523809534,income,0.7636363636363637
+Black or African American,0,Ebony Stone,-0.010510510510510496,income,0.6727272727272727
+Black or African American,0,Ebony Sullivan,-0.02489177489177491,income,0.5409836065573771
+Black or African American,0,Ebony Washington,-0.06029532403609511,income,0.6973684210526315
+Black or African American,0,Ebony Weaver,-0.21345029239766083,income,0.6785714285714286
+Black or African American,0,Ebony Williams,-0.19293478260869568,income,0.7419354838709677
+Black or African American,0,Ebony Wood,-0.09829059829059827,income,0.6582278481012658
+Black or African American,0,Jermaine Burke,NA,income,0.5735294117647058
+Black or African American,0,Jermaine Carpenter,-0.16071428571428575,income,0.5555555555555556
+Black or African American,0,Jermaine Fox,-0.11764705882352944,income,0.6181818181818182
+Black or African American,0,Jermaine Jackson,0.0768307322929172,income,0.7424242424242424
+Black or African American,0,Jermaine Stone,-0.08254269449715368,income,0.5230769230769231
+Black or African American,0,Jermaine Sullivan,0.03478260869565214,income,0.696969696969697
+Black or African American,0,Jermaine Washington,-0.19047619047619047,income,0.6176470588235294
+Black or African American,0,Jermaine Weaver,-0.18820512820512825,income,0.609375
+Black or African American,0,Jermaine Williams,0.06280193236714976,income,0.71875
+Black or African American,0,Jermaine Wood,-0.14893617021276595,income,0.746031746031746
+Black or African American,0,Lakisha Burke,NA,income,0.6388888888888888
+Black or African American,0,Lakisha Carpenter,-0.1284722222222222,income,0.7272727272727273
+Black or African American,0,Lakisha Fox,-0.16857962697274032,income,0.7068965517241379
+Black or African American,0,Lakisha Jackson,-0.3707317073170731,income,0.8913043478260869
+Black or African American,0,Lakisha Stone,NA,income,0.7894736842105263
+Black or African American,0,Lakisha Sullivan,-0.08080808080808077,income,0.7096774193548387
+Black or African American,0,Lakisha Washington,-0.08333333333333331,income,0.75
+Black or African American,0,Lakisha Weaver,-0.15479876160990713,income,0.6909090909090909
+Black or African American,0,Lakisha Williams,-0.057193396226415116,income,0.7681159420289855
+Black or African American,0,Lakisha Wood,0.08055555555555555,income,0.8490566037735849
+Black or African American,0,Latasha Burke,-0.12,income,0.8064516129032258
+Black or African American,0,Latasha Carpenter,-0.1375338753387534,income,0.6949152542372882
+Black or African American,0,Latasha Fox,-0.047619047619047616,income,0.75
+Black or African American,0,Latasha Jackson,-0.07905982905982906,income,0.8524590163934426
+Black or African American,0,Latasha Stone,-0.32889200561009824,income,0.5740740740740741
+Black or African American,0,Latasha Sullivan,-0.16323529411764703,income,0.6296296296296297
+Black or African American,0,Latasha Washington,-0.21160042964554243,income,0.7205882352941176
+Black or African American,0,Latasha Weaver,-0.2682072829131653,income,0.6181818181818182
+Black or African American,0,Latasha Williams,NA,income,0.782608695652174
+Black or African American,0,Latasha Wood,-0.14417989417989424,income,0.6086956521739131
+Black or African American,0,Latonya Burke,0.0047846889952152805,income,0.6333333333333333
+Black or African American,0,Latonya Carpenter,NA,income,0.65625
+Black or African American,0,Latonya Fox,-0.17429193899782136,income,0.7605633802816901
+Black or African American,0,Latonya Jackson,-0.11473429951690822,income,0.71875
+Black or African American,0,Latonya Stone,0.027777777777777735,income,0.7272727272727273
+Black or African American,0,Latonya Sullivan,-0.06442577030812324,income,0.6181818181818182
+Black or African American,0,Latonya Washington,0.020370370370370372,income,0.7297297297297297
+Black or African American,0,Latonya Weaver,-0.1484848484848485,income,0.7457627118644068
+Black or African American,0,Latonya Williams,-0.09999999999999998,income,0.8088235294117647
+Black or African American,0,Latonya Wood,-0.004575163398692794,income,0.7258064516129032
+Black or African American,0,Latoya Burke,-0.18916797488226056,income,0.7903225806451613
+Black or African American,0,Latoya Carpenter,-0.11431623931623935,income,0.5806451612903226
+Black or African American,0,Latoya Fox,-0.07142857142857145,income,0.7
+Black or African American,0,Latoya Jackson,NA,income,0.8309859154929577
+Black or African American,0,Latoya Stone,-0.08385093167701863,income,0.6461538461538462
+Black or African American,0,Latoya Sullivan,-0.22089947089947087,income,0.4909090909090909
+Black or African American,0,Latoya Washington,-0.12820512820512825,income,0.7636363636363637
+Black or African American,0,Latoya Weaver,-0.05698529411764708,income,0.68
+Black or African American,0,Latoya Williams,0,income,0.6666666666666666
+Black or African American,0,Latoya Wood,-0.14,income,0.6666666666666666
+Black or African American,0,Roosevelt Burke,-0.015540540540540548,income,0.3508771929824561
+Black or African American,0,Roosevelt Carpenter,-0.0888888888888889,income,0.26229508196721313
+Black or African American,0,Roosevelt Fox,-0.2324561403508772,income,0.2830188679245283
+Black or African American,0,Roosevelt Jackson,-0.2202380952380953,income,0.4909090909090909
+Black or African American,0,Roosevelt Stone,-0.17233560090702943,income,0.26865671641791045
+Black or African American,0,Roosevelt Sullivan,-0.26289926289926285,income,0.22916666666666666
+Black or African American,0,Roosevelt Washington,-0.24134615384615388,income,0.3939393939393939
+Black or African American,0,Roosevelt Weaver,-0.12444444444444441,income,0.35714285714285715
+Black or African American,0,Roosevelt Williams,-0.17952127659574468,income,0.4050632911392405
+Black or African American,0,Roosevelt Wood,-0.06153846153846154,income,0.3389830508474576
+Black or African American,0,Tamika Burke,0.12979539641943733,income,0.7301587301587301
+Black or African American,0,Tamika Carpenter,-0.16193853427895982,income,0.7230769230769231
+Black or African American,0,Tamika Fox,-0.14846153846153842,income,0.7936507936507936
+Black or African American,0,Tamika Jackson,0.003676470588235281,income,0.864406779661017
+Black or African American,0,Tamika Stone,-0.006666666666666654,income,0.6428571428571429
+Black or African American,0,Tamika Sullivan,-0.03205128205128205,income,0.6
+Black or African American,0,Tamika Washington,-0.07777777777777778,income,0.7058823529411765
+Black or African American,0,Tamika Weaver,-0.015863689776733247,income,0.6166666666666667
+Black or African American,0,Tamika Williams,-0.05267295597484273,income,0.8153846153846154
+Black or African American,0,Tamika Wood,-0.16666666666666663,income,0.75
+Black or African American,0,Tanisha Burke,-0.09022556390977443,income,0.6481481481481481
+Black or African American,0,Tanisha Carpenter,-0.11944444444444446,income,0.7058823529411765
+Black or African American,0,Tanisha Fox,0.020161290322580627,income,0.7560975609756098
+Black or African American,0,Tanisha Jackson,NA,income,0.7254901960784313
+Black or African American,0,Tanisha Stone,-0.15853658536585363,income,0.7192982456140351
+Black or African American,0,Tanisha Sullivan,-0.15000000000000002,income,0.5454545454545454
+Black or African American,0,Tanisha Washington,0.011363636363636354,income,0.8
+Black or African American,0,Tanisha Weaver,-0.15476190476190477,income,0.6666666666666666
+Black or African American,0,Tanisha Williams,-0.11904761904761907,income,0.7777777777777778
+Black or African American,0,Tanisha Wood,-0.05992063492063493,income,0.6164383561643836
+Hispanic,0,Alejandro Garcia,-0.14262820512820512,income,0.7868852459016393
+Hispanic,0,Alejandro Gonzalez,0.0904977375565611,income,0.7536231884057971
+Hispanic,0,Alejandro Hernandez,-0.025974025974025983,income,0.7924528301886793
+Hispanic,0,Alejandro Lopez,-0.18085106382978722,income,0.8245614035087719
+Hispanic,0,Alejandro Martinez,-0.040816326530612235,income,0.7777777777777778
+Hispanic,0,Alejandro Perez,-0.2860169491525424,income,0.8309859154929577
+Hispanic,0,Alejandro Ramirez,-0.17592592592592593,income,0.8571428571428571
+Hispanic,0,Alejandro Rodriguez,-0.42166344294003866,income,0.8103448275862069
+Hispanic,0,Alejandro Sanchez,-0.21590909090909088,income,0.8
+Hispanic,0,Alejandro Torres,NA,income,0.8026315789473685
+Hispanic,0,Guadalupe Garcia,-0.10294117647058826,income,0.7384615384615385
+Hispanic,0,Guadalupe Gonzalez,-0.06722689075630256,income,0.7671232876712328
+Hispanic,0,Guadalupe Hernandez,-0.08516483516483514,income,0.7878787878787878
+Hispanic,0,Guadalupe Lopez,-0.3476658476658477,income,0.7708333333333334
+Hispanic,0,Guadalupe Martinez,-0.11346153846153845,income,0.8387096774193549
+Hispanic,0,Guadalupe Perez,-0.11888888888888888,income,0.7352941176470589
+Hispanic,0,Guadalupe Ramirez,-0.09533898305084748,income,0.7866666666666666
+Hispanic,0,Guadalupe Rodriguez,-0.32142857142857145,income,0.875
+Hispanic,0,Guadalupe Sanchez,-0.046542553191489366,income,0.746031746031746
+Hispanic,0,Guadalupe Torres,-0.12593984962406013,income,0.7307692307692307
+Hispanic,0,Hector Garcia,-0.04006968641114983,income,0.8541666666666666
+Hispanic,0,Hector Gonzalez,-0.08444444444444443,income,0.847457627118644
+Hispanic,0,Hector Hernandez,-0.1289855072463768,income,0.7540983606557377
+Hispanic,0,Hector Lopez,-0.14912280701754388,income,0.76
+Hispanic,0,Hector Martinez,-0.10907335907335908,income,0.7254901960784313
+Hispanic,0,Hector Perez,-0.1657608695652174,income,0.676056338028169
+Hispanic,0,Hector Ramirez,0.11231884057971014,income,0.8363636363636363
+Hispanic,0,Hector Rodriguez,-0.09234234234234234,income,0.8604651162790697
+Hispanic,0,Hector Sanchez,-0.14804964539007087,income,0.7966101694915254
+Hispanic,0,Hector Torres,-0.11449579831932771,income,0.5483870967741935
+Hispanic,0,Javier Garcia,-0.22670807453416142,income,0.7666666666666667
+Hispanic,0,Javier Gonzalez,-0.18181818181818182,income,0.8208955223880597
+Hispanic,0,Javier Hernandez,-0.12154150197628455,income,0.8070175438596491
+Hispanic,0,Javier Lopez,-0.03115501519756836,income,0.7704918032786885
+Hispanic,0,Javier Martinez,NA,income,0.8714285714285714
+Hispanic,0,Javier Perez,-0.09593023255813954,income,0.6825396825396826
+Hispanic,0,Javier Ramirez,-0.1302211302211302,income,0.7708333333333334
+Hispanic,0,Javier Rodriguez,-0.020454545454545447,income,0.8148148148148148
+Hispanic,0,Javier Sanchez,-0.4049145299145299,income,0.8524590163934426
+Hispanic,0,Javier Torres,NA,income,0.7142857142857143
+Hispanic,0,Jesus Garcia,-0.228021978021978,income,0.7358490566037735
+Hispanic,0,Jesus Gonzalez,-0.18627450980392157,income,0.75
+Hispanic,0,Jesus Hernandez,-0.27795031055900615,income,0.7666666666666667
+Hispanic,0,Jesus Lopez,-0.35833333333333334,income,0.8275862068965517
+Hispanic,0,Jesus Martinez,-0.054166666666666696,income,0.8275862068965517
+Hispanic,0,Jesus Perez,-0.14052287581699346,income,0.85
+Hispanic,0,Jesus Ramirez,-0.3080645161290323,income,0.8611111111111112
+Hispanic,0,Jesus Rodriguez,0.03768115942028988,income,0.7540983606557377
+Hispanic,0,Jesus Sanchez,-0.18627450980392157,income,0.7846153846153846
+Hispanic,0,Jesus Torres,-0.19560439560439558,income,0.5737704918032787
+Hispanic,0,Jorge Garcia,-0.2193798449612403,income,0.7413793103448276
+Hispanic,0,Jorge Gonzalez,-0.01992753623188409,income,0.7931034482758621
+Hispanic,0,Jorge Hernandez,-0.1875,income,0.7868852459016393
+Hispanic,0,Jorge Lopez,-0.169811320754717,income,0.803030303030303
+Hispanic,0,Jorge Martinez,-0.06326530612244902,income,0.7101449275362319
+Hispanic,0,Jorge Perez,-0.20399113082039905,income,0.7884615384615384
+Hispanic,0,Jorge Ramirez,-0.14311594202898548,income,0.6571428571428571
+Hispanic,0,Jorge Rodriguez,0.09431524547803616,income,0.8269230769230769
+Hispanic,0,Jorge Sanchez,-0.08333333333333331,income,0.75
+Hispanic,0,Jorge Torres,-0.13898117386489478,income,0.671875
+Hispanic,0,Juan Garcia,-0.13291855203619907,income,0.7536231884057971
+Hispanic,0,Juan Gonzalez,-0.057239057239057256,income,0.8307692307692308
+Hispanic,0,Juan Hernandez,NA,income,0.7619047619047619
+Hispanic,0,Juan Lopez,-0.1623376623376624,income,0.7924528301886793
+Hispanic,0,Juan Martinez,-0.07399577167019028,income,0.7962962962962963
+Hispanic,0,Juan Perez,-0.08157894736842108,income,0.7916666666666666
+Hispanic,0,Juan Ramirez,-0.0676100628930818,income,0.8153846153846154
+Hispanic,0,Juan Rodriguez,-0.16379310344827586,income,0.7532467532467533
+Hispanic,0,Juan Sanchez,0.0857487922705314,income,0.71875
+Hispanic,0,Juan Torres,-0.03666666666666668,income,0.7352941176470589
+Hispanic,0,Julio Garcia,-0.11598746081504707,income,0.8405797101449275
+Hispanic,0,Julio Gonzalez,0.06327543424317617,income,0.8266666666666667
+Hispanic,0,Julio Hernandez,NA,income,0.7096774193548387
+Hispanic,0,Julio Lopez,-0.008241758241758212,income,0.7358490566037735
+Hispanic,0,Julio Martinez,-0.22916666666666669,income,0.7384615384615385
+Hispanic,0,Julio Perez,NA,income,0.875
+Hispanic,0,Julio Ramirez,0.07886904761904762,income,0.8727272727272727
+Hispanic,0,Julio Rodriguez,NA,income,0.7857142857142857
+Hispanic,0,Julio Sanchez,0.03544494720965308,income,0.6964285714285714
+Hispanic,0,Julio Torres,NA,income,0.7941176470588235
+Hispanic,0,Miguel Garcia,-0.17863247863247866,income,0.7831325301204819
+Hispanic,0,Miguel Gonzalez,-0.030730897009966784,income,0.7543859649122807
+Hispanic,0,Miguel Hernandez,-0.18103448275862066,income,0.7945205479452054
+Hispanic,0,Miguel Lopez,-0.25614754098360654,income,0.8356164383561644
+Hispanic,0,Miguel Martinez,-0.3281505728314239,income,0.7833333333333333
+Hispanic,0,Miguel Perez,-0.12058823529411766,income,0.746268656716418
+Hispanic,0,Miguel Ramirez,-0.2564102564102564,income,0.8125
+Hispanic,0,Miguel Rodriguez,-0.14285714285714285,income,0.7368421052631579
+Hispanic,0,Miguel Sanchez,-0.19191919191919193,income,0.8301886792452831
+Hispanic,0,Miguel Torres,-0.1252032520325203,income,0.7321428571428571
+Hispanic,0,Salvador Garcia,-0.09615384615384615,income,0.7936507936507936
+Hispanic,0,Salvador Gonzalez,-0.26708074534161486,income,0.8679245283018868
+Hispanic,0,Salvador Hernandez,-0.05681818181818182,income,0.7746478873239436
+Hispanic,0,Salvador Lopez,-0.369047619047619,income,0.8235294117647058
+Hispanic,0,Salvador Martinez,-0.02591973244147161,income,0.7796610169491526
+Hispanic,0,Salvador Perez,-0.02048726467331119,income,0.671875
+Hispanic,0,Salvador Ramirez,0.0287569573283859,income,0.8166666666666667
+Hispanic,0,Salvador Rodriguez,-0.18247298919567828,income,0.7424242424242424
+Hispanic,0,Salvador Sanchez,0.035772357723577286,income,0.7321428571428571
+Hispanic,0,Salvador Torres,-0.24686716791979946,income,0.8028169014084507
