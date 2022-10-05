@@ -399,8 +399,8 @@ df2plot_all <- function(df) {
         labs(x = "", y = "",
              col = "Datasets") +
         coord_flip() +
-        geom_hline(yintercept = 0, linetype = "dashed") +
-        ggrepel::geom_text_repel()
+        geom_hline(yintercept = 0, linetype = "dashed")
+        #ggrepel::geom_text_repel()
 
 }
 
