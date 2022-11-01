@@ -20,7 +20,10 @@ pacman::p_load(here, # reproducibility
                ggstance, 
                patchwork,
                gridExtra,
-               ggrepel)
+               ggrepel,
+               # others
+               glue
+               )
 
 source(here("functions", "utils.R"))
 ```
@@ -47,6 +50,25 @@ perceptions_df <- read_csv_custom(3)
 names_df <- read.csv(here("data", "names.csv"))
 ```
 
+## Attention check 
+
+Our `Attentive` measure codes respondents who completed both questions successfully as `1' and `0' otherwise.
+
+```{r}
+
+```
+
+## Satisficing check 
+
+Our `Satisficing` measure codes respondents who completed the survey in less than 40\% of the median completion time as `1' and `0' otherwise. 
+
+```{r}
+# add satisficing variable 
+immigrants_rid_sat <- add_satisficing(immigrants_df)
+omnibus_rid_sat <- add_satisficing(omnibus_df)
+perceptions_rid_sat <- add_satisficing(perceptions_df)
+```
+
 # Preprocess three datasets and merge them with the names dataset 
 
 ## Step 1 
@@ -66,10 +88,22 @@ perceptions_df <- clean_perceptions_df(perceptions_df)
 
 ## Step 2 
 
+Combining
+
 ```{r}
 immigrants_all <- df2comb(immigrants_df, dataset = "immigrants")
 omnibus_all <- df2comb(omnibus_df, dataset = "omnibus")
 perceptions_all <- df2comb(perceptions_df, dataset = "perceptions")
+
+# add attention checks 
+
+# add satisficing checks 
+
+immigrants_all <- immigrants_all %>% left_join(immigrants_rid_sat, by = c("rid" = "rid"))
+
+omnibus_all <- omnibus_all %>% left_join(omnibus_rid_sat, by = c("rid" = "rid"))
+
+perceptions_all <- perceptions_all %>% left_join(perceptions_rid_sat, by = c("rid" = "ResponseId"))
 ```
 
 # Export 
@@ -79,15 +113,15 @@ perceptions_all <- df2comb(perceptions_df, dataset = "perceptions")
 ```{r}
 # Study1 
 study1 <- perceptions_all %>%
-  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match) 
+  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, satisficing) 
 
 # Study2
 study2 <- omnibus_all %>%
-  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race)
+  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race, satisficing)
 
 # Study3
 study3 <- immigrants_all %>%
-  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race)
+  select(rid, name, first, last, w.asian, identity, race, specific.race, citizen, education, education.ord, income, income.ord, match, res.age, res.male, res.income, res.edu, res.citizenship, res.race, satisficing)
 
 # Rename rid -> id, match -> correct 
 study1 <- df_rename(study1)
