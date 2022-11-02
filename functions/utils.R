@@ -636,11 +636,12 @@ se <- function(x) sqrt(var(x) / length(x))
 # Min-max scaling
 normalize <- function(x){(x- min(x, na.rm = T))/(max(x, na.rm = T)-min(x, na.rm = T))}
 
+# mutate satisficing variable
 add_satisficing <- function(df) {
 
     df$num_secs <- parse_number(df$Duration..in.seconds.)
 
-    threshold <- median(df$num_secs)/60
+    threshold <- median(df$num_secs)*0.4
 
     message(glue("The the median duration is {threshold} minutees"))
 
@@ -652,7 +653,7 @@ add_satisficing <- function(df) {
 
     } else { # perceptions
 
-        df <- df %>% select(ResponseId ,satisficing)
+        df <- df %>% select(ResponseId, satisficing)
 
     }
 
