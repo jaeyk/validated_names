@@ -55,7 +55,13 @@ names_df <- read.csv(here("data", "names.csv"))
 Our `Attentive` measure codes respondents who completed both questions successfully as `1' and `0' otherwise.
 
 ```{r}
+immigrants_rid_att <- immigrants_df %>%
+  mutate(attentive = if_else(Q109 == "I understand" & Q110 == "Extremely interested,Very interested", 1, 0))  %>%
+  select(rid, attentive)
 
+omnibus_rid_att <- omnibus_df %>%
+  mutate(attentive = if_else(Q194 == "I understand" & Q195 == "Extremely interested,Very interested", 1, 0))  %>%
+  select(rid, attentive)
 ```
 
 ## Satisficing check 
@@ -63,7 +69,6 @@ Our `Attentive` measure codes respondents who completed both questions successfu
 Our `Satisficing` measure codes respondents who completed the survey in less than 40\% of the median completion time as `1' and `0' otherwise. 
 
 ```{r}
-# add satisficing variable 
 immigrants_rid_sat <- add_satisficing(immigrants_df)
 omnibus_rid_sat <- add_satisficing(omnibus_df)
 perceptions_rid_sat <- add_satisficing(perceptions_df)
@@ -96,6 +101,10 @@ omnibus_all <- df2comb(omnibus_df, dataset = "omnibus")
 perceptions_all <- df2comb(perceptions_df, dataset = "perceptions")
 
 # add attention checks 
+
+immigrants_all <- immigrants_all %>% left_join(immigrants_rid_att, by = c("rid" = "rid"))
+
+omnibus_all <- omnibus_all %>% left_join(omnibus_rid_att, by = c("rid" = "rid"))
 
 # add satisficing checks 
 

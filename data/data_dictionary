@@ -14,3 +14,17 @@ q7, name_national_origin
 q2, name_citizenship
 q4, name_income
 q5, name_edu_level
+
+# immigrants
+q109, attention check
+q110, attention check
+
+# omnibus
+q194, attention check
+q195, attention check
+
+# perceptions
+q109, attention check
+q194, attention check
+
+
