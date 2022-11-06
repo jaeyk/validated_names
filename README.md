@@ -9,18 +9,24 @@
 ## Original datasets
 
 * [prep_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/prep_datasets.Rmd) produces the following four datasets (the three experiment results plus the names datasets) (row # * column #)
-  * [study-1-names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-1-names.csv) (14935 * 14) 
-  * [study-2-names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-2-names.csv) (19043 * 20)
-  * [study-3-names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-3-names.csv) (10192 * 20)
-  * [study123.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study123.rda) (a combined file) 
-  * [names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/names.csv) (600 * 7)
+ 
+  * [study-1-names.csv](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-1-names.csv) (14935 * 14) 
+  * [study-2-names.csv](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-2-names.csv) (19043 * 20)
+  * [study-3-names.csv](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-3-names.csv) (10192 * 20)
+ 
+  * [study-1-names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-1-names.rds) (14935 * 14) 
+  * [study-2-names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-2-names.rds) (19043 * 20)
+  * [study-3-names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study-3-names.rds) (10192 * 20)
+
+  * [study123.csv](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study123.csv) (a combined file)
+  * [study123.rda](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study123.rda) (a combined file)
+  * [study123.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/study123.rds) (a combined file)
+  
+  * [names.csv](https://github.com/jaeyk/validated_names/blob/main/data_outputs/names.csv) (600 * 7)
+  * [names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/names.rds) (600 * 7)
 
 ## Validation tests and dataset
 
 * [three_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/three_datasets.Rmd) produces Figure 2 (results from four OLS models designed to assess data validity)
-* [validate_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/validate_datasets.Rmd) produces estiamte_by_race.png and the following datasets
-  * [pct_correct_covariate.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/pct_correct_covariate.rds) (1800 * 6)
-  * [names_race_perception.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/names_race_perception.rds) (600 * 7)
-  * [hq_group_group_names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/hq_group_group_names.rds) (361 * 6)
-  * [hq_white_other_names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/hq_white_other_names.rds) (282 * 6)
-  * [hq_other_white_names.rds](https://github.com/jaeyk/validated_names/blob/main/data_outputs/hq_other_white_names.rds) (165 * 6)
+* [validate_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/validate_datasets.Rmd) producess Figure 3 (Within and between group assessments) 
+* [NSD.do] produces Table 4
