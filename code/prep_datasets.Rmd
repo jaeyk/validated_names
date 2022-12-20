@@ -165,6 +165,9 @@ write_csv(study_combined, here("data_outputs", "study123.csv"))
 
 # RDS
 write_rds(study_combined, here("data_outputs", "study123.rds"))
+
+# double check the size 
+nrow(study1) ; nrow(study2) ; nrow(study3)
 ```
 
 ## Names 

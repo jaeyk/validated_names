@@ -11,9 +11,9 @@ output: html_document
 # R CRAN packages
 if (!require(pacman)) install.packages("pacman")
 
-pacman::p_load(tidyverse, here, glue, purrr, ggthemes, patchwork, ggrepel, ggpubr, estimatr, fastDummies)
+pacman::p_load(tidyverse, here, glue, purrr, ggsci, ggthemes, patchwork, ggrepel, ggpubr, estimatr, fastDummies)
 
-ggplot2::theme_set(ggpubr::theme_pubr())
+ggplot2::theme_set(ggplot2::theme_bw())
 
 # Custom functions 
 source(here("functions", "validate.r"))
@@ -81,12 +81,11 @@ group_group_plot <- map2_dfr(c("Black", "White", "AAPI", "Latino"), c("Black", "
                label = round(mean_correct, 2))) +
     geom_pointrange() +
     facet_wrap(~`Name type`) +
-    labs(title = glue("Within group assessment: 
-         A group member assesses their own group's names"),
+    labs(#title = glue("Within group assessment: 
+         #A group member assesses their own group's names"),
          x = "Respondent/Name", y = "% correct") +
     geom_hline(yintercept = 0.5, linetype = "dashed") +
-    ylim(c(0.3 , 1)) +
-    geom_text_repel()
+    ylim(c(0.3 , 1)) 
 ```
 
 ```{r}
@@ -97,12 +96,11 @@ white_other_plot <- map2_dfr(c("White", "White", "White"), c("Black", "AAPI", "L
                label = round(mean_correct, 2))) +
     geom_pointrange() +
     facet_wrap(~`Name type`) +
-    labs(title = glue("Between group assessment: 
-         A white assesses other racial group members' names"),
+    labs(#title = glue("Between group assessment: 
+         #A white assesses other racial group members' names"),
          x = "Name", y = "% correct") +
     geom_hline(yintercept = 0.5, linetype = "dashed") +
-    ylim(c(0.3 , 1)) +
-    geom_text_repel()
+    ylim(c(0.3 , 1)) 
 ```
 
 ```{r}
@@ -113,22 +111,30 @@ other_white_plot <- map2_dfr(c("Black", "AAPI", "Latino"), c("White", "White", "
                label = round(mean_correct, 2))) +
     geom_pointrange() +
     facet_wrap(~`Name type`) +
-    labs(title = glue("Between group assessment: 
-         A non-white assesses whites' names"),
+    labs(#title = glue("Between group assessment: 
+         #A non-white assesses whites' names"),
          x = "Respondent", y = "% correct") +
     geom_hline(yintercept = 0.5, linetype = "dashed") +
-    ylim(c(0.3 , 1)) +
-    geom_text_repel()
+    ylim(c(0.3 , 1)) 
 ```
 
 ```{r eval = FALSE}
-group_group_plot /
+################# FIGURE 3 #################
+fig3 <- group_group_plot /
 white_other_plot /
-other_white_plot
+other_white_plot +patchwork::plot_annotation(tag_level = "A")
 
-ggsave(here("plots", "res_race_identity_correspondence.png"), 
+fig3
+
+ggsave(here("plots", "res_race_identity_correspondence.jpg"), 
+       width = 7,
+       height = 8)
+
+# for publication
+ggsave(here("plots", "figure3.eps"), 
        width = 8,
-       height = 10)
+       height = 10,
+       device = "eps")
 
 group_group_avg <- c(0.85, 0.77, 0.9, 0.89, 0.85, 0.77, 0.9, 0.89)
 
@@ -265,7 +271,7 @@ all_mod %>%
     facet_wrap(~identity) +
     geom_text_repel()
 
-ggsave(here("plots", "estimate_by_race.png"))
+ggsave(here("plots", "estimate_by_race.jpg"))
 ```
 
 ## Dataset based on informaiton equivalence validation

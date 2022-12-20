@@ -1,5 +1,5 @@
 ---
-title: "Producing the three datasets" 
+title: "Produce the three datasets" 
 author: "Jae Yeon Kim"
 date: "`r Sys.Date()`"
 editor_options: 
@@ -16,8 +16,11 @@ pacman::p_load(here, # reproducibility
                # wrangling 
                tidyverse, 
                tools, 
-               jtools, 
                # data visualization 
+               ggsci,
+               jtools, # make sure dependencies get installed; the same for rlang
+               broom.mixed,
+               modelsummary,
                hrbrthemes,
                ggpubr,
                viridis, 
@@ -28,7 +31,7 @@ pacman::p_load(here, # reproducibility
 
 source(here("functions", "utils.R"))
 
-ggplot2::theme_set(ggpubr::theme_pubr())
+ggplot2::theme_set(ggplot2::theme_bw())
 ```
 
 # Import data 
@@ -110,8 +113,10 @@ df2plot(immigrants_all) +
     title = "Study 3",
     tag_levels = "A"
   )
+```
 
-ggsave(file = here("plots", "immigrants_name.png"), width = 12, height = 11, units = "in")
+```{r}
+ggsave(file = here("plots", "immigrants_name.jpg"), width = 12, height = 11, units = "in")
 
 df2plot(omnibus_all) +
   plot_annotation(
@@ -119,7 +124,7 @@ df2plot(omnibus_all) +
     tag_levels = "A"
   )
 
-ggsave(file = here("plots", "omnibus_name.png"), width = 12, height = 11, units = "in")
+ggsave(file = here("plots", "omnibus_name.jpg"), width = 12, height = 11, units = "in")
 
 df2plot(perceptions_all) +
   plot_annotation(
@@ -127,7 +132,7 @@ df2plot(perceptions_all) +
     tag_levels = "A"
   )
 
-ggsave(file = here("plots", "perceptions_name.png"), width = 12, height = 11, units = "in")
+ggsave(file = here("plots", "perceptions_name.jpg"), width = 12, height = 11, units = "in")
 ```
 
 ## Together
@@ -150,29 +155,34 @@ df2plot_covariate(immigrants_all) +  plot_annotation(
     tag_levels = "A"
   )
 
-ggsave(file = here("plots", "immigrants_name_covariate.png"), width = 12, height = 11, units = "in")
+ggsave(file = here("plots", "immigrants_name_covariate.jpg"), width = 12, height = 11, units = "in")
 
 df2plot_covariate(omnibus_all) +  plot_annotation(
     title = "Study 2",
     tag_levels = "A"
   )
 
-ggsave(file = here("plots", "omnibus_name_covariate.png"), width = 12, height = 11, units = "in")
+ggsave(file = here("plots", "omnibus_name_covariate.jpg"), width = 12, height = 11, units = "in")
 ```
 
 ```{r}
 df2plot_all(df)
 
-ggsave(here("plots", "all_name.png"), width = 12, height = 11, units = "in")
+ggsave(here("plots", "all_name.jpg"), width = 12, height = 11, units = "in")
 ```
 
 ```{r}
+################# FIGURE 2 #################
 combined <- bind_rows(mutate(df2summ(immigrants_all), Data = "Study 3"),
 mutate(df2summ(omnibus_all), Data = "Study 2"),
 mutate(df2summ(perceptions_all), Data = "Study 1"),
 mutate(df2summ(pooled), Data = "Pooled"))
 
-df2plot_all(combined) 
+df2plot_all(combined)
 
-ggsave(here("plots", "all_name_pooled.png"), width = 12, height = 11, units = "in")
+ggsave(here("plots", "all_name_pooled.jpg"), width = 8, height = 7, units = "in")
+
+# for publication
+ggsave(here("plots", "figure2.eps"), width = 8, height = 7, units = "in",
+       device = "eps")
 ```
