@@ -250,8 +250,6 @@ df2comb <- function(df, dataset = "perceptions") {
         df$Q87
     )
 
-    duration <- df$Duration..in.seconds.
-
     if (dataset == "perceptions") {
 
     df.comb <- tibble(rid = rep(df$rid, 15),
@@ -393,16 +391,16 @@ df2plot_all <- function(df) {
                              "identityBlack or African American" = "Black"
         )) %>%
         mutate(model = fct_relevel(model, "Correct (0/1)")) %>%
-        distinct() %>%
-        ggplot(aes(x = term, y = estimate, ymax = estimate+(1.96*std.error), ymin = estimate-(1.96*std.error), col = Data, group = Data, label = round(estimate, 2))) +
-        geom_pointrange(aes(group = Data, color = Data)) +
+        ggplot(aes(x = term, y = estimate, ymax = estimate+(1.96*std.error), ymin = estimate-(1.96*std.error), col = Data, group = Data)) +
+        geom_pointrange(aes(group = Data, color = Data),
+                        position = position_dodge(width = 1), size = 1.5) +
         facet_wrap(~model) +
-        ggthemes::scale_color_colorblind() +
+        theme_ipsum_ps() +
         labs(x = "", y = "",
              col = "Datasets") +
         coord_flip() +
+        scale_colour_brewer(palette = "Set1") +
         geom_hline(yintercept = 0, linetype = "dashed")
-        #ggrepel::geom_text_repel()
 
 }
 
@@ -612,7 +610,6 @@ df2plot_covariate <- function(df) {
     return(out)
 }
 
-# select columns
 df2select <- function(df) {
 
     df %>%
@@ -620,7 +617,6 @@ df2select <- function(df) {
 
 }
 
-# rename columns
 df_rename <- function(df) {
 
     names(df)[names(df) == 'rid'] <- 'id'
@@ -628,34 +624,4 @@ df_rename <- function(df) {
 
     return(df)
 
-}
-
-# Standard error
-se <- function(x) sqrt(var(x) / length(x))
-
-# Min-max scaling
-normalize <- function(x){(x- min(x, na.rm = T))/(max(x, na.rm = T)-min(x, na.rm = T))}
-
-# mutate satisficing variable
-add_satisficing <- function(df) {
-
-    df$num_secs <- parse_number(df$Duration..in.seconds.)
-
-    threshold <- median(df$num_secs)*0.4
-
-    message(glue("The the median duration is {threshold} minutees"))
-
-    df$satisficing <- if_else(df$num_secs < threshold, 1, 0)
-
-    if (length(df$rid) != 0) { # immigrants, omnibus
-
-        df <- df %>% select(rid, satisficing)
-
-    } else { # perceptions
-
-        df <- df %>% select(ResponseId, satisficing)
-
-    }
-
-    return(df)
 }
