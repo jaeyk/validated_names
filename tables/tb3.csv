@@ -1,0 +1,7 @@
+name,Character. Full name displayed to respondents.,All studies.
+first,Character. First name displayed to respondents.,All studies.
+last,Character. Last name displayed to respondents.,All studies.
+w.asian,Binary indicator. Asian name with English (White) first name.,All studies.
+identity,Character. Intended racial signal based on unique prevelance.,All studies.
+mean.correct,Numeric. Mean of correct matches for respondent perceived race and intended race.,All studies.
+sd.correct,Numeric. Standard deviation of correct matches for respondent perceived race and intended race.,All studies.

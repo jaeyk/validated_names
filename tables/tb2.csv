@@ -1,0 +1,21 @@
+field,description,datasets
+id,Character. Unique respondent ID.,All studies.
+name,Character. Full name displayed to respondents.,All studies.
+first,Character. First name displayed to respondents.,All studies.
+last,Character. Last name displayed to respondents.,All studies.
+w.asian,Binary indicator. Asian name with English (White) first name.,All studies.
+identity,Character. Intended racial signal based on unique prevelance.,All studies.
+race,Character. Respondent perceived race.,All studies.
+specific.race,Character. Respondent perceived specific Asian race.,All studies.
+citizen,Binary indicator. Whether respondents thought name belonged to a citizen.,All studies.
+education,Character. Respondent perceived education.,All studies.
+education.ord,Ordinal. Respondent perceived education.,All studies.
+income,Character. Respondent perceived income.,All studies.
+income.ord,Ordinal. Respondent perceived income.,All studies.
+correct,Binary indicator. Whether respondents perceived intended race.,All studies.
+res.age,Numeric. Respondent age.,"Study 2, 3."
+res.male,Binary indicator. Whether respondent is male.,"Study 2, 3."
+res.income,Ordinal. Respondent income.,"Study 2, 3."
+res.edu,Ordinal. Respondent education.,"Study 2, 3."
+res.citizenship,Binary indicator. Whether a respondent was a citizen.,"Study 2, 3."
+res.race,Character. Respondent race.,"Study 2, 3."
