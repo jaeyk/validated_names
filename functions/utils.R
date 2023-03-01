@@ -625,3 +625,33 @@ df_rename <- function(df) {
     return(df)
 
 }
+
+# Standard error
+se <- function(x) sqrt(var(x) / length(x))
+
+# Min-max scaling
+normalize <- function(x){(x- min(x, na.rm = T))/(max(x, na.rm = T)-min(x, na.rm = T))}
+
+# mutate satisficing variable
+add_satisficing <- function(df) {
+
+    df$num_secs <- parse_number(df$Duration..in.seconds.)
+
+    threshold <- median(df$num_secs)*0.4
+
+    message(glue("The the median duration is {threshold} minutees"))
+
+    df$satisficing <- if_else(df$num_secs < threshold, 1, 0)
+
+    if (length(df$rid) != 0) { # immigrants, omnibus
+
+        df <- df %>% select(rid, satisficing)
+
+    } else { # perceptions
+
+        df <- df %>% select(ResponseId, satisficing)
+
+    }
+
+    return(df)
+}
