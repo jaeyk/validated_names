@@ -30,4 +30,4 @@
 ## Validation tests and dataset
 
 * [three_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/three_datasets.Rmd) produces Figure 2 (results from four OLS models designed to assess data validity)
-* [validate_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/validate_datasets.Rmd) producess Figure 3 (Within and between group assessments) 
+* [validate_datasets.Rmd](https://github.com/jaeyk/validated_names/blob/main/code/validate_datasets.Rmd) producess Figure 3 (within and between group assessments) 
