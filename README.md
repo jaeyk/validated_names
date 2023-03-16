@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7741903.svg)](https://doi.org/10.5281/zenodo.7741903)
 
 # Validated Names for Experimental Studies on Race and Ethnicity
 
