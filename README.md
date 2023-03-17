@@ -1,4 +1,7 @@
 
+* [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LP4EAR) 
+* [Open Science Framework](https://osf.io/ahpvq/)
+
 # Validated Names for Experimental Studies on Race and Ethnicity
 
 ## Session information 
